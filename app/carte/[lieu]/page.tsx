@@ -27,7 +27,7 @@ export async function generateMetadata({
   const l = getLieu(lieu);
   if (!l) return {};
   return buildMetadata({
-    title: `${l.name} — Carte et guide du lieu (GTA 6)`,
+    title: `${l.name} : Carte et guide du lieu (GTA 6)`,
     description: l.metaDescription,
     path: `/carte/${l.id}`,
     image: l.image,
@@ -74,7 +74,7 @@ export default async function LieuPage({
       <header className="relative mb-10 flex min-h-[340px] flex-col justify-end overflow-hidden rounded-3xl border border-border sm:min-h-[440px]">
         <Image
           src={l.image}
-          alt={`Artwork officiel — ${l.name} dans GTA 6`}
+          alt={`Artwork officiel · ${l.name} dans GTA 6`}
           fill
           sizes="(max-width: 1152px) 100vw, 1152px"
           className="object-cover"
@@ -86,7 +86,7 @@ export default async function LieuPage({
         </p>
         <div className="relative p-7 sm:p-10">
           <p className="text-[11px] font-bold uppercase tracking-mega text-sand">
-            {l.tagline} — {l.num}/06
+            {l.tagline} · {l.num}/06
           </p>
           <h1 className="mt-2 font-display text-5xl uppercase leading-none tracking-wide sm:text-7xl">
             <span className="text-gradient">{l.name}</span>
@@ -178,8 +178,8 @@ export default async function LieuPage({
           </div>
 
           <div className="rounded-3xl border border-border bg-surface/60 p-5 text-xs leading-relaxed text-muted">
-            Les positions precises proviennent de la reconstitution communautaire
-            (mapping project) : elles seront vérifiées dès $1 publication de la
+            Les positions précises proviennent de la reconstitution communautaire
+            (mapping project) : elles seront vérifiées dès la publication de la
             carte officielle par Rockstar.
           </div>
         </aside>

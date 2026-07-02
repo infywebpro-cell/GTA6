@@ -1,7 +1,7 @@
 /**
  * Données de la carte interactive de Leonida (GTA 6).
  *
- * Fond de carte : reconstitution communautaire "YANIS — GTA VI Community
+ * Fond de carte : reconstitution communautaire "YANIS : GTA VI Community
  * Map v13" (GTA VI Mapping Community), établie a partir des trailers,
  * screenshots officiels et informations publiques. Carte NON officielle :
  * Rockstar n'a pas encore publié la carte du jeu.
@@ -17,7 +17,7 @@ export const mapImage = {
   /** Couleur de l'ocean de l'image (fond du panneau). */
   ocean: "#2A5C9E",
   credit:
-    "Reconstitution communautaire — YANIS / GTA VI Mapping Community (v13). Carte non officielle.",
+    "Reconstitution communautaire : YANIS / GTA VI Mapping Community (v13). Carte non officielle.",
 };
 
 export type MarkerCategory =
@@ -56,7 +56,7 @@ export const mapMarkers: MapMarker[] = [
     y: 55.3,
     quickNav: true,
     description:
-      "La métropole de Leonida, inspirée de Miami : Ocean Drive, gratte-ciels et nightlife. Position confirmée sur la cote est.",
+      "La métropole de Leonida, inspirée de Miami : Ocean Drive, gratte-ciels et nightlife. Position confirmée sur la côte est.",
   },
   {
     id: "vice-beach",
@@ -75,7 +75,7 @@ export const mapMarkers: MapMarker[] = [
     y: 92.8,
     quickNav: true,
     description:
-      "Chapelet d'îles tout au sud de l'État, relie par une route unique — la version GTA des Florida Keys.",
+      "Chapelet d'îles tout au sud de l'État, relie par une route unique, la version GTA des Florida Keys.",
   },
   {
     id: "grassrivers",
@@ -132,7 +132,7 @@ export const mapMarkers: MapMarker[] = [
     x: 57.7,
     y: 62.7,
     description:
-      "Le grand aéroport de Vice City, au sud-ouest de la métropole — hub des véhicules aeriens.",
+      "Le grand aéroport de Vice City, au sud-ouest de la métropole : hub des véhicules aeriens.",
   },
   {
     id: "catalana",

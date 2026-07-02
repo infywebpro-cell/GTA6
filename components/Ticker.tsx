@@ -1,5 +1,5 @@
 const DEFAULT_ITEMS = [
-  "Sortie mondiale — 19 novembre 2026",
+  "Sortie mondiale : 19 novembre 2026",
   "PS5",
   "Xbox Series X|S",
   "Précommandes le 25 juin 2026",
@@ -8,7 +8,7 @@ const DEFAULT_ITEMS = [
   "Jason & Lucia",
 ];
 
-/** Bandeau defilant type "billboard" — pur CSS, coupe aux motion-reduced. */
+/** Bandeau defilant type "billboard" : pur CSS, coupe aux motion-reduced. */
 export function Ticker({ items = DEFAULT_ITEMS }: { items?: string[] }) {
   const strip = [...items, ...items];
   return (

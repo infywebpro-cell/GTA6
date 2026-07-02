@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 const SHOTS = [
-  { src: "/images/screen-vice-city-1.jpg", alt: "Vice City — screenshot officiel" },
-  { src: "/images/screen-keys.jpg", alt: "Leonida Keys — screenshot officiel" },
-  { src: "/images/screen-vice-city-3.jpg", alt: "Vice City — screenshot officiel" },
-  { src: "/images/screen-kalaga.jpg", alt: "Mount Kalaga — screenshot officiel" },
-  { src: "/images/screen-rideout-customs.jpg", alt: "Rideout Customs — screenshot officiel" },
-  { src: "/images/screen-grassrivers.jpg", alt: "Grassrivers — screenshot officiel" },
-  { src: "/images/screen-vice-city-6.jpg", alt: "Vice City — screenshot officiel" },
-  { src: "/images/screen-gellhorn.jpg", alt: "Port Gellhorn — screenshot officiel" },
+  { src: "/images/screen-vice-city-1.jpg", alt: "Vice City · screenshot officiel" },
+  { src: "/images/screen-keys.jpg", alt: "Leonida Keys · screenshot officiel" },
+  { src: "/images/screen-vice-city-3.jpg", alt: "Vice City · screenshot officiel" },
+  { src: "/images/screen-kalaga.jpg", alt: "Mount Kalaga · screenshot officiel" },
+  { src: "/images/screen-rideout-customs.jpg", alt: "Rideout Customs · screenshot officiel" },
+  { src: "/images/screen-grassrivers.jpg", alt: "Grassrivers · screenshot officiel" },
+  { src: "/images/screen-vice-city-6.jpg", alt: "Vice City · screenshot officiel" },
+  { src: "/images/screen-gellhorn.jpg", alt: "Port Gellhorn · screenshot officiel" },
 ];
 
 /** Bande de screenshots officiels en defilement continu (pur CSS). */
@@ -37,7 +37,7 @@ export function PhotoStrip() {
         </div>
       </div>
       <p className="mt-4 text-center text-[10px] font-semibold uppercase tracking-mega text-muted">
-        Screenshots officiels — © Rockstar Games
+        Screenshots officiels · © Rockstar Games
       </p>
     </section>
   );

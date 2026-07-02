@@ -169,11 +169,6 @@
     will-change: transform;
   }
 
-  /* Pause des marquees au survol (lecture des screenshots / du ticker). */
-  .animate-marquee:hover {
-    animation-play-state: paused;
-  }
-
   /* Fondu des bords horizontaux (marquees, strips). */
   .mask-fade-x {
     -webkit-mask-image: linear-gradient(

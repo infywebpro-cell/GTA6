@@ -2,7 +2,7 @@ import type { Article } from "@/lib/content";
 
 /**
  * Articles publies en juillet 2026 (Phase 1 du calendrier editorial —
- * voir STRATEGIE-SEO.md). Même regle que les piliers : officiel vs rapporté.
+ * voir STRATEGIE-SEO.md). Même règle que les piliers : officiel vs rapporté.
  */
 export const articlesJuillet: Article[] = [
   {
@@ -20,12 +20,12 @@ export const articlesJuillet: Article[] = [
       "GTA 6 multijoueur",
       "GTA online gta 6",
     ],
-    body: `**Rockstar n'a pas encore présente officiellement le mode en ligne de GTA 6.** Un successeur de GTA Online est attendu par tout le monde — et évoque autour du jeu — mais ni son nom, ni sa date, ni ses fonctionnalités n'ont été annonces. Voici ce qui est confirmé, ce qui releve de la fuite, et ce que cela implique pour le 19 novembre 2026.
+    body: `**Rockstar n'a pas encore présenté officiellement le mode en ligne de GTA 6.** Un successeur de GTA Online est attendu par tout le monde, et évoqué autour du jeu, mais ni son nom, ni sa date, ni ses fonctionnalités n'ont été annoncés. Voici ce qui est confirmé, ce qui relève de la fuite, et ce que cela implique pour le 19 novembre 2026.
 
 ## Ce qui est officiel
 
-- **GTA 6 sort le 19 novembre 2026** sur PS5 et Xbox Series X|S, avec un mode histoire porte par Jason et Lucia.
-- **GTA Online (celui de GTA 5) continue d'etre soutenu** : Take-Two a confirmé vouloir maintenir le service, qui reste l'une de ses principales sources de revenus.
+- **GTA 6 sort le 19 novembre 2026** sur PS5 et Xbox Series X|S, avec un mode histoire porté par Jason et Lucia.
+- **GTA Online (celui de GTA 5) continue d'être soutenu** : Take-Two a confirmé vouloir maintenir le service, qui reste l'une de ses principales sources de revenus.
 - **Aucune annonce formelle** d'un « GTA Online 2 » : pas de nom officiel, pas de date, pas de trailer dédié à ce jour.
 
 Autrement dit : si vous lisez quelque part une date précise pour le multijoueur de GTA 6, elle n'est pas officielle.
@@ -36,23 +36,23 @@ Plusieurs informations circulent, issues notamment de documents judiciaires et d
 
 | Rumeur | Source | Statut |
 | --- | --- | --- |
-| Lobbies élargis (32 joueurs ou plus) | Documents judiciaires relayes par la presse | Non confirmé |
+| Lobbies élargis (32 joueurs ou plus) | Documents judiciaires relayés par la presse | Non confirmé |
 | Lancement du online quelques semaines après le solo | Analyses de presse (précédent GTA 5 : 2 semaines) | Non confirmé |
-| Integration à la carte de Leonida entière | Spéculation communautaire | Non confirmé |
+| Intégration à la carte de Leonida entière | Spéculation communautaire | Non confirmé |
 
 Le précédent GTA 5 reste le meilleur indice : en 2013, GTA Online avait ouvert **deux semaines après** le jeu solo, dans une version très différente de ce qu'il est devenu.
 
 ## Que devient GTA Online (GTA 5) ?
 
-Take-Two l'a dit clairement : GTA Online **ne fermera pas** à la sortie de GTA 6. Le service continue d'etre mis à jour, et GTA+ (l'abonnement) reste commercialisé. La transition entre les deux écosystèmes — transfert de progression, avenir des shark cards — n'a fait l'objet d'**aucune annonce**.
+Take-Two l'a dit clairement : GTA Online **ne fermera pas** à la sortie de GTA 6. Le service continue d'être mis à jour, et GTA+ (l'abonnement) reste commercialisé. La transition entre les deux écosystèmes : transfert de progression, avenir des shark cards : n'a fait l'objet d'**aucune annonce**.
 
 ## Ce que cela change pour votre précommande
 
-Le pack Vice City Vintage et les bonus des éditions concernent le **jeu de base** ; aucun avantage « online » n'a été annonce à ce stade. Précommander pour le multijoueur n'a donc pas d'intérêt démontré aujourd'hui — voyez notre [guide des précommandes](precommande-gta-6-editions-prix) pour ce qui est réellement inclus.
+Le pack Vice City Vintage et les bonus des éditions concernent le **jeu de base** ; aucun avantage « online » n'a été annoncé à ce stade. Précommander pour le multijoueur n'a donc pas d'intérêt démontré aujourd'hui, voyez notre [guide des précommandes](precommande-gta-6-editions-prix) pour ce qui est réellement inclus.
 
 ## Notre lecture
 
-Rockstar concentre sa communication sur le solo — comme pour GTA 5 et Red Dead Redemption 2 en leur temps. Une présentation dédiée du online **avant la sortie** collerait au calendrier historique du studio : c'est le scénario le plus probable, sans garantie. Nous mettrons cette page à jour a chaque annonce officielle.
+Rockstar concentre sa communication sur le solo, comme pour GTA 5 et Red Dead Redemption 2 en leur temps. Une présentation dédiée du online **avant la sortie** collerait au calendrier historique du studio : c'est le scénario le plus probable, sans garantie. Nous mettrons cette page à jour à chaque annonce officielle.
 
 ## En résumé
 
@@ -60,23 +60,23 @@ Rockstar concentre sa communication sur le solo — comme pour GTA 5 et Red Dead
 - Les chiffres qui circulent (32 joueurs, lancement décalé) sont des **fuites non confirmées**.
 - **GTA Online continue** après la sortie de GTA 6, Take-Two l'a confirmé.
 - Précédent GTA 5 : le online avait ouvert **2 semaines après** le solo.
-- Aucun bonus multijoueur lie aux précommandes à ce jour.`,
+- Aucun bonus multijoueur lié aux précommandes à ce jour.`,
     faq: [
       {
         q: "GTA 6 aura-t-il un mode en ligne ?",
-        a: "Un successeur de GTA Online est attendu et évoque autour du jeu, mais Rockstar n'a fait aucune annonce officielle : ni nom, ni date, ni fonctionnalités. Seul le mode histoire est confirmé pour le 19 novembre 2026.",
+        a: "Un successeur de GTA Online est attendu et évoqué autour du jeu, mais Rockstar n'a fait aucune annonce officielle : ni nom, ni date, ni fonctionnalités. Seul le mode histoire est confirmé pour le 19 novembre 2026.",
       },
       {
         q: "GTA Online va-t-il fermer avec la sortie de GTA 6 ?",
-        a: "Non. Take-Two a confirmé que GTA Online (GTA 5) continuerait d'etre soutenu et mis à jour après la sortie de GTA 6.",
+        a: "Non. Take-Two a confirmé que GTA Online (GTA 5) continuerait d'être soutenu et mis à jour après la sortie de GTA 6.",
       },
       {
         q: "Le online de GTA 6 sortira-t-il en même temps que le jeu ?",
-        a: "Rien d'officiel. Pour GTA 5, GTA Online avait ouvert deux semaines après le solo : beaucoup s'attendent a un schema similaire, mais cela reste une supposition.",
+        a: "Rien d'officiel. Pour GTA 5, GTA Online avait ouvert deux semaines après le solo : beaucoup s'attendent a un schéma similaire, mais cela reste une supposition.",
       },
       {
         q: "Ma progression GTA Online sera-t-elle transférée dans GTA 6 ?",
-        a: "Aucun système de transfert n'a été annonce. Toute affirmation sur le sujet releve de la spéculation tant que Rockstar n'a pas communique.",
+        a: "Aucun système de transfert n'a été annonce. Toute affirmation sur le sujet relève de la spéculation tant que Rockstar n'a pas communiqué.",
       },
     ],
     author: "Guide GTA 6",
@@ -98,37 +98,37 @@ Rockstar concentre sa communication sur le solo — comme pour GTA 5 et Red Dead
       "GTA 6 PC date",
       "GTA 6 specs",
     ],
-    body: `**Aucune version PC de GTA 6 n'a été annoncée.** Le jeu sort le 19 novembre 2026 sur PS5 et Xbox Series X|S uniquement, et Rockstar n'a publié **aucune configuration requise** — logique, puisque la version PC n'existe pas officiellement. Voici ce que l'historique du studio permet d'anticiper, et comment vous preparer sans tomber dans les faux « system requirements » qui circulent.
+    body: `**Aucune version PC de GTA 6 n'a été annoncée.** Le jeu sort le 19 novembre 2026 sur PS5 et Xbox Series X|S uniquement, et Rockstar n'a publié **aucune configuration requise** : logique, puisque la version PC n'existe pas officiellement. Voici ce que l'historique du studio permet d'anticiper, et comment vous préparer sans tomber dans les faux « system requirements » qui circulent.
 
 ## Pourquoi il n'y a pas (encore) de version PC
 
 Rockstar sort ses jeux consoles d'abord, PC ensuite. C'est une stratégie constante depuis plus de dix ans :
 
-| Jeu | Sortie consoles | Sortie PC | Delai |
+| Jeu | Sortie consoles | Sortie PC | Délai |
 | --- | --- | --- | --- |
 | GTA 5 | Septembre 2013 | Avril 2015 | ~19 mois |
 | Red Dead Redemption 2 | Octobre 2018 | Novembre 2019 | ~13 mois |
 | GTA 6 | 19 novembre 2026 | Non annoncée | ? |
 
-En appliquant ce schema, une version PC de GTA 6 **courant 2027 ou 2028** est le scénario le plus crédible. Mais c'est une **projection**, pas une information : seule une annonce Rockstar fera foi.
+En appliquant ce schéma, une version PC de GTA 6 **courant 2027 ou 2028** est le scénario le plus crédible. Mais c'est une **projection**, pas une information : seule une annonce Rockstar fera foi.
 
-## Mefiez-vous des fausses « configs requises »
+## Méfiez-vous des fausses « configs requises »
 
-Des tableaux de specs « officielles » circulent régulièrement sur les réseaux et certains sites. **Ils sont inventes.** Aucune config minimale ou recommandee n'a été publiée. Tout au plus peut-on raisonner par analogie :
+Des tableaux de specs « officielles » circulent régulièrement sur les réseaux et certains sites. **Ils sont inventés.** Aucune config minimale ou recommandée n'a été publiée. Tout au plus peut-on raisonner par analogie :
 
 - GTA 6 est conçu pour des consoles équipées de **SSD NVMe**, de CPU 8 coeurs Zen 2 et de GPU RDNA 2 : la version PC demandera logiquement au moins l'équivalent.
-- Les portages Rockstar récents (RDR2) etaient exigeants mais bien optimisés, avec un net avantage aux GPU récents et à la VRAM généreuse.
+- Les portages Rockstar récents (RDR2) étaient exigeants mais bien optimisés, avec un net avantage aux GPU récents et à la VRAM généreuse.
 - Comptez un **stockage conséquent** : les jeux du studio dépassent régulièrement les 100 Go.
 
-Si vous montez un PC aujourd'hui « pour GTA 6 », visez large (GPU récent, 32 Go de RAM, SSD NVMe rapide) — et gardez en tête que le jeu n'y sortira pas avant, au mieux, fin 2027 selon toute vraisemblance.
+Si vous montez un PC aujourd'hui « pour GTA 6 », visez large (GPU récent, 32 Go de RAM, SSD NVMe rapide), et gardez en tête que le jeu n'y sortira pas avant, au mieux, fin 2027 selon toute vraisemblance.
 
-## Comment jouer a GTA 6 en attendant sur PC ?
+## Comment jouer à GTA 6 en attendant sur PC ?
 
-Il n'existera **aucun moyen officiel** de jouer a GTA 6 sur PC au lancement :
+Il n'existera **aucun moyen officiel** de jouer à GTA 6 sur PC au lancement :
 
-- **Pas de cloud gaming annonce** pour le jeu à ce stade.
+- **Pas de cloud gaming annoncé** pour le jeu à ce stade.
 - Les « versions PC » proposees au téléchargement avant la sortie sont des **arnaques** ou des malwares, systematiquement.
-- La seule option day one reste une **PS5 ou une Xbox Series** — voyez notre comparatif des [plateformes de GTA 6](plateformes-gta-6-ps5-xbox-pc).
+- La seule option day one reste une **PS5 ou une Xbox Series**, voyez notre comparatif des [plateformes de GTA 6](plateformes-gta-6-ps5-xbox-pc).
 
 ## En résumé
 
@@ -139,14 +139,14 @@ Il n'existera **aucun moyen officiel** de jouer a GTA 6 sur PC au lancement :
     faq: [
       {
         q: "GTA 6 sortira-t-il sur PC ?",
-        a: "Aucune version PC n'a été annoncée par Rockstar. Au vu de l'historique du studio (GTA 5, RDR2), une sortie PC 13 a 19 mois après les consoles est plausible, soit courant 2027-2028 — mais cela reste une projection.",
+        a: "Aucune version PC n'a été annoncée par Rockstar. Au vu de l'historique du studio (GTA 5, RDR2), une sortie PC 13 a 19 mois après les consoles est plausible, soit courant 2027-2028, mais cela reste une projection.",
       },
       {
         q: "Quelle est la configuration requise de GTA 6 sur PC ?",
-        a: "Il n'y en a pas : aucune config officielle n'existe puisque la version PC n'est pas annoncée. Les tableaux de specs qui circulent sont inventes.",
+        a: "Il n'y en a pas : aucune config officielle n'existe puisque la version PC n'est pas annoncée. Les tableaux de specs qui circulent sont inventés.",
       },
       {
-        q: "Peut-on jouer a GTA 6 en cloud gaming sur PC ?",
+        q: "Peut-on jouer à GTA 6 en cloud gaming sur PC ?",
         a: "Aucune offre de cloud gaming n'a été annoncée pour GTA 6. Au lancement, le jeu ne sera jouable que sur PS5 et Xbox Series X|S.",
       },
       {

@@ -63,7 +63,7 @@ export default function ConfidentialitePage() {
           <p>
             En poursuivant votre navigation, vous acceptez l'utilisation des
             cookies decrits ci-dessus. Un outil de gestion du consentement
-            (CMP) devra etre mis en place avant l'activation des publicites
+            (CMP) devra être mis en place avant l'activation des publicites
             personnalisees pour les visiteurs de l'Union europeenne.
           </p>
         </div>

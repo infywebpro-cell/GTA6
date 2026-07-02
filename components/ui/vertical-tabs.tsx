@@ -8,13 +8,13 @@ import { cn } from "@/lib/utils";
 /**
  * Vertical tabs (style shadcn/21st.dev) : liste verticale d'onglets avec
  * indicateur actif anime (layoutId) + panneau de contenu en fondu/glisse.
- * Accessible (rôles tablist/tab/tabpanel, fleches clavier), responsive
- * (les onglets passent en rangee scrollable sous lg).
+ * Accessible (rôles tablist/tab/tabpanel, flèches clavier), responsive
+ * (les onglets passent en rangée scrollable sous lg).
  */
 
 export interface VerticalTabItem {
   id: string;
-  /** Contenu du bouton d'onglet. Recoit l'état actif. */
+  /** Contenu du bouton d'onglet. Reçoit l'état actif. */
   trigger: (active: boolean) => React.ReactNode;
   /** Contenu du panneau. */
   content: React.ReactNode;

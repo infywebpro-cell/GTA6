@@ -48,7 +48,7 @@ export function Header() {
         )}
       >
         <Container className="flex h-16 items-center justify-between gap-4">
-          <Link href="/" onClick={() => setOpen(false)} aria-label="Guide GTA 6 — accueil">
+          <Link href="/" onClick={() => setOpen(false)} aria-label="Guide GTA 6, accueil">
             <Wordmark />
           </Link>
 
@@ -124,7 +124,7 @@ export function Header() {
               );
             })}
             <p className="mt-8 text-[11px] uppercase tracking-mega text-muted">
-              Sortie mondiale — 19 novembre 2026
+              Sortie mondiale : 19 novembre 2026
             </p>
           </Container>
         </nav>

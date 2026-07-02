@@ -43,7 +43,7 @@ export function RegionTabs() {
           <div className="relative flex h-full min-h-[380px] flex-col justify-end overflow-hidden rounded-3xl border border-border sm:min-h-[460px]">
             <Image
               src={r.image}
-              alt={`Artwork officiel — ${r.name}`}
+              alt={`Artwork officiel · ${r.name}`}
               fill
               sizes="(max-width: 1024px) 100vw, 60vw"
               className="object-cover"

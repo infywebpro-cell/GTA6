@@ -15,7 +15,7 @@ const ULTIMATE = [
   "Le jeu complet Grand Theft Auto VI",
   "Vapid Dominator Buggy (1967) exclusive",
   "Garage Paradise a Watson Bay",
-  "Contenus exclusifs debloques au fil de l'histoire",
+  "Contenus exclusifs débloqués au fil de l'histoire",
 ];
 
 /** Section éditions & prix officiels (précommandes ouvertes). */
@@ -61,7 +61,7 @@ export function EditionsSection({ num }: { num: string }) {
             <div className="relative h-40 sm:h-44">
               <Image
                 src="/images/veh-vapid-buggy.jpg"
-                alt="Vapid Dominator Buggy (1967) — exclusivite de l'édition Ultimate"
+                alt="Vapid Dominator Buggy (1967) : exclusivite de l'édition Ultimate"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
@@ -103,7 +103,7 @@ export function EditionsSection({ num }: { num: string }) {
           </span>
           <p className="text-sm text-muted">
             <strong className="text-ink">Pack Vice City Vintage offert</strong>{" "}
-            pour toute précommande jusqu'au 20 novembre 2026 — Vapid Stanier
+            pour toute précommande jusqu'au 20 novembre 2026 : Vapid Stanier
             vintage, tenues et motifs d'armes rétro, sur toutes les éditions.
           </p>
         </div>

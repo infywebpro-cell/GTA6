@@ -90,7 +90,7 @@ export const vehicles: Vehicle[] = [
     seenIn: "Pack Vice City Vintage",
     image: "/images/veh-vapid-stanier.jpg",
     description:
-      "La berline américaine culte de la série revient dans une declinaison vintage, offerte via le pack Vice City Vintage remis avec toute précommande (du 25 juin au 20 novembre 2026).",
+      "La berline américaine culte de la série revient dans une déclinaison vintage, offerte via le pack Vice City Vintage remis avec toute précommande (du 25 juin au 20 novembre 2026).",
   },
   {
     slug: "vapid-ganado-retro",
@@ -164,7 +164,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "Des cruisers descendent le strip du front de mer dans la première bande-annonce — l'esprit Floride jusque dans les guidons.",
+      "Des cruisers descendent le strip du front de mer dans la première bande-annonce, l'esprit Floride jusque dans les guidons.",
   },
   {
     slug: "pickup-jason",
@@ -174,7 +174,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 2",
     description:
-      "Le pickup use que conduit Jason dans la deuxième bande-annonce. Idéal pour l'arriere-pays d'Ambrosia et les chemins de terre.",
+      "Le pickup use que conduit Jason dans la deuxième bande-annonce. Idéal pour l'arrière-pays d'Ambrosia et les chemins de terre.",
   },
   {
     slug: "berline-banalisee",
@@ -184,7 +184,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailers 1 & 2",
     description:
-      "Le trafic de Leonida fourmille de berlines ordinaires — parfaites pour passer inapercu après un coup.",
+      "Le trafic de Leonida fourmille de berlines ordinaires : parfaites pour passer inapercu après un coup.",
   },
   {
     slug: "suv-urbain",
@@ -224,7 +224,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailers 1 & 2",
     description:
-      "Les cruisers de la police de Vice City sont bien visibles dans les deux bandes-annonces — gyrophares, poursuites et barrages compris.",
+      "Les cruisers de la police de Vice City sont bien visibles dans les deux bandes-annonces : gyrophares, poursuites et barrages compris.",
   },
   {
     slug: "helicoptere-police",
@@ -234,7 +234,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "Projecteur braque sur les fuyards : l'helico de la police apparaît dès $1 première bande-annonce.",
+      "Projecteur braque sur les fuyards : l'helico de la police apparaît dès la première bande-annonce.",
   },
   // --- SUPPOSES ---------------------------------------------------------------
   {

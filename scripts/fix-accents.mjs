@@ -525,7 +525,119 @@ const WORDS = {
   annoncee: "annoncée",
   annoncees: "annoncées",
   presenter: "présenter",
+  etre: "être",
+  releve: "relève",
+  relayes: "relayés",
+  relayee: "relayée",
+  relayees: "relayées",
+  integration: "intégration",
+  schema: "schéma",
+  schemas: "schémas",
+  delai: "délai",
+  delais: "délais",
+  mefiez: "méfiez",
+  recommandee: "recommandée",
+  recommandees: "recommandées",
+  etaient: "étaient",
+  precises: "précises",
+  preparer: "préparer",
+  deroule: "déroule",
+  recoit: "reçoit",
+  fleche: "flèche",
+  fleches: "flèches",
+  rangee: "rangée",
+  rangees: "rangées",
+  resultat: "résultat",
+  resultats: "résultats",
+  detail: "détail",
+  details: "détails",
+  tot: "tôt",
+  boite: "boîte",
+  boites: "boîtes",
+  limitees: "limitées",
+  limitee: "limitée",
+  debloques: "débloqués",
+  debloque: "débloqué",
+  debloquee: "débloquée",
+  declinaison: "déclinaison",
+  declinaisons: "déclinaisons",
+  ere: "ère",
+  lignee: "lignée",
+  decennie: "décennie",
+  decennies: "décennies",
+  completement: "complètement",
+  sante: "santé",
+  gravite: "gravité",
+  etoile: "étoile",
+  etoiles: "étoiles",
+  telephone: "téléphone",
+  desactivait: "désactivait",
+  desactive: "désactivé",
+  trophee: "trophée",
+  trophees: "trophées",
+  empechait: "empêchait",
+  empeche: "empêché",
+  methode: "méthode",
+  methodes: "méthodes",
+  verifiee: "vérifiée",
+  video: "vidéo",
+  videos: "vidéos",
+  remunerees: "rémunérées",
+  remunere: "rémunéré",
+  denicher: "dénicher",
+  marecage: "marécage",
+  marecages: "marécages",
+  tresor: "trésor",
+  tresors: "trésors",
+  mystere: "mystère",
+  mysteres: "mystères",
+  cachee: "cachée",
+  cachees: "cachées",
+  caches: "cachés",
+  etranges: "étranges",
+  demarrage: "démarrage",
+  demarrer: "démarrer",
+  verifiez: "vérifiez",
+  liberez: "libérez",
+  officialises: "officialisés",
+  officialise: "officialisé",
+  preparez: "préparez",
+  anticipes: "anticipés",
+  cle: "clé",
+  cles: "clés",
+  regle: "règle",
+  regles: "règles",
+  diffusee: "diffusée",
+  diffusees: "diffusées",
+  idee: "idée",
+  idees: "idées",
+  reperee: "repérée",
+  hesitez: "hésitez",
+  precommandez: "précommandez",
+  etes: "êtes",
+  reservation: "réservation",
+  reservations: "réservations",
+  prechargement: "préchargement",
+  precharger: "précharger",
+  reserver: "réserver",
+  ulterieure: "ultérieure",
+  ulterieur: "ultérieur",
+  reapprovisionnement: "réapprovisionnement",
+  disponibilite: "disponibilité",
+  reperage: "repérage",
+  inventee: "inventée",
+  inventees: "inventées",
+  sanctionnee: "sanctionnée",
+  consideres: "considérés",
+  considerez: "considérez",
+  arrives: "arrivés",
+  reperes2: "repérés",
+  frequentes2: "fréquentées",
+  ecrasee2: "écrasée",
 };
+for (const k of Object.keys(WORDS)) {
+  if (/\d$/.test(k)) delete WORDS[k];
+}
 // Retire les cles suffixees (utilisees pour eviter les collisions JS)
 for (const k of Object.keys(WORDS)) {
   if (/\d$/.test(k)) delete WORDS[k];
@@ -582,6 +694,40 @@ const PHRASES = [
   [/\bface a\b/g, "face à"],
   [/\bpropre a\b/g, "propre à"],
   [/\ba explorer\b/g, "à explorer"],
+  [/\ba chaque\b/g, "à chaque"],
+  [/\bjouer a\b/g, "jouer à"],
+  [/\bete annonce\b/g, "été annoncé"],
+  [/\bété annonce\b/g, "été annoncé"],
+  [/\bété annonces\b/g, "été annoncés"],
+  [/\bsont inventes\b/g, "sont inventés"],
+  [/\bpas communique\b/g, "pas communiqué"],
+  [/\bn'a communique\b/g, "n'a communiqué"],
+  [/\ba aborder\b/g, "à aborder"],
+  [/\ba s'/g, "à s'"],
+  [/\ba tester\b/g, "à tester"],
+  [/\ba composer\b/g, "à composer"],
+  [/\ba pleine\b/g, "à pleine"],
+  [/\ba l'avance\b/g, "à l'avance"],
+  [/\ba partir du\b/g, "à partir du"],
+  [/\bs'attendre a\b/g, "s'attendre à"],
+  [/\bpre-lancement\b/g, "pré-lancement"],
+  [/\bplus tot\b/g, "plus tôt"],
+  [/\ba y croiser\b/g, "à y croiser"],
+  [/\bet a (un|une|des) /g, "et à $1 "],
+  [/\ba stock limite\b/g, "à stock limité"],
+  [/\bmise a niveau\b/g, "mise à niveau"],
+  [/\bmise a jour\b/g, "mise à jour"],
+  [/\bBon a savoir\b/g, "Bon à savoir"],
+  [/\bpasser a l'/g, "passer à l'"],
+  [/\bcote est\b/g, "côte est"],
+  [/\bcote ouest\b/g, "côte ouest"],
+  // Composés avec tiret (le garde anti-slug du dico les ignore exprès) :
+  [/\bMefiez-vous\b/g, "Méfiez-vous"],
+  [/\bmefiez-vous\b/g, "méfiez-vous"],
+  [/\bAttendez-vous\b/g, "Attendez-vous"],
+  [/\barriere-pays\b/g, "arrière-pays"],
+  [/\barriere-plan\b/g, "arrière-plan"],
+  [/\barriere-cours\b/g, "arrière-cours"],
 ];
 
 const TARGET_GLOBS = [
@@ -625,10 +771,12 @@ function fixProseFragment(fragment) {
     });
   }
   for (const [re, good] of PHRASES) {
-    text = text.replace(re, () => {
-      count++;
-      return good;
-    });
+    // replace(re, string) interprete $1 ; via callback il serait litteral.
+    const matches = text.match(re);
+    if (matches) {
+      count += matches.length;
+      text = text.replace(re, good);
+    }
   }
   return { text, count };
 }
@@ -679,14 +827,25 @@ function processFile(source) {
       const quote = ch;
       let j = i + 1;
       let body = "";
+      let sawNewline = false;
       while (j < n && source[j] !== quote) {
         if (source[j] === "\\" && j + 1 < n) {
           body += source[j] + source[j + 1];
           j += 2;
           continue;
         }
+        if (source[j] === "\n") sawNewline = true;
         body += source[j];
         j++;
+      }
+      // Garde anti-desynchronisation : une vraie chaine ' ou " tient sur
+      // une seule ligne. Un saut de ligne signifie qu'on est parti d'une
+      // apostrophe de TEXTE JSX (« l'actu ») : on n'etait pas dans une
+      // chaine, on remet le caractere et on continue sans rien toucher.
+      if (sawNewline && quote !== "`") {
+        out += quote;
+        i += 1;
+        continue;
       }
       // Chaine utilisee comme valeur de discriminant de type (status:,
       // category:, id:) ou comme membre d'union litterale (precede de

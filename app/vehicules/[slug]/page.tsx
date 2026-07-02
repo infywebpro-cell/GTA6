@@ -30,7 +30,7 @@ export async function generateMetadata({
   const v = getVehicle(slug);
   if (!v) return {};
   return buildMetadata({
-    title: `${v.name} — Véhicule GTA 6`,
+    title: `${v.name} : Véhicule GTA 6`,
     description: `${v.name} dans GTA 6 : ${v.description}`.slice(0, 155),
     path: `/vehicules/${slug}`,
     keywords: [`${v.name} gta 6`, "véhicules gta 6", v.class.toLowerCase()],
@@ -63,7 +63,7 @@ export default async function VehiclePage({
           <div className="relative mb-8 aspect-video overflow-hidden rounded-3xl border border-border">
             <Image
               src={v.image}
-              alt={`Screenshot officiel — ${v.name}`}
+              alt={`Screenshot officiel · ${v.name}`}
               fill
               sizes="(max-width: 768px) 100vw, 768px"
               className="object-cover"

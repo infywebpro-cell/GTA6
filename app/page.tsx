@@ -39,14 +39,14 @@ const OFFICIEL = [
 ];
 
 const A_CONFIRMER = [
-  { label: "Version PC", detail: "Non annoncée — attendue après les consoles" },
+  { label: "Version PC", detail: "Non annoncée : attendue après les consoles" },
   { label: "Mode en ligne", detail: "Successeur de GTA Online non détaillé" },
-  { label: "Carte officielle", detail: "Non publiée — reconstitutions communautaires seulement" },
+  { label: "Carte officielle", detail: "Non publiée : reconstitutions communautaires seulement" },
   { label: "Taille exacte de la carte", detail: "Comparaison GTA 5 non officielle" },
 ];
 
 const TICKER_ITEMS = [
-  "Sortie mondiale — 19 novembre 2026",
+  "Sortie mondiale : 19 novembre 2026",
   "Précommandes ouvertes",
   "Standard 79,99 €",
   "Ultimate 99,99 €",
@@ -87,10 +87,11 @@ export default function HomePage() {
 
         <Container className="relative flex h-[min(92svh,1000px)] min-h-[640px] flex-col justify-center py-16">
           <p className="text-[11px] font-bold uppercase tracking-mega text-sand sm:text-xs">
-            Le guide français — non officiel
+            Le guide français : non officiel
           </p>
 
           <h1 className="mt-4 font-display uppercase leading-[0.85] tracking-wide">
+            <span className="sr-only">Guide GTA 6 : </span>
             <span className="block text-7xl text-ink drop-shadow-[0_4px_24px_rgba(13,5,23,0.6)] sm:text-9xl lg:text-[10rem]">
               GTA<span className="text-gradient">VI</span>
             </span>
@@ -101,7 +102,7 @@ export default function HomePage() {
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink/85 sm:text-lg">
             Date de sortie, carte de Leonida, véhicules, personnages, astuces :
-            tout GTA 6 vérifié et en français — et dès le jour J, les soluces
+            tout GTA 6 vérifié et en français, et dès le jour J, les soluces
             complètes.
           </p>
 
@@ -123,7 +124,7 @@ export default function HomePage() {
               href="/guides/precommande-gta-6-editions-prix"
               className="inline-flex items-center gap-2 rounded-full border border-sand/50 bg-bg/50 px-6 py-3.5 text-sm font-bold uppercase tracking-widest text-sand backdrop-blur transition-colors hover:border-sand"
             >
-              Précommander — le guide
+              Précommander, le guide
             </Link>
             <Link
               href="/guides"
@@ -193,7 +194,7 @@ export default function HomePage() {
                 />
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-bg via-bg/40 to-transparent p-4 pt-12">
                   <p className="text-[10px] font-bold uppercase tracking-mega text-sand">
-                    Jaquette officielle — © Rockstar Games
+                    Jaquette officielle : © Rockstar Games
                   </p>
                 </div>
               </div>
@@ -288,7 +289,7 @@ export default function HomePage() {
                 name: "Lucia",
                 full: "Lucia Caminos",
                 desc:
-                  "Première protagoniste feminine de la série principale. Sortie de prison, elle joue les regles a sa façon — et ne compte plus jamais y retourner.",
+                  "Première protagoniste feminine de la série principale. Sortie de prison, elle joue les règles a sa façon, et ne compte plus jamais y retourner.",
                 image: "/images/jason-lucia-motel.jpg",
                 position: "object-[45%_30%]",
               },
@@ -311,7 +312,7 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/30 to-transparent" />
                 <div className="relative p-7">
                   <p className="text-[11px] font-bold uppercase tracking-mega text-sand">
-                    Protagoniste — {c.full}
+                    Protagoniste : {c.full}
                   </p>
                   <h3 className="mt-1 font-display text-5xl uppercase tracking-wide text-ink sm:text-6xl">
                     {c.name}
@@ -325,7 +326,7 @@ export default function HomePage() {
           </div>
           </Reveal>
           <p className="mt-4 text-center text-xs uppercase tracking-widest text-muted">
-            Un duo criminel à la Bonnie & Clyde — artworks officiels © Rockstar Games
+            Un duo criminel à la Bonnie & Clyde : artworks officiels © Rockstar Games
           </p>
         </Container>
       </section>
@@ -366,7 +367,7 @@ export default function HomePage() {
         </div>
         <Container>
           <p className="mt-2 text-center text-xs uppercase tracking-widest text-muted">
-            Personnages officiels dévoilés par Rockstar — artworks © Rockstar Games
+            Personnages officiels dévoilés par Rockstar : artworks © Rockstar Games
           </p>
         </Container>
       </section>
@@ -407,7 +408,7 @@ export default function HomePage() {
                   <div className="relative aspect-video overflow-hidden">
                     <Image
                       src={v.image}
-                      alt={`Screenshot officiel — ${v.name}`}
+                      alt={`Screenshot officiel · ${v.name}`}
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                       className="object-cover transition-transform duration-300 group-hover:scale-[1.05]"
