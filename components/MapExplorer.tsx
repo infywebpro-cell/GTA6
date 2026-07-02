@@ -26,9 +26,9 @@ const colorFor = (cat: MarkerCategory) =>
   markerCategories.find((c) => c.id === cat)?.color ?? "#ffffff";
 
 /**
- * Explorateur de carte facon jeu : l'image remplit tout le panneau
+ * Explorateur de carte façon jeu : l'image remplit tout le panneau
  * (fit-largeur), pan borne aux limites de la carte, zoom molette centre
- * sur le curseur, boutons "Aller a" pour voler vers une region.
+ * sur le curseur, boutons "Aller a" pour voler vers une région.
  */
 export function MapExplorer() {
   const panelRef = useRef<HTMLDivElement>(null);
@@ -193,7 +193,7 @@ export function MapExplorer() {
               >
                 <Image
                   src={mapImage.src}
-                  alt="Carte de l'Etat de Leonida (reconstitution communautaire, non officielle)"
+                  alt="Carte de l'État de Leonida (reconstitution communautaire, non officielle)"
                   fill
                   sizes="(max-width: 1024px) 100vw, 66vw"
                   className="pointer-events-none object-cover"

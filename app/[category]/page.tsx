@@ -58,7 +58,7 @@ export default async function CategoryPage({
         lede={meta.description}
       />
 
-      <AdSlot slot="" label="Publicite" className="mb-10" />
+      <AdSlot slot="" label="Publicité" className="mb-10" />
 
       {articles.length === 0 ? (
         <p className="rounded-2xl border border-border bg-surface p-8 text-center text-muted">

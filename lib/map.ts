@@ -1,5 +1,5 @@
 /**
- * Donnees de la carte interactive de Leonida (GTA 6).
+ * Données de la carte interactive de Leonida (GTA 6).
  *
  * Fond de carte : reconstitution communautaire "YANIS — GTA VI Community
  * Map v13" (GTA VI Mapping Community), etablie a partir des trailers,
@@ -40,10 +40,10 @@ export interface MapMarker {
 }
 
 export const markerCategories: { id: MarkerCategory; label: string; color: string }[] = [
-  { id: "region", label: "Regions", color: "#FF8A3C" },
+  { id: "region", label: "Régions", color: "#FF8A3C" },
   { id: "ville", label: "Villes", color: "#FF3FB4" },
-  { id: "interet", label: "Points d'interet", color: "#FFD37E" },
-  { id: "activite", label: "Activites", color: "#8A5CFF" },
+  { id: "interet", label: "Points d'intérêt", color: "#FFD37E" },
+  { id: "activite", label: "Activités", color: "#8A5CFF" },
   { id: "collectible", label: "Collectibles", color: "#58E39B" },
 ];
 
@@ -56,7 +56,7 @@ export const mapMarkers: MapMarker[] = [
     y: 55.3,
     quickNav: true,
     description:
-      "La metropole de Leonida, inspiree de Miami : Ocean Drive, gratte-ciels et nightlife. Position confirmee sur la cote est.",
+      "La métropole de Leonida, inspirée de Miami : Ocean Drive, gratte-ciels et nightlife. Position confirmée sur la cote est.",
   },
   {
     id: "vice-beach",
@@ -75,7 +75,7 @@ export const mapMarkers: MapMarker[] = [
     y: 92.8,
     quickNav: true,
     description:
-      "Chapelet d'iles tout au sud de l'Etat, relie par une route unique — la version GTA des Florida Keys.",
+      "Chapelet d'iles tout au sud de l'État, relie par une route unique — la version GTA des Florida Keys.",
   },
   {
     id: "grassrivers",
@@ -105,7 +105,7 @@ export const mapMarkers: MapMarker[] = [
     y: 25,
     quickNav: true,
     description:
-      "Le grand parc national du nord : reliefs, forets et panoramas sur tout l'Etat.",
+      "Le grand parc national du nord : reliefs, forets et panoramas sur tout l'État.",
   },
   {
     id: "port-gellhorn",
@@ -115,7 +115,7 @@ export const mapMarkers: MapMarker[] = [
     y: 36.7,
     quickNav: true,
     description:
-      "Ville portuaire du panhandle (inspiree de Panama City Beach) : industrie, motels et circuits.",
+      "Ville portuaire du panhandle (inspirée de Panama City Beach) : industrie, motels et circuits.",
   },
   {
     id: "yorktown",
@@ -123,16 +123,16 @@ export const mapMarkers: MapMarker[] = [
     category: "ville",
     x: 17.2,
     y: 27.2,
-    description: "Petite ville du nord-ouest de Leonida, pres de Port Gellhorn.",
+    description: "Petite ville du nord-ouest de Leonida, près de Port Gellhorn.",
   },
   {
     id: "aeroport-leonida",
-    name: "Aeroport international",
+    name: "Aéroport international",
     category: "interet",
     x: 57.7,
     y: 62.7,
     description:
-      "Le grand aeroport de Vice City, au sud-ouest de la metropole — hub des vehicules aeriens.",
+      "Le grand aéroport de Vice City, au sud-ouest de la métropole — hub des véhicules aeriens.",
   },
   {
     id: "catalana",

@@ -7,7 +7,7 @@ export interface AmazonProduct {
   pitch: string;
   /** Requete de recherche Amazon.fr (fallback tant qu'on n'a pas d'ASIN). */
   query: string;
-  /** ASIN precis si connu (prioritaire sur la requete). */
+  /** ASIN précis si connu (prioritaire sur la requete). */
   asin?: string;
   priceHint?: string;
 }
@@ -37,7 +37,7 @@ export const amazonProducts: AmazonProduct[] = [
     id: "ps5-slim",
     name: "Console PS5 Slim (lecteur de disque)",
     category: "Console",
-    pitch: "La console de reference pour jouer a GTA 6 des le 19 novembre 2026.",
+    pitch: "La console de référence pour jouer a GTA 6 des le 19 novembre 2026.",
     query: "PS5 Slim console lecteur disque",
     priceHint: "~ 499 €",
   },
@@ -65,10 +65,10 @@ export const amazonProducts: AmazonProduct[] = [
   },
   {
     id: "dualsense-edition",
-    name: "DualSense edition limitee",
+    name: "DualSense édition limitee",
     category: "Manette",
     pitch: "Un coloris exclusif pour accompagner votre partie de GTA 6.",
-    query: "manette DualSense PS5 edition limitee coloris",
+    query: "manette DualSense PS5 édition limitee coloris",
   },
   {
     id: "pulse-elite",
@@ -88,22 +88,22 @@ export const amazonProducts: AmazonProduct[] = [
     id: "casque-filaire",
     name: "Casque gaming filaire (SteelSeries / Razer)",
     category: "Casque gaming",
-    pitch: "Micro clair et son precis pour le online, sans souci de batterie.",
+    pitch: "Micro clair et son précis pour le online, sans souci de batterie.",
     query: "casque gaming PS5 micro SteelSeries Arctis",
   },
   {
     id: "secretlab-titan",
-    name: "Siege gaming Secretlab TITAN Evo",
+    name: "Siège gaming Secretlab TITAN Evo",
     category: "Siege gaming",
     pitch: "Les sessions GTA 6 sont longues : le confort haut de gamme pour le dos.",
-    query: "Secretlab TITAN Evo siege gaming",
+    query: "Secretlab TITAN Evo siège gaming",
   },
   {
     id: "noblechairs",
-    name: "Siege gaming Noblechairs",
+    name: "Siège gaming Noblechairs",
     category: "Siege gaming",
     pitch: "Une alternative milieu de gamme solide pour jouer confortablement.",
-    query: "Noblechairs siege gaming",
+    query: "Noblechairs siège gaming",
   },
   {
     id: "logitech-g29",
@@ -123,15 +123,15 @@ export const amazonProducts: AmazonProduct[] = [
     id: "carte-psn",
     name: "Carte PlayStation Store (PSN)",
     category: "Carte PSN",
-    pitch: "Pour precommander GTA 6 ou recharger sans carte bancaire.",
+    pitch: "Pour précommander GTA 6 ou recharger sans carte bancaire.",
     query: "carte PlayStation Store PSN 50 euros code",
   },
   {
     id: "ecran-4k",
-    name: "Ecran gaming 4K 120Hz HDMI 2.1",
+    name: "Écran gaming 4K 120Hz HDMI 2.1",
     category: "Ecran",
     pitch: "Pour exploiter pleinement la PS5 Pro : 4K, 120 Hz, HDMI 2.1.",
-    query: "ecran gaming 4K 120Hz HDMI 2.1 OLED PS5",
+    query: "écran gaming 4K 120Hz HDMI 2.1 OLED PS5",
   },
   {
     id: "ssd-ps5",

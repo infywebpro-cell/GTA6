@@ -27,30 +27,30 @@ import { vehicles } from "@/lib/vehicles";
 import { clsx } from "clsx";
 
 const OFFICIEL = [
-  { label: "Sortie le 19 novembre 2026", detail: "Date confirmee par Rockstar Games" },
+  { label: "Sortie le 19 novembre 2026", detail: "Date confirmée par Rockstar Games" },
   { label: "PS5 & Xbox Series X|S", detail: "Plateformes annoncees au lancement" },
-  { label: "Precommandes ouvertes", detail: "Depuis le 25 juin 2026" },
-  { label: "Standard 79,99 € · Ultimate 99,99 €", detail: "Deux editions officielles" },
-  { label: "Pack Vice City Vintage offert", detail: "Pour toute precommande avant le 20 novembre" },
+  { label: "Précommandes ouvertes", detail: "Depuis le 25 juin 2026" },
+  { label: "Standard 79,99 € · Ultimate 99,99 €", detail: "Deux éditions officielles" },
+  { label: "Pack Vice City Vintage offert", detail: "Pour toute précommande avant le 20 novembre" },
   { label: "Jason & Lucia", detail: "Duo de protagonistes jouables" },
-  { label: "Vice City, Etat de Leonida", detail: "Le cadre officiel du jeu" },
+  { label: "Vice City, État de Leonida", detail: "Le cadre officiel du jeu" },
 ];
 
 const A_CONFIRMER = [
-  { label: "Version PC", detail: "Non annoncee — attendue apres les consoles" },
-  { label: "Mode en ligne", detail: "Successeur de GTA Online non detaille" },
-  { label: "Carte officielle", detail: "Non publiee — reconstitutions communautaires seulement" },
+  { label: "Version PC", detail: "Non annoncee — attendue après les consoles" },
+  { label: "Mode en ligne", detail: "Successeur de GTA Online non détaillé" },
+  { label: "Carte officielle", detail: "Non publiée — reconstitutions communautaires seulement" },
   { label: "Taille exacte de la carte", detail: "Comparaison GTA 5 non officielle" },
 ];
 
 const TICKER_ITEMS = [
   "Sortie mondiale — 19 novembre 2026",
-  "Precommandes ouvertes",
+  "Précommandes ouvertes",
   "Standard 79,99 €",
   "Ultimate 99,99 €",
   "PS5 · Xbox Series X|S",
   "Vice City",
-  "Etat de Leonida",
+  "État de Leonida",
   "Jason & Lucia",
 ];
 
@@ -92,7 +92,7 @@ export default function HomePage() {
 
         <Container className="relative flex h-[min(92svh,1000px)] min-h-[640px] flex-col justify-center py-16">
           <p className="text-[11px] font-bold uppercase tracking-mega text-sand sm:text-xs">
-            Le guide francais — non officiel
+            Le guide français — non officiel
           </p>
 
           <h1 className="mt-4 font-display uppercase leading-[0.85] tracking-wide">
@@ -105,9 +105,9 @@ export default function HomePage() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink/85 sm:text-lg">
-            Date de sortie, carte de Leonida, vehicules, personnages, astuces :
-            tout GTA 6 verifie et en francais — et des le jour J, les soluces
-            completes.
+            Date de sortie, carte de Leonida, véhicules, personnages, astuces :
+            tout GTA 6 vérifié et en français — et dès le jour J, les soluces
+            complètes.
           </p>
 
           <div className="mt-10">
@@ -211,7 +211,7 @@ export default function HomePage() {
       <EditionsSection num="02" />
 
       <Container>
-        <AdSlot slot="" label="Publicite" />
+        <AdSlot slot="" label="Publicité" />
       </Container>
 
       {/* ============================ DOSSIERS ============================ */}
@@ -219,7 +219,7 @@ export default function HomePage() {
         <Container>
           <SectionHeading
             num="03"
-            kicker="Guides & actu verifies"
+            kicker="Guides & actu vérifiés"
             title="Les dossiers"
             action={{ label: "Tout voir", href: "/guides" }}
           />
@@ -242,7 +242,7 @@ export default function HomePage() {
               <div className="absolute inset-0 bg-gradient-to-r from-bg/95 via-bg/60 to-bg/10" />
               <div className="relative p-8 sm:p-12 sm:pr-[38%]">
                 <p className="text-[11px] font-bold uppercase tracking-mega text-sand">
-                  A la une
+                  À la une
                 </p>
                 <h3 className="mt-3 max-w-2xl font-display text-3xl uppercase leading-none tracking-wide text-ink group-hover:text-gradient sm:text-5xl">
                   {feature.title}
@@ -293,7 +293,7 @@ export default function HomePage() {
                 name: "Lucia",
                 full: "Lucia Caminos",
                 desc:
-                  "Premiere protagoniste feminine de la serie principale. Sortie de prison, elle joue les regles a sa facon — et ne compte plus jamais y retourner.",
+                  "Première protagoniste feminine de la série principale. Sortie de prison, elle joue les regles a sa façon — et ne compte plus jamais y retourner.",
                 image: "/images/jason-lucia-motel.jpg",
                 position: "object-[45%_30%]",
               },
@@ -330,7 +330,7 @@ export default function HomePage() {
           </div>
           </Reveal>
           <p className="mt-4 text-center text-xs uppercase tracking-widest text-muted">
-            Un duo criminel a la Bonnie & Clyde — artworks officiels © Rockstar Games
+            Un duo criminel à la Bonnie & Clyde — artworks officiels © Rockstar Games
           </p>
         </Container>
       </section>
@@ -371,7 +371,7 @@ export default function HomePage() {
         </div>
         <Container>
           <p className="mt-2 text-center text-xs uppercase tracking-widest text-muted">
-            Personnages officiels devoiles par Rockstar — artworks © Rockstar Games
+            Personnages officiels dévoilés par Rockstar — artworks © Rockstar Games
           </p>
         </Container>
       </section>
@@ -396,7 +396,7 @@ export default function HomePage() {
         <Container>
           <SectionHeading
             num="07"
-            kicker="Noms officiels confirmes"
+            kicker="Noms officiels confirmés"
             title="Le garage"
             action={{ label: "Tous les vehicules", href: "/vehicules" }}
           />
@@ -418,7 +418,7 @@ export default function HomePage() {
                       className="object-cover transition-transform duration-300 group-hover:scale-[1.05]"
                     />
                     <span className="absolute left-2 top-2 inline-flex items-center gap-1 rounded-full border border-emerald-400/40 bg-black/60 px-2 py-0.5 text-[9px] font-bold uppercase tracking-widest text-emerald-300 backdrop-blur">
-                      <BadgeCheck className="h-3 w-3" /> Confirme
+                      <BadgeCheck className="h-3 w-3" /> Confirmé
                     </span>
                   </div>
                 )}
@@ -441,7 +441,7 @@ export default function HomePage() {
             href="/vehicules"
             className="mt-6 inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-vice-300 hover:text-vice sm:hidden"
           >
-            Tous les vehicules <ArrowRight className="h-4 w-4" />
+            Tous les véhicules <ArrowRight className="h-4 w-4" />
           </Link>
         </Container>
       </section>

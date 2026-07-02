@@ -111,7 +111,7 @@ export default async function ArticlePage({
             <div className="divider-sunset mt-6" />
           </header>
 
-          <AdSlot slot="" label="Publicite" className="mb-8" />
+          <AdSlot slot="" label="Publicité" className="mb-8" />
 
           <Markdown>{article.body}</Markdown>
 

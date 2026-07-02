@@ -12,7 +12,7 @@ import { lieux } from "@/lib/lieux";
 export const metadata: Metadata = buildMetadata({
   title: "Carte interactive de GTA 6 (Leonida)",
   description:
-    "Carte interactive de GTA 6 : explorez l'Etat de Leonida, Vice City, les Leonida Keys et les points d'interet. Filtres, zoom et reperage des lieux.",
+    "Carte interactive de GTA 6 : explorez l'État de Leonida, Vice City, les Leonida Keys et les points d'intérêt. Filtres, zoom et reperage des lieux.",
   path: "/carte",
   keywords: ["carte gta 6", "map gta 6", "carte leonida", "vice city carte"],
 });
@@ -24,19 +24,19 @@ export default function CartePage() {
       <Breadcrumbs items={[{ name: "Carte", path: "/carte" }]} />
 
       <PageHeader
-        kicker="L'Etat de Leonida"
+        kicker="L'État de Leonida"
         title="La"
         gradientWord="carte"
-        lede="GTA 6 se deroule dans l'Etat fictif de Leonida (inspire de la Floride), avec Vice City pour metropole. Explorez les regions connues a ce jour — la carte officielle sera integree des sa publication par Rockstar."
+        lede="GTA 6 se deroule dans l'État fictif de Leonida (inspire de la Floride), avec Vice City pour métropole. Explorez les régions connues à ce jour — la carte officielle sera intégrée des sa publication par Rockstar."
       />
 
       <MapExplorer />
 
-      <AdSlot slot="" label="Publicite" className="my-10" />
+      <AdSlot slot="" label="Publicité" className="my-10" />
 
       <section className="mt-4">
         <h2 className="mb-5 font-display text-3xl uppercase tracking-wide">
-          Les <span className="text-gradient-hot">regions</span> de Leonida
+          Les <span className="text-gradient-hot">régions</span> de Leonida
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {lieux.map((l) => (

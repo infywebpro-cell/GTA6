@@ -1,5 +1,5 @@
 /**
- * En-tete de page unifie : kicker + titre affiche (mot en degrade) + lede
+ * En-tete de page unifie : kicker + titre affiche (mot en dégradé) + lede
  * + separateur sunset. Garantit la coherence entre toutes les pages.
  */
 export function PageHeader({
@@ -9,9 +9,9 @@ export function PageHeader({
   lede,
 }: {
   kicker: string;
-  /** Partie du titre en couleur encre (avant le mot en degrade). */
+  /** Partie du titre en couleur encre (avant le mot en dégradé). */
   title: string;
-  /** Mot mis en valeur en degrade sunset (optionnel). */
+  /** Mot mis en valeur en dégradé sunset (optionnel). */
   gradientWord?: string;
   lede?: string;
 }) {

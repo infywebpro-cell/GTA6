@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 
 export interface VerticalTabItem {
   id: string;
-  /** Contenu du bouton d'onglet. Recoit l'etat actif. */
+  /** Contenu du bouton d'onglet. Recoit l'état actif. */
   trigger: (active: boolean) => React.ReactNode;
   /** Contenu du panneau. */
   content: React.ReactNode;

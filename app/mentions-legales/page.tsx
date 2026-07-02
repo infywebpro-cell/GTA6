@@ -30,7 +30,7 @@ export default function MentionsLegalesPage() {
           <p>
             Site heberge par <em>[A completer : nom de l'hebergeur, ex. Vercel Inc.]</em>.
           </p>
-          <h2>Propriete intellectuelle</h2>
+          <h2>Propriété intellectuelle</h2>
           <p>
             « Grand Theft Auto », « GTA » et l'ensemble des marques, logos et
             visuels associes sont la propriete de Rockstar Games et de Take-Two
@@ -41,9 +41,9 @@ export default function MentionsLegalesPage() {
           <h2>Responsabilite</h2>
           <p>
             Les informations relatives a GTA 6 sont fournies a titre indicatif et
-            peuvent evoluer. Avant la sortie du jeu, une partie des contenus
+            peuvent évoluer. Avant la sortie du jeu, une partie des contenus
             repose sur des annonces officielles, des bandes-annonces et, le cas
-            echeant, des informations rapportees clairement signalees.
+            echeant, des informations rapportées clairement signalees.
           </p>
         </div>
       </div>

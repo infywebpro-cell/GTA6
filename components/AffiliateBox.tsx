@@ -45,7 +45,7 @@ export function AffiliateStrip({
   return (
     <section className="my-12 overflow-hidden rounded-3xl border border-border bg-gradient-to-br from-surface via-surface to-surface-2 p-6">
       <p className="text-[11px] font-bold uppercase tracking-mega text-sand">
-        Selection materiel
+        Sélection matériel
       </p>
       <h2 className="mt-1 font-display text-2xl uppercase tracking-wide text-ink sm:text-3xl">
         {title}

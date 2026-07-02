@@ -7,11 +7,11 @@ import { VerticalTabs } from "@/components/ui/vertical-tabs";
 import { regions } from "@/lib/regions";
 import { cn } from "@/lib/utils";
 
-/** Vitrine des regions de Leonida : onglets verticaux + artwork officiel. */
+/** Vitrine des régions de Leonida : onglets verticaux + artwork officiel. */
 export function RegionTabs() {
   return (
     <VerticalTabs
-      label="Regions de Leonida"
+      label="Régions de Leonida"
       items={regions.map((r) => ({
         id: r.id,
         trigger: (active) => (
@@ -81,7 +81,7 @@ export function RegionTabs() {
                       : "border-haze/40 bg-haze/10 text-haze-300"
                   )}
                 >
-                  {r.status === "officiel" ? "Lieu officiel" : "Rapporte"}
+                  {r.status === "officiel" ? "Lieu officiel" : "Rapporté"}
                 </span>
               </div>
             </div>

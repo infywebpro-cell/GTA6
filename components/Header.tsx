@@ -82,7 +82,7 @@ export function Header() {
         </Container>
       </div>
 
-      {/* Menu mobile plein ecran, typographie affiche */}
+      {/* Menu mobile plein écran, typographie affiche */}
       {open && (
         <nav
           className="fixed inset-x-0 bottom-0 top-[67px] z-40 overflow-y-auto bg-bg/97 backdrop-blur-xl lg:hidden"

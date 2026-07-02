@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = buildMetadata({
   title: "A propos",
   description:
-    "Qui sommes-nous ? Guide GTA 6 est un site de fans francais dedie a Grand Theft Auto VI : guides, soluces, carte et vehicules.",
+    "Qui sommes-nous ? Guide GTA 6 est un site de fans français dedie a Grand Theft Auto VI : guides, soluces, carte et véhicules.",
   path: "/a-propos",
 });
 
@@ -21,29 +21,29 @@ export default function AProposPage() {
           kicker="Le site"
           title="A"
           gradientWord="propos"
-          lede={`${siteConfig.name}, la reference francophone independante sur Grand Theft Auto VI.`}
+          lede={`${siteConfig.name}, la référence francophone independante sur Grand Theft Auto VI.`}
         />
         <div className="prose-gta">
           <p>
             {siteConfig.name} est un site independant, tenu par des passionnes de
             la serie Grand Theft Auto. Notre objectif : devenir la reference
-            francophone sur <strong>GTA 6</strong>, du compte a rebours jusqu'a la
-            sortie le 19 novembre 2026, puis bien au-dela avec des soluces et des
+            francophone sur <strong>GTA 6</strong>, du compte a rebours jusqu'à la
+            sortie le 19 novembre 2026, puis bien au-delà avec des soluces et des
             guides complets.
           </p>
           <h2>Notre ligne editoriale</h2>
           <p>
             Nous distinguons toujours les <strong>informations officielles</strong>{" "}
-            (annoncees par Rockstar Games) des rumeurs et fuites. Quand une
-            information n'est pas confirmee, nous l'indiquons clairement. Notre
-            promesse : pas de fausses dates, pas de fausses caracteristiques.
+            (annoncées par Rockstar Games) des rumeurs et fuites. Quand une
+            information n'est pas confirmée, nous l'indiquons clairement. Notre
+            promesse : pas de fausses dates, pas de fausses caractéristiques.
           </p>
           <h2>Ce que vous trouverez ici</h2>
           <ul>
-            <li>L'actualite verifiee de GTA 6 (date de sortie, precommandes, trailers) ;</li>
-            <li>Une carte interactive de l'Etat de Leonida ;</li>
-            <li>Une base de vehicules apercus dans le jeu ;</li>
-            <li>Des guides debutant, des astuces et, des le lancement, des soluces.</li>
+            <li>L'actualité vérifiée de GTA 6 (date de sortie, précommandes, trailers) ;</li>
+            <li>Une carte interactive de l'État de Leonida ;</li>
+            <li>Une base de véhicules aperçus dans le jeu ;</li>
+            <li>Des guides débutant, des astuces et, dès le lancement, des soluces.</li>
           </ul>
           <h2>Independance</h2>
           <p>

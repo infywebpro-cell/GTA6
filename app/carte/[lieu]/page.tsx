@@ -44,7 +44,7 @@ function placeLd(l: NonNullable<ReturnType<typeof getLieu>>) {
     image: absoluteUrl(l.image),
     containedInPlace: {
       "@type": "Place",
-      name: "Etat de Leonida (Grand Theft Auto VI)",
+      name: "État de Leonida (Grand Theft Auto VI)",
     },
   };
 }
@@ -99,7 +99,7 @@ export default async function LieuPage({
                 : "border-haze/40 bg-haze/10 text-haze-300"
             )}
           >
-            {l.status === "officiel" ? "Lieu officiel" : "Rapporte"}
+            {l.status === "officiel" ? "Lieu officiel" : "Rapporté"}
           </span>
         </div>
       </header>
@@ -112,10 +112,10 @@ export default async function LieuPage({
             </p>
           ))}
 
-          <AdSlot slot="" label="Publicite" className="my-8" />
+          <AdSlot slot="" label="Publicité" className="my-8" />
 
           <h2 className="mb-4 mt-10 font-display text-3xl uppercase tracking-wide">
-            Points <span className="text-gradient-hot">d'interet</span>
+            Points <span className="text-gradient-hot">d'intérêt</span>
           </h2>
           <ul className="space-y-2.5">
             {l.pois.map((poi) => (
@@ -153,7 +153,7 @@ export default async function LieuPage({
 
           <div className="rounded-3xl border border-border bg-surface p-5">
             <h2 className="mb-4 text-[11px] font-bold uppercase tracking-mega text-sand">
-              Les autres regions
+              Les autres régions
             </h2>
             <ul className="space-y-1">
               {autres.map((o) => (
@@ -179,7 +179,7 @@ export default async function LieuPage({
 
           <div className="rounded-3xl border border-border bg-surface/60 p-5 text-xs leading-relaxed text-muted">
             Les positions precises proviennent de la reconstitution communautaire
-            (mapping project) : elles seront verifiees des la publication de la
+            (mapping project) : elles seront vérifiées des la publication de la
             carte officielle par Rockstar.
           </div>
         </aside>

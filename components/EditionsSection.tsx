@@ -18,16 +18,16 @@ const ULTIMATE = [
   "Contenus exclusifs debloques au fil de l'histoire",
 ];
 
-/** Section editions & prix officiels (precommandes ouvertes). */
+/** Section éditions & prix officiels (précommandes ouvertes). */
 export function EditionsSection({ num }: { num: string }) {
   return (
     <section className="border-t border-border py-16 sm:py-20">
       <Container>
         <SectionHeading
           num={num}
-          kicker="Precommandes ouvertes depuis le 25 juin"
-          title="Les editions"
-          action={{ label: "Guide precommande", href: "/guides/precommande-gta-6-editions-prix" }}
+          kicker="Précommandes ouvertes depuis le 25 juin"
+          title="Les éditions"
+          action={{ label: "Guide précommande", href: "/guides/precommande-gta-6-editions-prix" }}
         />
 
         <Reveal>
@@ -61,14 +61,14 @@ export function EditionsSection({ num }: { num: string }) {
             <div className="relative h-40 sm:h-44">
               <Image
                 src="/images/veh-vapid-buggy.jpg"
-                alt="Vapid Dominator Buggy (1967) — exclusivite de l'edition Ultimate"
+                alt="Vapid Dominator Buggy (1967) — exclusivite de l'édition Ultimate"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent" />
               <span className="btn-sunset absolute left-4 top-4 rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-bg">
-                La plus complete
+                La plus complète
               </span>
             </div>
             <div className="flex flex-1 flex-col p-7 pt-3">
@@ -90,21 +90,21 @@ export function EditionsSection({ num }: { num: string }) {
                 href="/guides/precommande-gta-6-editions-prix"
                 className="btn-sunset mt-7 inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-xs font-bold uppercase tracking-widest text-bg"
               >
-                Comparer les editions <ArrowRight className="h-4 w-4" />
+                Comparer les éditions <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
           </div>
         </div>
 
-        {/* Bonus precommande */}
+        {/* Bonus précommande */}
         <div className="mt-5 flex flex-col items-start gap-3 rounded-3xl border border-sand/30 bg-sand/5 p-5 sm:flex-row sm:items-center backdrop-blur">
           <span className="inline-flex items-center gap-2 rounded-full border border-sand/40 bg-sand/10 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-sand">
             <Gift className="h-3.5 w-3.5" /> Bonus officiel
           </span>
           <p className="text-sm text-muted">
             <strong className="text-ink">Pack Vice City Vintage offert</strong>{" "}
-            pour toute precommande jusqu'au 20 novembre 2026 — Vapid Stanier
-            vintage, tenues et motifs d'armes retro, sur toutes les editions.
+            pour toute précommande jusqu'au 20 novembre 2026 — Vapid Stanier
+            vintage, tenues et motifs d'armes rétro, sur toutes les éditions.
           </p>
         </div>
         </Reveal>

@@ -9,7 +9,7 @@ import { vehicles, vehicleClasses, type VehicleClass } from "@/lib/vehicles";
 
 const statusStyle: Record<string, { label: string; cls: string }> = {
   confirme: {
-    label: "Confirme",
+    label: "Confirmé",
     cls: "border-emerald-400/40 bg-emerald-400/10 text-emerald-300",
   },
   apercu: {
@@ -17,7 +17,7 @@ const statusStyle: Record<string, { label: string; cls: string }> = {
     cls: "border-sunset/40 bg-sunset/10 text-sunset-300",
   },
   suppose: {
-    label: "Suppose",
+    label: "Supposé",
     cls: "border-haze/40 bg-haze/10 text-haze-300",
   },
 };
@@ -48,7 +48,7 @@ export function VehicleBrowser() {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Rechercher un vehicule (Cheetah, Squalo...)"
+            placeholder="Rechercher un véhicule (Cheetah, Squalo...)"
             className="w-full rounded-full border border-border bg-surface py-2.5 pl-11 pr-4 text-sm text-ink placeholder:text-muted focus:border-vice focus:outline-none"
           />
         </div>
@@ -67,7 +67,7 @@ export function VehicleBrowser() {
 
       {filtered.length === 0 ? (
         <p className="rounded-2xl border border-border bg-surface p-8 text-center text-sm text-muted">
-          Aucun vehicule ne correspond a votre recherche.
+          Aucun véhicule ne correspond à votre recherche.
         </p>
       ) : (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

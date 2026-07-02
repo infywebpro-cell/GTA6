@@ -14,9 +14,9 @@ function diff() {
   return { days, hours, minutes, seconds };
 }
 
-/** Compte a rebours "affiche" : chiffres geants en degrade sunset. */
+/** Compte a rebours "affiche" : chiffres geants en dégradé sunset. */
 export function Countdown() {
-  // null au premier rendu serveur pour eviter les ecarts d'hydratation
+  // null au premier rendu serveur pour éviter les ecarts d'hydratation
   const [t, setT] = useState<ReturnType<typeof diff>>(null);
 
   useEffect(() => {

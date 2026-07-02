@@ -1,6 +1,6 @@
 /**
- * Configuration centrale du site. Tout ce qui touche a la marque, au domaine
- * et a la monetisation passe par ici pour rester modifiable en un seul endroit.
+ * Configuration centrale du site. Tout ce qui touche à la marque, au domaine
+ * et à la monetisation passe par ici pour rester modifiable en un seul endroit.
  */
 
 export const siteConfig = {
@@ -12,8 +12,8 @@ export const siteConfig = {
   locale: "fr_FR",
   lang: "fr",
   description:
-    "Guide GTA 6 : la reference francaise sur Grand Theft Auto VI. Date de sortie, carte interactive de Leonida, base de vehicules, soluces, astuces et codes.",
-  tagline: "Guides, soluces, carte et vehicules de GTA 6",
+    "Guide GTA 6 : la référence francaise sur Grand Theft Auto VI. Date de sortie, carte interactive de Leonida, base de véhicules, soluces, astuces et codes.",
+  tagline: "Guides, soluces, carte et véhicules de GTA 6",
   twitter: "@guidegta6",
   // Monetisation (vide tant que non configure -> placeholders)
   adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "",
@@ -28,7 +28,7 @@ export const mainNav: NavItem[] = [
   { label: "Guides", href: "/guides" },
   { label: "Soluces", href: "/soluces" },
   { label: "Carte", href: "/carte" },
-  { label: "Vehicules", href: "/vehicules" },
+  { label: "Véhicules", href: "/vehicules" },
   { label: "Astuces", href: "/astuces" },
 ];
 

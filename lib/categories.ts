@@ -1,8 +1,8 @@
 import type { LucideIcon } from "lucide-react";
 import { Newspaper, BookOpen, ListChecks, Sparkles } from "lucide-react";
 
-/** Categories editoriales (articles). Les sections "Carte" et "Vehicules"
- *  sont des fonctionnalites dediees, pas des categories d'articles. */
+/** Catégories editoriales (articles). Les sections "Carte" et "Véhicules"
+ *  sont des fonctionnalites dediees, pas des catégories d'articles. */
 export type Category = "actu" | "guides" | "soluces" | "astuces";
 
 export const CATEGORIES: Category[] = ["actu", "guides", "soluces", "astuces"];
@@ -21,7 +21,7 @@ export const categoryMeta: Record<Category, CategoryMeta> = {
     label: "Actu",
     title: "Actualites GTA 6",
     description:
-      "Toute l'actualite de Grand Theft Auto VI : date de sortie, mises a jour, contenus et annonces de Rockstar Games.",
+      "Toute l'actualite de Grand Theft Auto VI : date de sortie, mises à jour, contenus et annonces de Rockstar Games.",
     icon: Newspaper,
   },
   guides: {

@@ -33,7 +33,7 @@ export function SearchClient({ index }: { index: SearchEntry[] }) {
           type="search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="Rechercher un guide, une astuce, un vehicule..."
+          placeholder="Rechercher un guide, une astuce, un véhicule..."
           className="w-full rounded-full border border-border bg-surface py-3 pl-11 pr-4 text-ink placeholder:text-muted focus:border-vice focus:outline-none"
         />
       </div>

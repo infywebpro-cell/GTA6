@@ -9,11 +9,11 @@ import { buildMetadata, itemListLd } from "@/lib/seo";
 import { vehicles } from "@/lib/vehicles";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Vehicules GTA 6 : voitures, motos, bateaux",
+  title: "Véhicules GTA 6 : voitures, motos, bateaux",
   description:
-    "Base de vehicules GTA 6 : voitures, motos, bateaux et avions apercus dans les trailers. Recherche et filtres par categorie pour preparer Vice City.",
+    "Base de véhicules GTA 6 : voitures, motos, bateaux et avions apercus dans les trailers. Recherche et filtres par catégorie pour preparer Vice City.",
   path: "/vehicules",
-  keywords: ["vehicules gta 6", "voitures gta 6", "liste vehicules gta 6"],
+  keywords: ["véhicules gta 6", "voitures gta 6", "liste véhicules gta 6"],
 });
 
 export default function VehiculesPage() {
@@ -24,18 +24,18 @@ export default function VehiculesPage() {
           vehicles.map((v) => ({ name: v.name, path: `/vehicules/${v.slug}` }))
         )}
       />
-      <Breadcrumbs items={[{ name: "Vehicules", path: "/vehicules" }]} />
+      <Breadcrumbs items={[{ name: "Véhicules", path: "/vehicules" }]} />
 
       <PageHeader
         kicker="Trailers & media kit officiels"
         title="Le"
         gradientWord="garage"
-        lede="Grotti Cheetah, Squalo, Vapid Stanier... : les vehicules de GTA 6 confirmes par Rockstar (media kit des editions) et ceux apercus dans les bandes-annonces. Chaque fiche indique son statut — les stats detaillees arriveront des la sortie, le 19 novembre 2026."
+        lede="Grotti Cheetah, Squalo, Vapid Stanier... : les véhicules de GTA 6 confirmés par Rockstar (media kit des éditions) et ceux apercus dans les bandes-annonces. Chaque fiche indique son statut — les stats détaillées arriveront des la sortie, le 19 novembre 2026."
       />
 
       <VehicleBrowser />
 
-      <AdSlot slot="" label="Publicite" className="mt-10" />
+      <AdSlot slot="" label="Publicité" className="mt-10" />
     </Container>
   );
 }

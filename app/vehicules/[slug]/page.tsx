@@ -12,9 +12,9 @@ import { vehicles, getVehicle } from "@/lib/vehicles";
 export const dynamicParams = false;
 
 const statusLabel: Record<string, string> = {
-  confirme: "Confirme officiellement",
+  confirme: "Confirmé officiellement",
   apercu: "Apercu dans les trailers officiels",
-  suppose: "Suppose / a confirmer",
+  suppose: "Supposé / à confirmer",
 };
 
 export function generateStaticParams() {
@@ -30,10 +30,10 @@ export async function generateMetadata({
   const v = getVehicle(slug);
   if (!v) return {};
   return buildMetadata({
-    title: `${v.name} — Vehicule GTA 6`,
+    title: `${v.name} — Véhicule GTA 6`,
     description: `${v.name} dans GTA 6 : ${v.description}`.slice(0, 155),
     path: `/vehicules/${slug}`,
-    keywords: [`${v.name} gta 6`, "vehicules gta 6", v.class.toLowerCase()],
+    keywords: [`${v.name} gta 6`, "véhicules gta 6", v.class.toLowerCase()],
     image: v.image,
   });
 }
@@ -54,7 +54,7 @@ export default async function VehiclePage({
       <div className="mx-auto max-w-3xl">
         <Breadcrumbs
           items={[
-            { name: "Vehicules", path: "/vehicules" },
+            { name: "Véhicules", path: "/vehicules" },
             { name: v.name, path: `/vehicules/${slug}` },
           ]}
         />
@@ -100,8 +100,8 @@ export default async function VehiclePage({
 
         <p className="mt-5 rounded-2xl border border-border bg-surface/70 p-4 text-sm leading-relaxed text-muted">
           Les caracteristiques detaillees (vitesse, maniabilite, prix in-game,
-          ou l'acheter) seront ajoutees apres la sortie de GTA 6, le 19 novembre
-          2026. Le nom officiel in-game sera egalement mis a jour des sa
+          ou l'acheter) seront ajoutees après la sortie de GTA 6, le 19 novembre
+          2026. Le nom officiel in-game sera également mis à jour des sa
           confirmation.
         </p>
 

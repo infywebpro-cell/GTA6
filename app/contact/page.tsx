@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = buildMetadata({
   title: "Contact",
-  description: "Contactez l'equipe de Guide GTA 6.",
+  description: "Contactez l'équipe de Guide GTA 6.",
   path: "/contact",
 });
 

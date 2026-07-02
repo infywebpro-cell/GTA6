@@ -1,5 +1,5 @@
 /**
- * Regions de l'Etat de Leonida — visuels officiels Rockstar (media kit,
+ * Régions de l'État de Leonida — visuels officiels Rockstar (media kit,
  * sections "Places" du site officiel).
  */
 export interface Region {
@@ -18,9 +18,9 @@ export const regions: Region[] = [
     id: "vice-city",
     num: "01",
     name: "Vice City",
-    tagline: "La metropole neon",
+    tagline: "La métropole neon",
     description:
-      "Inspiree de Miami : plages, art deco, nightlife et gratte-ciels. Le coeur battant de GTA 6 et la ville la plus dense jamais construite par Rockstar.",
+      "Inspirée de Miami : plages, art deco, nightlife et gratte-ciels. Le coeur battant de GTA 6 et la ville la plus dense jamais construite par Rockstar.",
     status: "officiel",
     image: "/images/region-vicecity.jpg",
   },
@@ -30,7 +30,7 @@ export const regions: Region[] = [
     name: "Leonida Keys",
     tagline: "Le chapelet d'iles",
     description:
-      "Ponts sans fin, marinas et eaux turquoise au sud de l'Etat — la version GTA des Florida Keys, paradis du hors-bord.",
+      "Ponts sans fin, marinas et eaux turquoise au sud de l'État — la version GTA des Florida Keys, paradis du hors-bord.",
     status: "officiel",
     image: "/images/region-leonidakeys.jpg",
   },
@@ -60,7 +60,7 @@ export const regions: Region[] = [
     name: "Port Gellhorn",
     tagline: "La ville portuaire",
     description:
-      "Industrie, rouille et motels defraichis : la face cachee de l'Etat, theatre ideal pour les trafics en tous genres.",
+      "Industrie, rouille et motels defraichis : la face cachee de l'État, theatre idéal pour les trafics en tous genres.",
     status: "officiel",
     image: "/images/region-portgellhorn.jpg",
   },
@@ -70,7 +70,7 @@ export const regions: Region[] = [
     name: "Ambrosia",
     tagline: "L'arriere-pays",
     description:
-      "Champs de canne, raffineries et lignes droites brulantes. L'Amerique rurale de Leonida, a mille lieues du strip.",
+      "Champs de canne, raffineries et lignes droites brulantes. L'Amérique rurale de Leonida, à mille lieues du strip.",
     status: "officiel",
     image: "/images/region-ambrosia.jpg",
   },

@@ -11,7 +11,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = {
   ...buildMetadata({
     title: "Recherche",
-    description: "Rechercher un guide, une astuce ou un vehicule GTA 6.",
+    description: "Rechercher un guide, une astuce ou un véhicule GTA 6.",
     path: "/recherche",
     noindex: true,
   }),
@@ -28,7 +28,7 @@ function buildIndex(): SearchEntry[] {
     title: v.name,
     href: `/vehicules/${v.slug}`,
     excerpt: v.description,
-    kind: "Vehicule",
+    kind: "Véhicule",
   }));
   return [...articles, ...veh];
 }
@@ -38,10 +38,10 @@ export default function RecherchePage() {
   return (
     <Container className="py-10">
       <PageHeader
-        kicker="Guides, vehicules, lieux"
+        kicker="Guides, véhicules, lieux"
         title=""
         gradientWord="Recherche"
-        lede="Trouvez un guide, une astuce ou un vehicule en quelques lettres."
+        lede="Trouvez un guide, une astuce ou un véhicule en quelques lettres."
       />
       <div className="mx-auto max-w-2xl">
         <Suspense fallback={null}>

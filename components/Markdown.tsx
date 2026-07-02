@@ -7,7 +7,7 @@ import { getArticleBySlug } from "@/lib/content";
  * Resout les liens internes des articles.
  * Les corps Markdown referencent d'autres contenus par slug nu
  * (ex: "date-de-sortie-gta-6") : on reconstruit l'URL canonique
- * /<categorie>/<slug>. Un slug inconnu est rendu en texte simple
+ * /<catégorie>/<slug>. Un slug inconnu est rendu en texte simple
  * (zero lien casse pour le crawl).
  */
 function resolveHref(href: string): string | null {

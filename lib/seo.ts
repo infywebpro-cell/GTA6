@@ -6,7 +6,7 @@ interface PageSeo {
   title: string;
   description: string;
   path: string;
-  /** Image OG specifique (chemin public). Defaut: OG dynamique du site. */
+  /** Image OG spécifique (chemin public). Defaut: OG dynamique du site. */
   image?: string;
   type?: "website" | "article";
   publishedTime?: string;
@@ -49,7 +49,7 @@ export function buildMetadata(seo: PageSeo): Metadata {
   };
 }
 
-/** URL de l'image OpenGraph generee dynamiquement (route /og). */
+/** URL de l'image OpenGraph générée dynamiquement (route /og). */
 export function ogImageUrl(title: string): string {
   return absoluteUrl(`/og?title=${encodeURIComponent(title.slice(0, 110))}`);
 }

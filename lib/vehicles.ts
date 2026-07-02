@@ -1,12 +1,12 @@
 /**
- * Base de vehicules GTA 6.
+ * Base de véhicules GTA 6.
  *
  * Statuts :
- *  - "confirme" : nom officiel revele par Rockstar (media kit editions,
- *    screenshots officiels des precommandes du 25 juin 2026)
- *  - "apercu"   : vehicule visible dans les bandes-annonces officielles,
+ *  - "confirmé" : nom officiel révélé par Rockstar (media kit éditions,
+ *    screenshots officiels des précommandes du 25 juin 2026)
+ *  - "apercu"   : véhicule visible dans les bandes-annonces officielles,
  *    nom in-game encore inconnu (description factuelle)
- *  - "suppose"  : categorie attendue (historique de la serie), a confirmer
+ *  - "supposé"  : catégorie attendue (historique de la série), à confirmer
  * Les images proviennent du media kit officiel Rockstar Games.
  */
 
@@ -29,7 +29,7 @@ export interface Vehicle {
   class: VehicleClass;
   status: VehicleStatus;
   description: string;
-  /** Ou le vehicule a ete vu (trailer 1 / trailer 2 / media kit / attendu). */
+  /** Ou le véhicule a été vu (trailer 1 / trailer 2 / media kit / attendu). */
   seenIn?: string;
   /** Screenshot officiel Rockstar (chemin public). */
   image?: string;
@@ -47,7 +47,7 @@ export const vehicleClasses: VehicleClass[] = [
 ];
 
 export const vehicles: Vehicle[] = [
-  // --- CONFIRMES (noms officiels, media kit precommandes) -------------------
+  // --- CONFIRMÉS (noms officiels, media kit précommandes) -------------------
   {
     slug: "grotti-cheetah",
     name: "Grotti Cheetah",
@@ -57,7 +57,7 @@ export const vehicles: Vehicle[] = [
     seenIn: "Media kit officiel",
     image: "/images/veh-grotti-cheetah.jpg",
     description:
-      "La supercar legendaire de la serie fait son retour a Vice City. Devoilee dans les visuels officiels de l'edition Ultimate, la Cheetah reste la reference des sportives italiennes facon Grotti.",
+      "La supercar legendaire de la série fait son retour a Vice City. Dévoilée dans les visuels officiels de l'édition Ultimate, la Cheetah reste la référence des sportives italiennes façon Grotti.",
   },
   {
     slug: "squalo",
@@ -68,7 +68,7 @@ export const vehicles: Vehicle[] = [
     seenIn: "Media kit officiel",
     image: "/images/veh-squalo.jpg",
     description:
-      "Le hors-bord racing iconique de GTA, confirme par les screenshots officiels des editions. Taille pour les courses entre les Keys et les poursuites en haute mer.",
+      "Le hors-bord racing iconique de GTA, confirmé par les screenshots officiels des éditions. Taille pour les courses entre les Keys et les poursuites en haute mer.",
   },
   {
     slug: "vapid-dominator-buggy",
@@ -76,10 +76,10 @@ export const vehicles: Vehicle[] = [
     brand: "Vapid",
     class: "Muscle & classiques",
     status: "confirme",
-    seenIn: "Edition Ultimate",
+    seenIn: "Édition Ultimate",
     image: "/images/veh-vapid-buggy.jpg",
     description:
-      "Exclusivite de l'edition Ultimate (99,99 €) : cette Dominator de 1967 preparee facon buggy est livree avec le garage Paradise a Watson Bay. Le muscle car americain dans sa version la plus radicale.",
+      "Exclusivite de l'édition Ultimate (99,99 €) : cette Dominator de 1967 preparee façon buggy est livree avec le garage Paradise a Watson Bay. Le muscle car américain dans sa version la plus radicale.",
   },
   {
     slug: "vapid-stanier",
@@ -90,7 +90,7 @@ export const vehicles: Vehicle[] = [
     seenIn: "Pack Vice City Vintage",
     image: "/images/veh-vapid-stanier.jpg",
     description:
-      "La berline americaine culte de la serie revient dans une declinaison vintage, offerte via le pack Vice City Vintage remis avec toute precommande (du 25 juin au 20 novembre 2026).",
+      "La berline américaine culte de la série revient dans une declinaison vintage, offerte via le pack Vice City Vintage remis avec toute précommande (du 25 juin au 20 novembre 2026).",
   },
   {
     slug: "vapid-ganado-retro",
@@ -98,10 +98,10 @@ export const vehicles: Vehicle[] = [
     brand: "Vapid",
     class: "Tout-terrain",
     status: "confirme",
-    seenIn: "Edition Ultimate",
+    seenIn: "Édition Ultimate",
     image: "/images/veh-vapid-ganado.jpg",
     description:
-      "Pickup Vapid Ganado en preparation retro, apercu dans les visuels officiels des editions. Le compagnon ideal des routes d'Ambrosia.",
+      "Pickup Vapid Ganado en preparation retro, apercu dans les visuels officiels des éditions. Le compagnon idéal des routes d'Ambrosia.",
   },
   {
     slug: "canis-one-eyed-willie",
@@ -109,7 +109,7 @@ export const vehicles: Vehicle[] = [
     brand: "Canis",
     class: "Tout-terrain",
     status: "confirme",
-    seenIn: "Edition Ultimate",
+    seenIn: "Édition Ultimate",
     image: "/images/veh-one-eyed-willie.jpg",
     description:
       "Build tout-terrain surleve signe Canis, roues surdimensionnees et livree « WARNING » : le mudding floridien assume, tout droit sorti du media kit officiel.",
@@ -117,15 +117,15 @@ export const vehicles: Vehicle[] = [
   {
     slug: "collection-wyman",
     name: "Collection de Wyman",
-    brand: "Classiques varies",
+    brand: "Classiques variés",
     class: "Muscle & classiques",
     status: "confirme",
-    seenIn: "Edition Ultimate",
+    seenIn: "Édition Ultimate",
     image: "/images/veh-wyman-collection.jpg",
     description:
-      "Une collection de classiques americaines liee au personnage de Wyman, montree dans les screenshots officiels de l'edition Ultimate. Les amateurs de chrome sont servis.",
+      "Une collection de classiques américaines liée au personnage de Wyman, montree dans les screenshots officiels de l'édition Ultimate. Les amateurs de chrome sont servis.",
   },
-  // --- APERCUS (trailers officiels, noms a confirmer) -----------------------
+  // --- APERCUS (trailers officiels, noms à confirmer) -----------------------
   {
     slug: "cabriolet-lowrider-violet",
     name: "Cabriolet lowrider violet",
@@ -134,7 +134,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "Le cabriolet violet devenu embleme du jeu : c'est au volant de ce classique decapotable que Lucia apparait a la fin de la premiere bande-annonce.",
+      "Le cabriolet violet devenu embleme du jeu : c'est au volant de ce classique decapotable que Lucia apparaît à la fin de la première bande-annonce.",
   },
   {
     slug: "lowrider-hydraulique",
@@ -154,7 +154,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 2",
     description:
-      "Jason enfourche une sportive dans la deuxieme bande-annonce. Vitesse pure et wheelings sur l'asphalte de Vice City.",
+      "Jason enfourche une sportive dans la deuxième bande-annonce. Vitesse pure et wheelings sur l'asphalte de Vice City.",
   },
   {
     slug: "chopper-cruiser",
@@ -164,17 +164,17 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "Des cruisers descendent le strip du front de mer dans la premiere bande-annonce — l'esprit Floride jusque dans les guidons.",
+      "Des cruisers descendent le strip du front de mer dans la première bande-annonce — l'esprit Floride jusque dans les guidons.",
   },
   {
     slug: "pickup-jason",
-    name: "Pickup (le vehicule de Jason)",
+    name: "Pickup (le véhicule de Jason)",
     brand: "A confirmer",
     class: "Tout-terrain",
     status: "apercu",
     seenIn: "Trailer 2",
     description:
-      "Le pickup use que conduit Jason dans la deuxieme bande-annonce. Ideal pour l'arriere-pays d'Ambrosia et les chemins de terre.",
+      "Le pickup use que conduit Jason dans la deuxième bande-annonce. Idéal pour l'arriere-pays d'Ambrosia et les chemins de terre.",
   },
   {
     slug: "berline-banalisee",
@@ -184,7 +184,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailers 1 & 2",
     description:
-      "Le trafic de Leonida fourmille de berlines ordinaires — parfaites pour passer inapercu apres un coup.",
+      "Le trafic de Leonida fourmille de berlines ordinaires — parfaites pour passer inapercu après un coup.",
   },
   {
     slug: "suv-urbain",
@@ -204,7 +204,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "L'airboat a helice des marais de Grassrivers, apercu au milieu des alligators. LE vehicule signature des Everglades version GTA.",
+      "L'airboat a helice des marais de Grassrivers, apercu au milieu des alligators. LE véhicule signature des Everglades version GTA.",
   },
   {
     slug: "jet-ski",
@@ -234,18 +234,18 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "Projecteur braque sur les fuyards : l'helico de la police apparait des la premiere bande-annonce.",
+      "Projecteur braque sur les fuyards : l'helico de la police apparaît des la première bande-annonce.",
   },
   // --- SUPPOSES ---------------------------------------------------------------
   {
     slug: "avion-leger",
-    name: "Avion leger",
+    name: "Avion léger",
     brand: "A confirmer",
     class: "Aeriens",
     status: "suppose",
     seenIn: "Attendu",
     description:
-      "Avions de tourisme et petits coucous font partie de l'ADN de la serie. Leur presence a Leonida reste a confirmer officiellement.",
+      "Avions de tourisme et petits coucous font partie de l'ADN de la série. Leur présence a Leonida reste à confirmer officiellement.",
   },
   {
     slug: "helicoptere-civil",
@@ -255,7 +255,7 @@ export const vehicles: Vehicle[] = [
     status: "suppose",
     seenIn: "Attendu",
     description:
-      "Pour survoler Vice City et rejoindre les Keys en quelques minutes. Categorie attendue, sans apparition officielle claire pour l'instant.",
+      "Pour survoler Vice City et rejoindre les Keys en quelques minutes. Catégorie attendue, sans apparition officielle claire pour l'instant.",
   },
 ];
 

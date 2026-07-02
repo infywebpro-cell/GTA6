@@ -17,7 +17,7 @@ export default function ConfidentialitePage() {
     <Container className="py-10">
       <div className="mx-auto max-w-3xl">
         <Breadcrumbs items={[{ name: "Confidentialite", path: "/confidentialite" }]} />
-        <PageHeader kicker="Vos donnees" title="" gradientWord="Confidentialite" />
+        <PageHeader kicker="Vos données" title="" gradientWord="Confidentialite" />
         <div className="prose-gta">
           <p>
             Cette page explique comment {siteConfig.name} traite les donnees des
@@ -30,7 +30,7 @@ export default function ConfidentialitePage() {
             Ce site affiche de la publicite via <strong>Google AdSense</strong>.
             Google et ses partenaires peuvent utiliser des cookies pour diffuser
             des annonces basees sur vos visites sur ce site et d'autres sites.
-            Vous pouvez gerer vos preferences via les{" "}
+            Vous pouvez gerer vos préférences via les{" "}
             <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">
               parametres des annonces Google
             </a>
@@ -53,8 +53,8 @@ export default function ConfidentialitePage() {
 
           <h2>Vos droits (RGPD)</h2>
           <p>
-            Conformement au RGPD, vous disposez d'un droit d'acces, de
-            rectification et de suppression des donnees vous concernant. Pour
+            Conformement au RGPD, vous disposez d'un droit d'accès, de
+            rectification et de suppression des données vous concernant. Pour
             l'exercer, contactez-nous via la page{" "}
             <a href="/contact">Contact</a>.
           </p>

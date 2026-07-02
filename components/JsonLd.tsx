@@ -1,4 +1,4 @@
-/** Injecte un bloc JSON-LD (donnees structurees Schema.org). */
+/** Injecte un bloc JSON-LD (données structurees Schema.org). */
 export function JsonLd({ data }: { data: object | object[] }) {
   const json = Array.isArray(data) ? data : [data];
   return (
