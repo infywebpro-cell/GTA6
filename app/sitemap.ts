@@ -3,6 +3,7 @@ import { absoluteUrl } from "@/lib/site";
 import { getAllArticles } from "@/lib/content";
 import { CATEGORIES } from "@/lib/categories";
 import { vehicles } from "@/lib/vehicles";
+import { lieux } from "@/lib/lieux";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // lastmod des pages hub = date du contenu le plus recent
@@ -42,5 +43,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...staticPages, ...categoryPages, ...articlePages, ...vehiclePages];
+  const lieuPages: MetadataRoute.Sitemap = lieux.map((l) => ({
+    url: absoluteUrl(`/carte/${l.id}`),
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+
+  return [
+    ...staticPages,
+    ...categoryPages,
+    ...articlePages,
+    ...lieuPages,
+    ...vehiclePages,
+  ];
 }

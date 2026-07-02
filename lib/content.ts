@@ -1,5 +1,6 @@
 import type { Category } from "./categories";
 import { articles as rawArticles } from "@/content/articles";
+import { articlesJuillet } from "@/content/articles-juillet";
 import { articleCovers } from "./covers";
 
 export interface FaqItem {
@@ -26,7 +27,7 @@ export interface Article {
   updated: string;
 }
 
-const articles: Article[] = [...rawArticles]
+const articles: Article[] = [...rawArticles, ...articlesJuillet]
   .map((a) => ({ ...a, cover: a.cover ?? articleCovers[a.slug] }))
   .sort((a, b) => b.updated.localeCompare(a.updated));
 

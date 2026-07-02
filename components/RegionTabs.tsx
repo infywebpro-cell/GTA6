@@ -62,10 +62,16 @@ export function RegionTabs() {
               </p>
               <div className="mt-5 flex flex-wrap items-center gap-3">
                 <Link
-                  href="/carte"
+                  href={`/carte/${r.id}`}
                   className="btn-sunset inline-flex items-center gap-2 rounded-full px-4 py-2 text-[11px] font-bold uppercase tracking-widest text-bg"
                 >
-                  <MapPin className="h-3.5 w-3.5" /> Voir sur la carte
+                  <MapPin className="h-3.5 w-3.5" /> Guide du lieu
+                </Link>
+                <Link
+                  href="/carte"
+                  className="inline-flex items-center gap-2 rounded-full border border-ink/25 bg-bg/40 px-4 py-2 text-[11px] font-bold uppercase tracking-widest text-ink backdrop-blur transition-colors hover:border-vice"
+                >
+                  Carte interactive
                 </Link>
                 <span
                   className={cn(

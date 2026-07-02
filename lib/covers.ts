@@ -11,4 +11,6 @@ export const articleCovers: Record<string, string> = {
   "vehicules-gta-6-liste-voitures": "/images/veh-grotti-cheetah.jpg",
   "astuces-codes-gta-6": "/images/veh-electric-fang.jpg",
   "soluce-gta-6-guide-debutant": "/images/jason-lucia-motel.jpg",
+  "gta-6-en-ligne-mode-online": "/images/screen-vice-city-6.jpg",
+  "gta-6-config-pc": "/images/screen-skyline.jpg",
 };
