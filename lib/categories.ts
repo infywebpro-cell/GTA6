@@ -2,7 +2,7 @@ import type { LucideIcon } from "lucide-react";
 import { Newspaper, BookOpen, ListChecks, Sparkles } from "lucide-react";
 
 /** Catégories editoriales (articles). Les sections "Carte" et "Véhicules"
- *  sont des fonctionnalites dediees, pas des catégories d'articles. */
+ *  sont des fonctionnalités dediees, pas des catégories d'articles. */
 export type Category = "actu" | "guides" | "soluces" | "astuces";
 
 export const CATEGORIES: Category[] = ["actu", "guides", "soluces", "astuces"];

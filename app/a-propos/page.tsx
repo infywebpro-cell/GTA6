@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = buildMetadata({
   title: "A propos",
   description:
-    "Qui sommes-nous ? Guide GTA 6 est un site de fans français dedie a Grand Theft Auto VI : guides, soluces, carte et véhicules.",
+    "Qui sommes-nous ? Guide GTA 6 est un site de fans français dédié a Grand Theft Auto VI : guides, soluces, carte et véhicules.",
   path: "/a-propos",
 });
 

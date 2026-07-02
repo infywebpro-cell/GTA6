@@ -4,7 +4,7 @@
  * Statuts :
  *  - "confirmé" : nom officiel révélé par Rockstar (media kit éditions,
  *    screenshots officiels des précommandes du 25 juin 2026)
- *  - "apercu"   : véhicule visible dans les bandes-annonces officielles,
+ *  - "aperçu"   : véhicule visible dans les bandes-annonces officielles,
  *    nom in-game encore inconnu (description factuelle)
  *  - "supposé"  : catégorie attendue (historique de la série), à confirmer
  * Les images proviennent du media kit officiel Rockstar Games.
@@ -101,7 +101,7 @@ export const vehicles: Vehicle[] = [
     seenIn: "Édition Ultimate",
     image: "/images/veh-vapid-ganado.jpg",
     description:
-      "Pickup Vapid Ganado en preparation retro, apercu dans les visuels officiels des éditions. Le compagnon idéal des routes d'Ambrosia.",
+      "Pickup Vapid Ganado en preparation retro, aperçu dans les visuels officiels des éditions. Le compagnon idéal des routes d'Ambrosia.",
   },
   {
     slug: "canis-one-eyed-willie",
@@ -125,7 +125,7 @@ export const vehicles: Vehicle[] = [
     description:
       "Une collection de classiques américaines liée au personnage de Wyman, montree dans les screenshots officiels de l'édition Ultimate. Les amateurs de chrome sont servis.",
   },
-  // --- APERCUS (trailers officiels, noms à confirmer) -----------------------
+  // --- APERÇUS (trailers officiels, noms à confirmer) -----------------------
   {
     slug: "cabriolet-lowrider-violet",
     name: "Cabriolet lowrider violet",
@@ -144,7 +144,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "Apercus en plein bounce lors d'un rassemblement de rue : les lowriders a suspensions hydrauliques signent le retour de la culture car-meet dans GTA 6.",
+      "Aperçus en plein bounce lors d'un rassemblement de rue : les lowriders a suspensions hydrauliques signent le retour de la culture car-meet dans GTA 6.",
   },
   {
     slug: "moto-sportive",
@@ -194,7 +194,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailers 1 & 2",
     description:
-      "SUV et crossovers omnipresents dans les rues, a l'aise en ville comme sur les routes cotieres des Keys.",
+      "SUV et crossovers omnipresents dans les rues, a l'aise en ville comme sur les routes côtières des Keys.",
   },
   {
     slug: "hydroglisseur-airboat",
@@ -204,7 +204,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "L'airboat a helice des marais de Grassrivers, apercu au milieu des alligators. LE véhicule signature des Everglades version GTA.",
+      "L'airboat a helice des marais de Grassrivers, aperçu au milieu des alligators. LE véhicule signature des Everglades version GTA.",
   },
   {
     slug: "jet-ski",
@@ -214,7 +214,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 2",
     description:
-      "Apercu le long des plages de Vice City : le jet-ski promet des virees rapides entre marinas, canaux et haute mer.",
+      "Aperçu le long des plages de Vice City : le jet-ski promet des virees rapides entre marinas, canaux et haute mer.",
   },
   {
     slug: "voiture-police-vice",
@@ -234,7 +234,7 @@ export const vehicles: Vehicle[] = [
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "Projecteur braque sur les fuyards : l'helico de la police apparaît des la première bande-annonce.",
+      "Projecteur braque sur les fuyards : l'helico de la police apparaît dès $1 première bande-annonce.",
   },
   // --- SUPPOSES ---------------------------------------------------------------
   {

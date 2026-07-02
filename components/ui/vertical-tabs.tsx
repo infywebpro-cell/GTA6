@@ -1,13 +1,14 @@
 "use client";
 
 import * as React from "react";
-import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import { AnimatePresence, useReducedMotion } from "framer-motion";
+import { MotionProvider, m } from "@/components/Motion";
 import { cn } from "@/lib/utils";
 
 /**
  * Vertical tabs (style shadcn/21st.dev) : liste verticale d'onglets avec
  * indicateur actif anime (layoutId) + panneau de contenu en fondu/glisse.
- * Accessible (roles tablist/tab/tabpanel, fleches clavier), responsive
+ * Accessible (rôles tablist/tab/tabpanel, fleches clavier), responsive
  * (les onglets passent en rangee scrollable sous lg).
  */
 
@@ -59,6 +60,7 @@ export function VerticalTabs({
   }
 
   return (
+    <MotionProvider>
     <div className={cn("grid gap-5 lg:grid-cols-[320px_1fr]", className)}>
       <div
         role="tablist"
@@ -93,7 +95,7 @@ export function VerticalTabs({
               )}
             >
               {isActive && (
-                <motion.span
+                <m.span
                   layoutId="vtabs-indicator"
                   aria-hidden="true"
                   transition={
@@ -112,7 +114,7 @@ export function VerticalTabs({
 
       <div className={cn("relative", panelClassName)}>
         <AnimatePresence mode="wait" initial={false}>
-          <motion.div
+          <m.div
             key={active?.id}
             role="tabpanel"
             id={`panel-${active?.id}`}
@@ -124,9 +126,10 @@ export function VerticalTabs({
             className="h-full"
           >
             {active?.content}
-          </motion.div>
+          </m.div>
         </AnimatePresence>
       </div>
     </div>
+    </MotionProvider>
   );
 }

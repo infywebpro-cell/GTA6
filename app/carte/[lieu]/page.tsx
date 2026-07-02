@@ -128,7 +128,7 @@ export default async function LieuPage({
 
           <section className="mt-12">
             <h2 className="mb-5 flex items-center gap-3 font-display text-3xl uppercase tracking-wide">
-              <HelpCircle className="h-6 w-6 text-vice" /> Questions frequentes
+              <HelpCircle className="h-6 w-6 text-vice" /> Questions fréquentes
             </h2>
             <div className="divide-y divide-border rounded-2xl border border-border bg-surface">
               {l.faq.map((f, i) => (
@@ -179,7 +179,7 @@ export default async function LieuPage({
 
           <div className="rounded-3xl border border-border bg-surface/60 p-5 text-xs leading-relaxed text-muted">
             Les positions precises proviennent de la reconstitution communautaire
-            (mapping project) : elles seront vérifiées des la publication de la
+            (mapping project) : elles seront vérifiées dès $1 publication de la
             carte officielle par Rockstar.
           </div>
         </aside>

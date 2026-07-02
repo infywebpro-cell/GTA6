@@ -14,7 +14,7 @@ function diff() {
   return { days, hours, minutes, seconds };
 }
 
-/** Compte a rebours "affiche" : chiffres geants en dégradé sunset. */
+/** Compte a rebours "affiche" : chiffres géants en dégradé sunset. */
 export function Countdown() {
   // null au premier rendu serveur pour éviter les ecarts d'hydratation
   const [t, setT] = useState<ReturnType<typeof diff>>(null);
@@ -49,7 +49,10 @@ export function Countdown() {
         <div key={label} className="flex items-start gap-3 sm:gap-5">
           <div className="flex flex-col items-center">
             <span className="text-gradient font-display text-5xl leading-none tabular-nums sm:text-7xl">
-              {String(v).padStart(2, "0")}
+              {/* key = valeur : remontage a chaque tick -> animation digit-in */}
+              <span key={v} className="digit-anim">
+                {String(v).padStart(2, "0")}
+              </span>
             </span>
             <span className="mt-2 text-[10px] font-semibold uppercase tracking-mega text-muted">
               {label}

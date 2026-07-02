@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-/** Titre de section editorial : numéro geant + kicker + titre affiche. */
+/** Titre de section editorial : numéro géant + kicker + titre affiche. */
 export function SectionHeading({
   num,
   kicker,

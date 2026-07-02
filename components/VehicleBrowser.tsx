@@ -13,7 +13,7 @@ const statusStyle: Record<string, { label: string; cls: string }> = {
     cls: "border-emerald-400/40 bg-emerald-400/10 text-emerald-300",
   },
   apercu: {
-    label: "Apercu",
+    label: "Aperçu",
     cls: "border-sunset/40 bg-sunset/10 text-sunset-300",
   },
   suppose: {

@@ -2,9 +2,9 @@
  * Données de la carte interactive de Leonida (GTA 6).
  *
  * Fond de carte : reconstitution communautaire "YANIS — GTA VI Community
- * Map v13" (GTA VI Mapping Community), etablie a partir des trailers,
+ * Map v13" (GTA VI Mapping Community), établie a partir des trailers,
  * screenshots officiels et informations publiques. Carte NON officielle :
- * Rockstar n'a pas encore publie la carte du jeu.
+ * Rockstar n'a pas encore publié la carte du jeu.
  *
  * Les coordonnees x/y des marqueurs sont en pourcentage (0-100) de l'image
  * recadree (public/images/map-leonida-crop.jpg, 815x1140).
@@ -65,7 +65,7 @@ export const mapMarkers: MapMarker[] = [
     x: 84.7,
     y: 53.9,
     description:
-      "Le front de mer emblematique : sport, fetes, muscle beach et vie nocturne face a l'Atlantique.",
+      "Le front de mer emblématique : sport, fêtes, muscle beach et vie nocturne face à l'Atlantique.",
   },
   {
     id: "leonida-keys",
@@ -75,7 +75,7 @@ export const mapMarkers: MapMarker[] = [
     y: 92.8,
     quickNav: true,
     description:
-      "Chapelet d'iles tout au sud de l'État, relie par une route unique — la version GTA des Florida Keys.",
+      "Chapelet d'îles tout au sud de l'État, relie par une route unique — la version GTA des Florida Keys.",
   },
   {
     id: "grassrivers",
@@ -95,7 +95,7 @@ export const mapMarkers: MapMarker[] = [
     y: 44.9,
     quickNav: true,
     description:
-      "Zone rurale et industrielle de l'interieur des terres : champs de canne et raffineries.",
+      "Zone rurale et industrielle de l'intérieur des terres : champs de canne et raffineries.",
   },
   {
     id: "mount-kalaga",
@@ -105,7 +105,7 @@ export const mapMarkers: MapMarker[] = [
     y: 25,
     quickNav: true,
     description:
-      "Le grand parc national du nord : reliefs, forets et panoramas sur tout l'État.",
+      "Le grand parc national du nord : reliefs, forêts et panoramas sur tout l'État.",
   },
   {
     id: "port-gellhorn",
@@ -140,6 +140,6 @@ export const mapMarkers: MapMarker[] = [
     category: "interet",
     x: 77.3,
     y: 70.6,
-    description: "Ile au sud-est de Vice City, identifiee sur la carte communautaire.",
+    description: "Île au sud-est de Vice City, identifiee sur la carte communautaire.",
   },
 ];

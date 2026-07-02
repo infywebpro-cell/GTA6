@@ -235,12 +235,12 @@ export function MapExplorer() {
               </div>
             )}
 
-            {/* Controles zoom */}
+            {/* Contrôles zoom */}
             <div className="absolute bottom-3 right-3 flex flex-col gap-1">
               <ZoomBtn label="Zoom avant" onClick={() => zoomAtCenter(1.45)}>
                 <Plus className="h-4 w-4" />
               </ZoomBtn>
-              <ZoomBtn label="Zoom arriere" onClick={() => zoomAtCenter(1 / 1.45)}>
+              <ZoomBtn label="Zoom arrière" onClick={() => zoomAtCenter(1 / 1.45)}>
                 <Minus className="h-4 w-4" />
               </ZoomBtn>
               <ZoomBtn label="Recentrer" onClick={reset}>
@@ -308,7 +308,7 @@ export function MapExplorer() {
             Rockstar n'a pas encore publie la carte officielle de GTA 6. Cette
             reconstitution est l'oeuvre de la communaute (mapping project), a
             partir des trailers et screenshots officiels. Elle sera remplacee
-            par la carte officielle des sa publication.
+            par la carte officielle dès sa publication.
           </div>
         </aside>
       </div>

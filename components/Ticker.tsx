@@ -12,8 +12,9 @@ const DEFAULT_ITEMS = [
 export function Ticker({ items = DEFAULT_ITEMS }: { items?: string[] }) {
   const strip = [...items, ...items];
   return (
-    <div className="overflow-hidden border-y border-border bg-surface/60 py-3">
-      <div className="animate-marquee flex w-max items-center gap-8 whitespace-nowrap">
+    <div className="border-y border-border bg-surface/60 py-3">
+      <div className="mask-fade-x overflow-hidden">
+        <div className="animate-marquee flex w-max items-center gap-8 whitespace-nowrap">
         {strip.map((item, i) => (
           <span
             key={i}
@@ -24,6 +25,7 @@ export function Ticker({ items = DEFAULT_ITEMS }: { items?: string[] }) {
             <span className="text-gradient-hot text-base">✦</span>
           </span>
         ))}
+        </div>
       </div>
     </div>
   );

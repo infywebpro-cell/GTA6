@@ -18,7 +18,7 @@ export const regions: Region[] = [
     id: "vice-city",
     num: "01",
     name: "Vice City",
-    tagline: "La métropole neon",
+    tagline: "La métropole néon",
     description:
       "Inspirée de Miami : plages, art deco, nightlife et gratte-ciels. Le coeur battant de GTA 6 et la ville la plus dense jamais construite par Rockstar.",
     status: "officiel",
@@ -28,7 +28,7 @@ export const regions: Region[] = [
     id: "leonida-keys",
     num: "02",
     name: "Leonida Keys",
-    tagline: "Le chapelet d'iles",
+    tagline: "Le chapelet d'îles",
     description:
       "Ponts sans fin, marinas et eaux turquoise au sud de l'État — la version GTA des Florida Keys, paradis du hors-bord.",
     status: "officiel",
@@ -40,7 +40,7 @@ export const regions: Region[] = [
     name: "Grassrivers",
     tagline: "Les Everglades",
     description:
-      "Marais a perte de vue, alligators et cabanes sur pilotis. Terrain de jeu de l'hydroglisseur apercu dans le trailer 1.",
+      "Marais a perte de vue, alligators et cabanes sur pilotis. Terrain de jeu de l'hydroglisseur aperçu dans le trailer 1.",
     status: "officiel",
     image: "/images/region-grassrivers.jpg",
   },
@@ -50,7 +50,7 @@ export const regions: Region[] = [
     name: "Mount Kalaga",
     tagline: "Le parc national",
     description:
-      "Reliefs, forets et panoramas au nord de Leonida. Chasse, randonnee et routes sinueuses loin du tumulte de Vice City.",
+      "Reliefs, forêts et panoramas au nord de Leonida. Chasse, randonnée et routes sinueuses loin du tumulte de Vice City.",
     status: "officiel",
     image: "/images/region-mountkalaga.jpg",
   },
@@ -60,7 +60,7 @@ export const regions: Region[] = [
     name: "Port Gellhorn",
     tagline: "La ville portuaire",
     description:
-      "Industrie, rouille et motels defraichis : la face cachee de l'État, theatre idéal pour les trafics en tous genres.",
+      "Industrie, rouille et motels défraîchis : la face cachee de l'État, théâtre idéal pour les trafics en tous genres.",
     status: "officiel",
     image: "/images/region-portgellhorn.jpg",
   },

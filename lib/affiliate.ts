@@ -28,7 +28,7 @@ export function amazonLink(product: Pick<AmazonProduct, "query" | "asin">): stri
 }
 
 /**
- * Catalogue d'affiliation (issu de la recherche, a affiner avec des ASIN reels).
+ * Catalogue d'affiliation (issu de la recherche, a affiner avec des ASIN réels).
  * GTA 6 sort le 19 novembre 2026 sur PS5 / Xbox Series : les produits ci-dessous
  * preparent les joueurs au lancement.
  */
@@ -37,7 +37,7 @@ export const amazonProducts: AmazonProduct[] = [
     id: "ps5-slim",
     name: "Console PS5 Slim (lecteur de disque)",
     category: "Console",
-    pitch: "La console de référence pour jouer a GTA 6 des le 19 novembre 2026.",
+    pitch: "La console de référence pour jouer a GTA 6 dès $1 19 novembre 2026.",
     query: "PS5 Slim console lecteur disque",
     priceHint: "~ 499 €",
   },

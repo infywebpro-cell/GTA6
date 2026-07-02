@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Menu, X, Search } from "lucide-react";
 import { clsx } from "clsx";
 import { mainNav } from "@/lib/site";
@@ -24,13 +24,29 @@ function Wordmark() {
 export function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  // Effet verre progressif : transparent en haut de page, opaque au scroll.
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
     <header className="sticky top-0 z-50">
       {/* Liseré signature */}
       <div className="h-[3px] w-full bg-gradient-to-r from-sunset via-vice to-haze" />
 
-      <div className="border-b border-border bg-bg/85 backdrop-blur-md">
+      <div
+        className={clsx(
+          "border-b backdrop-blur-md transition-[background-color,border-color,box-shadow] duration-300",
+          scrolled
+            ? "border-border bg-bg/85 shadow-[0_10px_34px_-16px_rgba(0,0,0,0.7)]"
+            : "border-transparent bg-bg/40"
+        )}
+      >
         <Container className="flex h-16 items-center justify-between gap-4">
           <Link href="/" onClick={() => setOpen(false)} aria-label="Guide GTA 6 — accueil">
             <Wordmark />

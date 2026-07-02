@@ -16,7 +16,7 @@ export function PhotoStrip() {
   const strip = [...SHOTS, ...SHOTS];
   return (
     <section aria-label="Screenshots officiels de GTA 6" className="border-y border-border bg-surface/40 py-6">
-      <div className="overflow-hidden">
+      <div className="mask-fade-x overflow-hidden">
         <div className="animate-marquee flex w-max gap-4 [animation-duration:60s]">
           {strip.map((s, i) => (
             <div
@@ -29,6 +29,7 @@ export function PhotoStrip() {
                 alt={i < SHOTS.length ? s.alt : ""}
                 fill
                 sizes="370px"
+                quality={60}
                 className="object-cover"
               />
             </div>

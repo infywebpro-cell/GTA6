@@ -151,3 +151,76 @@
     height: 1px;
   }
 }
+
+@layer components {
+  /* --- Micro-animations premium --------------------------------------- */
+
+  /* Ken Burns : zoom lent et continu du key art du hero. */
+  @keyframes kenburns {
+    from {
+      transform: scale(1.02);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  .animate-kenburns {
+    animation: kenburns 28s ease-in-out infinite alternate;
+    will-change: transform;
+  }
+
+  /* Pause des marquees au survol (lecture des screenshots / du ticker). */
+  .animate-marquee:hover {
+    animation-play-state: paused;
+  }
+
+  /* Fondu des bords horizontaux (marquees, strips). */
+  .mask-fade-x {
+    -webkit-mask-image: linear-gradient(
+      90deg,
+      transparent,
+      black 5%,
+      black 95%,
+      transparent
+    );
+    mask-image: linear-gradient(90deg, transparent, black 5%, black 95%, transparent);
+  }
+
+  /* Feedback de pression sur les CTA. */
+  .btn-sunset {
+    transition:
+      filter 150ms ease,
+      transform 120ms ease;
+  }
+  .btn-sunset:active {
+    transform: scale(0.97);
+  }
+
+  /* Pop des chiffres du compte a rebours a chaque changement de valeur. */
+  @keyframes digit-in {
+    from {
+      transform: translateY(26%);
+      opacity: 0;
+      filter: blur(2px);
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+  .digit-anim {
+    display: inline-block;
+    animation: digit-in 0.32s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-kenburns,
+    .digit-anim {
+      animation: none;
+    }
+    .btn-sunset:active {
+      transform: none;
+    }
+  }
+}

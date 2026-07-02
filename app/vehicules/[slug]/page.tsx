@@ -13,7 +13,7 @@ export const dynamicParams = false;
 
 const statusLabel: Record<string, string> = {
   confirme: "Confirmé officiellement",
-  apercu: "Apercu dans les trailers officiels",
+  apercu: "Aperçu dans les trailers officiels",
   suppose: "Supposé / à confirmer",
 };
 
@@ -99,9 +99,9 @@ export default async function VehiclePage({
         <p className="mt-7 text-[15px] leading-7 text-muted">{v.description}</p>
 
         <p className="mt-5 rounded-2xl border border-border bg-surface/70 p-4 text-sm leading-relaxed text-muted">
-          Les caracteristiques detaillees (vitesse, maniabilite, prix in-game,
-          ou l'acheter) seront ajoutees après la sortie de GTA 6, le 19 novembre
-          2026. Le nom officiel in-game sera également mis à jour des sa
+          Les caractéristiques détaillées (vitesse, maniabilité, prix in-game,
+          où l'acheter) seront ajoutées après la sortie de GTA 6, le 19 novembre
+          2026. Le nom officiel in-game sera également mis à jour dès sa
           confirmation.
         </p>
 

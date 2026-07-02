@@ -6,7 +6,7 @@ export function Footer() {
   const year = 2026;
   return (
     <footer className="mt-24 border-t border-border bg-surface/60">
-      {/* Wordmark geant */}
+      {/* Wordmark géant */}
       <div className="overflow-hidden border-b border-border py-8">
         <p
           aria-hidden="true"

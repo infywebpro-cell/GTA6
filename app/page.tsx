@@ -1,5 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image, { getImageProps } from "next/image";
+import heroDesktop from "@/public/images/hero-keyart-169.jpg";
+import heroMobile from "@/public/images/hero-keyart-916.jpg";
 import {
   Map,
   ArrowRight,
@@ -28,7 +30,7 @@ import { clsx } from "clsx";
 
 const OFFICIEL = [
   { label: "Sortie le 19 novembre 2026", detail: "Date confirmée par Rockstar Games" },
-  { label: "PS5 & Xbox Series X|S", detail: "Plateformes annoncees au lancement" },
+  { label: "PS5 & Xbox Series X|S", detail: "Plateformes annoncées au lancement" },
   { label: "Précommandes ouvertes", detail: "Depuis le 25 juin 2026" },
   { label: "Standard 79,99 € · Ultimate 99,99 €", detail: "Deux éditions officielles" },
   { label: "Pack Vice City Vintage offert", detail: "Pour toute précommande avant le 20 novembre" },
@@ -37,7 +39,7 @@ const OFFICIEL = [
 ];
 
 const A_CONFIRMER = [
-  { label: "Version PC", detail: "Non annoncee — attendue après les consoles" },
+  { label: "Version PC", detail: "Non annoncée — attendue après les consoles" },
   { label: "Mode en ligne", detail: "Successeur de GTA Online non détaillé" },
   { label: "Carte officielle", detail: "Non publiée — reconstitutions communautaires seulement" },
   { label: "Taille exacte de la carte", detail: "Comparaison GTA 5 non officielle" },
@@ -69,17 +71,10 @@ export default function HomePage() {
 
       {/* ============================== HERO ============================== */}
       <section className="relative overflow-hidden border-b border-border">
-        {/* Key art officiel Rockstar (paysage desktop / portrait mobile) */}
-        <picture>
-          <source media="(max-width: 640px)" srcSet="/images/hero-keyart-916.jpg" />
-          <img
-            src="/images/hero-keyart-169.jpg"
-            alt=""
-            aria-hidden="true"
-            className="absolute inset-0 h-full w-full object-cover"
-            fetchPriority="high"
-          />
-        </picture>
+        {/* Key art officiel Rockstar (paysage desktop / portrait mobile),
+            optimisé via getImageProps : srcset AVIF/WebP responsive,
+            fetchpriority=high sur le LCP, placeholder flou. */}
+        <HeroArt />
         {/* Voiles pour la lisibilite */}
         <div
           className="absolute inset-0 bg-gradient-to-b from-bg/80 via-bg/20 to-bg"
@@ -113,7 +108,7 @@ export default function HomePage() {
           <div className="mt-10">
             <Countdown />
             <p className="mt-3 text-[11px] font-semibold uppercase tracking-mega text-ink/70">
-              19 novembre 2026 · PS5 · Xbox Series X|S · Precommandes ouvertes
+              19 novembre 2026 · PS5 · Xbox Series X|S · Précommandes ouvertes
             </p>
           </div>
 
@@ -128,7 +123,7 @@ export default function HomePage() {
               href="/guides/precommande-gta-6-editions-prix"
               className="inline-flex items-center gap-2 rounded-full border border-sand/50 bg-bg/50 px-6 py-3.5 text-sm font-bold uppercase tracking-widest text-sand backdrop-blur transition-colors hover:border-sand"
             >
-              Precommander — le guide
+              Précommander — le guide
             </Link>
             <Link
               href="/guides"
@@ -149,7 +144,7 @@ export default function HomePage() {
         <Container>
           <SectionHeading
             num="01"
-            kicker="Zero rumeur, zero intox"
+            kicker="Zéro rumeur, zéro intox"
             title="Ce qui est officiel"
             action={{ label: "Toute l'actu", href: "/actu" }}
           />
@@ -157,7 +152,7 @@ export default function HomePage() {
           <div className="grid gap-5 lg:grid-cols-2">
             <div className="rounded-3xl border border-border bg-surface p-6">
               <p className="mb-4 inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-mega text-emerald-300">
-                <Check className="h-4 w-4" /> Confirme par Rockstar
+                <Check className="h-4 w-4" /> Confirmé par Rockstar
               </p>
               <ul className="divide-y divide-border/70">
                 {OFFICIEL.map((f) => (
@@ -285,7 +280,7 @@ export default function HomePage() {
                 name: "Jason",
                 full: "Jason Duval",
                 desc:
-                  "S'il veut vivre facile, il va devoir se salir les mains. Ancien de l'armee pris dans les combines des Keys, embarque dans une cavale qui le depasse.",
+                  "S'il veut vivre facile, il va devoir se salir les mains. Ancien de l'armee pris dans les combines des Keys, embarque dans une cavale qui le dépasse.",
                 image: "/images/jason-lucia.jpg",
                 position: "object-[72%_20%]",
               },
@@ -454,5 +449,36 @@ export default function HomePage() {
         <AdSlot slot="" label="Publicite" className="mb-10" />
       </Container>
     </>
+  );
+}
+
+/** Key art du hero avec art direction (portrait mobile / paysage desktop). */
+function HeroArt() {
+  const shared = { alt: "", sizes: "100vw", quality: 70 } as const;
+  const {
+    props: { srcSet: mobileSrcSet },
+  } = getImageProps({ ...shared, src: heroMobile });
+  const {
+    props: { srcSet: desktopSrcSet, ...rest },
+  } = getImageProps({
+    ...shared,
+    src: heroDesktop,
+    priority: true,
+    placeholder: "blur",
+  });
+
+  return (
+    <picture>
+      <source media="(max-width: 640px)" srcSet={mobileSrcSet} />
+      <source media="(min-width: 641px)" srcSet={desktopSrcSet} />
+      {/* eslint-disable-next-line jsx-a11y/alt-text -- décoratif */}
+      <img
+        {...rest}
+        loading="eager"
+        fetchPriority="high"
+        aria-hidden="true"
+        className="animate-kenburns absolute inset-0 h-full w-full object-cover"
+      />
+    </picture>
   );
 }

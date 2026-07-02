@@ -27,7 +27,7 @@ export default function CartePage() {
         kicker="L'État de Leonida"
         title="La"
         gradientWord="carte"
-        lede="GTA 6 se deroule dans l'État fictif de Leonida (inspire de la Floride), avec Vice City pour métropole. Explorez les régions connues à ce jour — la carte officielle sera intégrée des sa publication par Rockstar."
+        lede="GTA 6 se déroule dans l'État fictif de Leonida (inspiré de la Floride), avec Vice City pour métropole. Explorez les régions connues à ce jour — la carte officielle sera intégrée dès sa publication par Rockstar."
       />
 
       <MapExplorer />
