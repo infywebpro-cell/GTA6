@@ -16,7 +16,7 @@ export function Footer() {
         </p>
       </div>
 
-      <Container className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
+      <Container className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-5">
         <div>
           <p className="font-display text-2xl uppercase tracking-wide text-ink">
             GTA<span className="text-gradient-hot">VI</span>{" "}
@@ -39,6 +39,44 @@ export function Footer() {
                 </Link>
               </li>
             ))}
+          </ul>
+        </div>
+
+        <div>
+          <h2 className="mb-4 text-[11px] font-bold uppercase tracking-mega text-sand">
+            Les indispensables
+          </h2>
+          <ul className="space-y-2.5 text-sm text-muted">
+            <li>
+              <Link href="/actu/date-de-sortie-gta-6" className="transition-colors hover:text-vice-300">
+                Date de sortie GTA 6
+              </Link>
+            </li>
+            <li>
+              <Link href="/guides/precommande-gta-6-editions-prix" className="transition-colors hover:text-vice-300">
+                Précommande GTA 6
+              </Link>
+            </li>
+            <li>
+              <Link href="/carte" className="transition-colors hover:text-vice-300">
+                Carte GTA 6
+              </Link>
+            </li>
+            <li>
+              <Link href="/actu/gta-6-trailer" className="transition-colors hover:text-vice-300">
+                Trailer GTA 6
+              </Link>
+            </li>
+            <li>
+              <Link href="/guides/gta-6-en-ligne-mode-online" className="transition-colors hover:text-vice-300">
+                GTA 6 Online
+              </Link>
+            </li>
+            <li>
+              <Link href="/vehicules" className="transition-colors hover:text-vice-300">
+                Véhicules GTA 6
+              </Link>
+            </li>
           </ul>
         </div>
 

@@ -6,7 +6,7 @@
 
 ## 1. Domaine & marque
 
-- **Domaine principal : `guidegta6.fr`** (✅ vérifié disponible via RDAP AFNIC le 02/07/2026, ~7 €/an).
+- **Domaine principal : `guidegta6.fr`** (✅ re-vérifié disponible via RDAP AFNIC le 03/07/2026). Moins cher : **LWS à 2,99 € HT la 1re année** (renouvellement ~8 €), sinon OVH ~5-7 €/an stable. Éviter les promos Ionos à 1 € (renouvellement cher).
   - = la requête naturelle FR « guide gta 6 », .fr = signal géo France.
   - Distinct dès la 1ʳᵉ lettre du concurrent `gta6guide.fr` (ordre inversé).
 - **Défensif conseillé (optionnel, ~14 €/an)** : `gta6-guide.fr` + `carte-gta6.fr` (dispo aussi) → redirections 301.

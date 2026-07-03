@@ -138,6 +138,23 @@ export function articleLd(article: Article, path: string) {
   };
 }
 
+/** VideoObject pour un embed YouTube (résultats enrichis vidéo). */
+export function videoLd(video: { id: string; title: string; uploadDate: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: video.title,
+    thumbnailUrl: `https://i.ytimg.com/vi/${video.id}/maxresdefault.jpg`,
+    uploadDate: video.uploadDate,
+    embedUrl: `https://www.youtube-nocookie.com/embed/${video.id}`,
+    contentUrl: `https://www.youtube.com/watch?v=${video.id}`,
+    publisher: {
+      "@type": "Organization",
+      name: "Rockstar Games",
+    },
+  };
+}
+
 export function faqLd(faq: FaqItem[]) {
   return {
     "@context": "https://schema.org",

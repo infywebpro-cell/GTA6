@@ -21,6 +21,8 @@ export interface Article {
   faq?: FaqItem[];
   /** Image de couverture (chemin public ou URL absolue) */
   cover?: string;
+  /** Vidéos YouTube officielles intégrées (façade légère + VideoObject). */
+  videos?: { id: string; title: string; uploadDate: string }[];
   author?: string;
   /** Dates ISO (YYYY-MM-DD) */
   published: string;

@@ -18,7 +18,8 @@ import {
 } from "@/lib/content";
 import { categoryMeta } from "@/lib/categories";
 import { formatDate } from "@/lib/format";
-import { buildMetadata, articleLd, faqLd } from "@/lib/seo";
+import { buildMetadata, articleLd, faqLd, videoLd } from "@/lib/seo";
+import { YouTubeLite } from "@/components/YouTubeLite";
 
 export const dynamicParams = false;
 
@@ -63,6 +64,7 @@ export default async function ArticlePage({
     <Container className="py-10">
       <JsonLd data={faqLd(article.faq ?? [])} />
       <JsonLd data={articleLd(article, path)} />
+      {article.videos?.map((v) => <JsonLd key={v.id} data={videoLd(v)} />)}
 
       <div className="mx-auto max-w-3xl">
         <Breadcrumbs
@@ -112,6 +114,14 @@ export default async function ArticlePage({
           </header>
 
           <AdSlot slot="" label="Publicité" className="mb-8" />
+
+          {article.videos && article.videos.length > 0 && (
+            <div className="mb-8 space-y-5">
+              {article.videos.map((v) => (
+                <YouTubeLite key={v.id} id={v.id} title={v.title} />
+              ))}
+            </div>
+          )}
 
           <Markdown>{article.body}</Markdown>
 

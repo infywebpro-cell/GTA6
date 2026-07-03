@@ -13,7 +13,7 @@ export const siteConfig = {
   lang: "fr",
   description:
     "Guide GTA 6 : la référence francaise sur Grand Theft Auto VI. Date de sortie, carte interactive de Leonida, base de véhicules, soluces, astuces et codes.",
-  tagline: "Guides, soluces, carte et véhicules de GTA 6",
+  tagline: "date de sortie, carte, soluces et véhicules",
   twitter: "@guidegta6",
   // Monetisation (vide tant que non configure -> placeholders)
   adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "",
