@@ -67,8 +67,8 @@ export function AffiliateStrip({
         ))}
       </div>
       <p className="mt-3 text-[11px] leading-relaxed text-muted/70">
-        En tant que Partenaire Amazon, nous percevons un revenu sur les achats
-        éligibles. Cela ne change rien à votre prix.
+        Si vous achetez via ces liens, on touche une petite commission qui aide
+        à faire vivre le site. Ça ne change rien à votre prix.
       </p>
     </aside>
   );

@@ -191,31 +191,49 @@
     transform: scale(0.97);
   }
 
-  /* Pop des chiffres du compte a rebours a chaque changement de valeur. */
-  @keyframes digit-in {
+  /* Fondu discret des chiffres du compte a rebours (aucun mouvement). */
+  @keyframes digit-fade {
     from {
-      transform: translateY(26%);
-      opacity: 0;
-      filter: blur(2px);
+      opacity: 0.25;
     }
     to {
-      transform: translateY(0);
       opacity: 1;
-      filter: blur(0);
     }
   }
-  .digit-anim {
+  .digit-fade {
     display: inline-block;
-    animation: digit-in 0.32s cubic-bezier(0.22, 0.61, 0.36, 1);
+    animation: digit-fade 0.4s ease-out;
+  }
+
+  /* Balayage lumineux au survol des cartes (signature maison). */
+  .card-shine::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      105deg,
+      transparent 42%,
+      rgba(255, 255, 255, 0.07) 50%,
+      transparent 58%
+    );
+    transform: translateX(-160%);
+    transition: transform 0.7s ease;
+    pointer-events: none;
+  }
+  .card-shine:hover::after {
+    transform: translateX(160%);
   }
 
   @media (prefers-reduced-motion: reduce) {
     .animate-kenburns,
-    .digit-anim {
+    .digit-fade {
       animation: none;
     }
     .btn-sunset:active {
       transform: none;
+    }
+    .card-shine::after {
+      display: none;
     }
   }
 }

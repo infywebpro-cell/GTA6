@@ -2,7 +2,7 @@ import type { Category } from "./categories";
 import { articles as rawArticles } from "@/content/articles";
 import { articlesJuillet } from "@/content/articles-juillet";
 import { articlesMoney } from "@/content/articles-money";
-import { articleCovers } from "./covers";
+import { articleCovers, articleCoverCredits } from "./covers";
 
 export interface FaqItem {
   q: string;
@@ -26,6 +26,8 @@ export interface Article {
   videos?: { id: string; title: string; uploadDate: string }[];
   /** Produits affiliés ciblés pour cet article (ids de lib/affiliate). */
   affiliateIds?: string[];
+  /** Crédit de la cover (défaut : © Rockstar Games). */
+  coverCredit?: string;
   author?: string;
   /** Dates ISO (YYYY-MM-DD) */
   published: string;
@@ -33,7 +35,11 @@ export interface Article {
 }
 
 const articles: Article[] = [...rawArticles, ...articlesJuillet, ...articlesMoney]
-  .map((a) => ({ ...a, cover: a.cover ?? articleCovers[a.slug] }))
+  .map((a) => ({
+    ...a,
+    cover: a.cover ?? articleCovers[a.slug],
+    coverCredit: a.coverCredit ?? articleCoverCredits[a.slug],
+  }))
   .sort((a, b) => b.updated.localeCompare(a.updated));
 
 export function getAllArticles(): Article[] {

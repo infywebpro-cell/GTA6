@@ -12,7 +12,7 @@ export const siteConfig = {
   locale: "fr_FR",
   lang: "fr",
   description:
-    "Guide GTA 6 : la référence francaise sur Grand Theft Auto VI. Date de sortie, carte interactive de Leonida, base de véhicules, soluces, astuces et codes.",
+    "GTA 6 sort le 19 novembre 2026. Un site de fans français pour tout suivre : date de sortie, carte interactive de Leonida, véhicules, soluces et astuces. Chaque info est vérifiée.",
   tagline: "date de sortie, carte, soluces et véhicules",
   twitter: "@guidegta6",
   // Monetisation (vide tant que non configure -> placeholders)

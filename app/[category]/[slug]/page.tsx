@@ -88,7 +88,7 @@ export default async function ArticlePage({
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-bg/60 to-transparent" />
                 <p className="absolute bottom-2 right-3 rounded bg-black/60 px-2 py-0.5 text-[10px] uppercase tracking-widest text-white/80">
-                  © Rockstar Games
+                  {article.coverCredit ?? "© Rockstar Games"}
                 </p>
               </div>
             )}

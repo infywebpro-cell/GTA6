@@ -16,7 +16,7 @@ export function ArticleCard({
   const cat = categoryMeta[article.category];
   const href = `/${article.category}/${article.slug}`;
   return (
-    <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface transition-all duration-200 hover:-translate-y-0.5 hover:border-vice/70 hover:shadow-glow-pink">
+    <article className="card-shine group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface transition-all duration-200 hover:-translate-y-0.5 hover:border-vice/70 hover:shadow-glow-pink">
       {article.cover && (
         <div className="relative aspect-[16/9] w-full overflow-hidden">
           <Image

@@ -15,12 +15,22 @@ export const articleCovers: Record<string, string> = {
   "gta-6-config-pc": "/images/screen-skyline.jpg",
   "gta-6-trailer": "/images/jason-lucia-3.jpg",
   "taille-carte-gta-6": "/images/map-leonida-crop.jpg",
-  "quelle-ps5-pour-gta-6": "/images/screen-vice-city-1.jpg",
-  "ssd-ps5-gta-6": "/images/screen-rideout-customs.jpg",
+  "quelle-ps5-pour-gta-6": "/images/hw-ps5.png",
+  "ssd-ps5-gta-6": "/images/hw-ps5.png",
   "gta-6-moins-cher": "/images/cover-art.jpg",
-  "manette-pour-gta-6": "/images/screen-gellhorn.jpg",
+  "manette-pour-gta-6": "/images/hw-dualsense.png",
   "ecran-tv-pour-gta-6": "/images/screen-keys.jpg",
   "gta-6-edition-ultimate": "/images/veh-vapid-buggy.jpg",
   "casting-gta-6": "/images/char-drequanpriest.jpg",
   "vice-city-histoire": "/images/region-vicecity.jpg",
+};
+
+/**
+ * Crédit affiché sous la cover quand elle ne provient pas du media kit
+ * Rockstar (photos matérielles sous licence libre, attribution requise).
+ */
+export const articleCoverCredits: Record<string, string> = {
+  "quelle-ps5-pour-gta-6": "Photo : Soberian / Osh33m · CC BY-SA 4.0",
+  "ssd-ps5-gta-6": "Photo : Soberian / Osh33m · CC BY-SA 4.0",
+  "manette-pour-gta-6": "Photo : Alex Cochrane · CC BY-SA 4.0",
 };

@@ -87,7 +87,7 @@ export default function HomePage() {
 
         <Container className="relative flex h-[min(92svh,1000px)] min-h-[640px] flex-col justify-center py-16">
           <p className="text-[11px] font-bold uppercase tracking-mega text-sand sm:text-xs">
-            Le guide français : non officiel
+            Par des fans, pour des fans · site non officiel
           </p>
 
           <h1 className="mt-4 font-display uppercase leading-[0.85] tracking-wide">
@@ -101,9 +101,11 @@ export default function HomePage() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink/85 sm:text-lg">
-            Date de sortie, carte de Leonida, véhicules, personnages, astuces :
-            tout GTA 6 vérifié et en français, et dès le jour J, les soluces
-            complètes.
+            On est des joueurs, comme vous. Ici, on rassemble tout ce qui est
+            confirmé sur GTA 6, et on vous dit clairement quand ça ne l'est
+            pas. Date, carte, véhicules, guides : tout y est, gratuitement.
+            Dès la sortie, nos soluces arriveront au fil de notre propre
+            partie.
           </p>
 
           <div className="mt-10">
@@ -124,13 +126,13 @@ export default function HomePage() {
               href="/guides/precommande-gta-6-editions-prix"
               className="inline-flex items-center gap-2 rounded-full border border-sand/50 bg-bg/50 px-6 py-3.5 text-sm font-bold uppercase tracking-widest text-sand backdrop-blur transition-colors hover:border-sand"
             >
-              Précommander, le guide
+              Bien précommander
             </Link>
             <Link
               href="/guides"
               className="inline-flex items-center gap-2 rounded-full border border-ink/30 bg-bg/50 px-6 py-3.5 text-sm font-bold uppercase tracking-widest text-ink backdrop-blur transition-colors hover:border-vice"
             >
-              Les guides <ArrowRight className="h-4 w-4" />
+              Tous les guides <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
         </Container>
@@ -215,7 +217,7 @@ export default function HomePage() {
         <Container>
           <SectionHeading
             num="03"
-            kicker="Guides & actu vérifiés"
+            kicker="Écrits par des joueurs, sources à l'appui"
             title="Les dossiers"
             action={{ label: "Tout voir", href: "/guides" }}
           />
