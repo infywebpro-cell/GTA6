@@ -122,3 +122,36 @@ chaque page outil lie vers les articles piliers.
 
 Rituel hebdo : GSC → requêtes à CTR faible/position 5-15 → réécrire title/meta →
 resoumettre. C'est le levier n°1 les 6 premiers mois.
+
+## 9. Mots-clés money & monétisation
+
+Deux moteurs de revenus, deux familles de mots-clés :
+
+### A. Transactionnel (affiliation Amazon : 10 à 50× plus rentable par visiteur)
+| Requête | Contenu à créer | Produits liés |
+|---|---|---|
+| quelle ps5 pour gta 6 / ps5 slim ou pro | Comparatif Slim vs Pro orienté GTA 6 | Consoles (~15 €/vente) |
+| ssd ps5 gta 6 / stockage | « Le SSD qu'il faut pour GTA 6 (150 Go+) » | SSD NVMe |
+| gta 6 moins cher / promo | Comparateur precommande (Amazon, Fnac, Leclerc) | Jeu + cartes PSN |
+| manette pour gta 6 | DualSense vs Edge pour GTA 6 | Manettes |
+| écran / tv pour gta 6 | « 120 Hz, VRR : bien afficher GTA 6 » | Écrans |
+
+### B. Volume (AdSense : RPM gaming FR ~1-4 €/1000 vues)
+- Pré-lancement : gta 6 date de sortie · trailer · carte/map · prix · précommande
+  · online · personnages (déjà couverts ✅)
+- **Post-lancement (le jackpot, à préparer dès octobre)** : soluce gta 6 ·
+  soluce mission [nom] · argent facile gta 6 · codes triche gta 6 · toutes les
+  voitures · carte au trésor · 100 % / trophées · combien d'heures pour finir
+
+**Mécanique money** : les pages volume captent le trafic, le maillage interne
+pousse vers les pages transactionnelles et les blocs « Sélection matériel ».
+
+### Plan mensuel (résumé opérationnel)
+| Mois | Site (production) | Mylan (actions humaines) |
+|---|---|---|
+| Juillet | 5 money pages affiliation + casting + Vice City historique | Valider GSC, soumettre sitemap, créer comptes Amazon Partenaires + AdSense, compte X |
+| Août | Éditions comparées, questions longue traîne, MAJ piliers | 1er netlinking : Reddit/JVC/Discord avec la carte ; demander validation AdSense |
+| Septembre | Requêtes questions (crossplay, durée, PS4…), 3 art./sem. | Shorts/TikTok carte + countdown ; suivre GSC hebdo (CTR title) |
+| Octobre | Préparer squelettes soluces (templates missions), guide préchargement | Contacts vidéastes FR (être leur source citée) |
+| Novembre | **Blitz** : heure de déblocage J-7, puis 2-4 soluces/jour dès le 19 | Réactivité maximale, publier les soluces au fil du jeu |
+| Décembre | pSEO missions/collectibles/trophées, guides Online | Analyser GSC, doubler ce qui rank |
