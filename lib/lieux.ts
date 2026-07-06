@@ -23,7 +23,7 @@ const LIEUX_CONTENT: Record<
     metaDescription:
       "Vice City dans GTA 6 : quartiers, plage, nightlife et points d'intérêt de la métropole de Leonida inspirée de Miami. Tout ce qui est confirmé.",
     body: [
-      "Vice City est la métropole de GTA 6 et le coeur battant de l'État de Leonida. Inspirée de Miami, elle est présentée par Rockstar comme la ville la plus dense et la plus détaillée jamais construite par le studio. C'est ici que se croisent les destins de Jason et Lucia, entre front de mer art deco, gratte-ciels et arrière-cours moins reluisantes.",
+      "Vice City est la métropole de GTA 6 et le coeur battant de l'État de Leonida. Inspirée de Miami, elle est présentée par Rockstar comme la ville la plus dense et la plus détaillée jamais construite par le studio. C'est ici que se croisent les destins de Jason et Lucia, entre front de mer art déco, gratte-ciels et arrière-cours moins reluisantes.",
       "Confirmé par le matériel officiel : le strip du front de mer et sa vie nocturne, les quartiers d'affaires, la plage emblématique (sport, fêtes, muscle beach), ainsi qu'une culture de rue très présente : car meets, lowriders et clubs. Les bandes-annonces montrent aussi la police de Vice City en action, entre poursuites urbaines et barrages.",
       "Sur la carte communautaire, Vice City occupe la côte est de Leonida, avec son aéroport international au sud-ouest et l'île de Catalana au sud-est. La superficie exacte de la ville reste à confirmer à la sortie, le 19 novembre 2026.",
     ],
@@ -41,7 +41,7 @@ const LIEUX_CONTENT: Record<
       },
       {
         q: "Vice City est-elle fidèle a Miami ?",
-        a: "Vice City est une version fictive de Miami : art deco, plages, néons et culture latino. Rockstar s'inspire de la ville réelle sans la copier rue par rue.",
+        a: "Vice City est une version fictive de Miami : art déco, plages, néons et culture latino. Rockstar s'inspire de la ville réelle sans la copier rue par rue.",
       },
       {
         q: "Peut-on visiter l'intérieur des bâtiments ?",
@@ -137,8 +137,8 @@ const LIEUX_CONTENT: Record<
       "Port Gellhorn dans GTA 6 : la ville portuaire du panhandle de Leonida (inspirée de Panama City Beach) : industrie, motels, circuit. Le point complet.",
     body: [
       "Port Gellhorn est la ville portuaire du nord-ouest de Leonida, inspirée de Panama City Beach. Loin du glamour de Vice City : ici, ce sont grues, rouille, motels défraîchis et économie qui tourne au ralenti, le décor parfait pour les combines des personnages en marge.",
-      "Le matériel officiel associe plusieurs figures du casting à cette région cote « redneck riviera », et un circuit automobile y est rapporté par la communaute, de quoi imaginer courses locales et paris. La fiche officielle de la région insiste sur son identité ouvriere et balnéaire declinante.",
-      "Sur la carte communautaire, Port Gellhorn (avec la mention « Panama City ») se situé sur la cote du panhandle, à l'ouest du Mount Kalaga National Park, avec Yorktown un peu plus au nord.",
+      "Le matériel officiel associe plusieurs figures du casting à cette région côté « redneck riviera », et un circuit automobile y est rapporté par la communauté, de quoi imaginer courses locales et paris. La fiche officielle de la région insiste sur son identité ouvrière et balnéaire déclinante.",
+      "Sur la carte communautaire, Port Gellhorn (avec la mention « Panama City ») se situe sur la côte du panhandle, à l'ouest du Mount Kalaga National Park, avec Yorktown un peu plus au nord.",
     ],
     pois: [
       "Le port industriel et ses grues (officiel)",
@@ -161,7 +161,7 @@ const LIEUX_CONTENT: Record<
     metaDescription:
       "Ambrosia dans GTA 6 : l'arrière-pays agricole et industriel de Leonida : champs de canne, raffinerie, routes droites. Infos et carte.",
     body: [
-      "Ambrosia est l'arrière-pays de Leonida : champs de canne a sucre, raffinerie et lignes droites brulantes au centre de l'État. La région incarne l'Amérique rurale du jeu, à mille lieues du strip de Vice City.",
+      "Ambrosia est l'arrière-pays de Leonida : champs de canne a sucre, raffinerie et lignes droites brûlantes au centre de l'État. La région incarne l'Amérique rurale du jeu, à mille lieues du strip de Vice City.",
       "L'artwork officiel montre une ville-usine écrasée de soleil, dominée par sa raffinerie. C'est un carrefour routier naturel entre Vice City, Port Gellhorn et le nord, attendez-vous à y croiser pickups, 4x4 mudding (le Canis « One-Eyed Willie » du media kit y serait chez lui) et économie agricole.",
       "Position sur la carte communautaire : au centre-ouest de l'État, traversee par les grands axes. Son rôle exact dans l'histoire reste à confirmer.",
     ],

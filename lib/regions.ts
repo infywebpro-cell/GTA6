@@ -20,7 +20,7 @@ export const regions: Region[] = [
     name: "Vice City",
     tagline: "La métropole néon",
     description:
-      "Inspirée de Miami : plages, art deco, nightlife et gratte-ciels. Le coeur battant de GTA 6 et la ville la plus dense jamais construite par Rockstar.",
+      "Inspirée de Miami : plages, art déco, nightlife et gratte-ciels. Le coeur battant de GTA 6 et la ville la plus dense jamais construite par Rockstar.",
     status: "officiel",
     image: "/images/region-vicecity.jpg",
   },
@@ -40,7 +40,7 @@ export const regions: Region[] = [
     name: "Grassrivers",
     tagline: "Les Everglades",
     description:
-      "Marais a perte de vue, alligators et cabanes sur pilotis. Terrain de jeu de l'hydroglisseur aperçu dans le trailer 1.",
+      "Marais à perte de vue, alligators et cabanes sur pilotis. Terrain de jeu de l'hydroglisseur aperçu dans le trailer 1.",
     status: "officiel",
     image: "/images/region-grassrivers.jpg",
   },
@@ -70,7 +70,7 @@ export const regions: Region[] = [
     name: "Ambrosia",
     tagline: "L'arrière-pays",
     description:
-      "Champs de canne, raffineries et lignes droites brulantes. L'Amérique rurale de Leonida, à mille lieues du strip.",
+      "Champs de canne, raffineries et lignes droites brûlantes. L'Amérique rurale de Leonida, à mille lieues du strip.",
     status: "officiel",
     image: "/images/region-ambrosia.jpg",
   },

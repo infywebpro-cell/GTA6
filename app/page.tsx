@@ -9,6 +9,7 @@ import {
   CircleDashed,
   Eye,
   BadgeCheck,
+  Brain,
 } from "lucide-react";
 import { Container } from "@/components/Container";
 import { ArticleCard } from "@/components/ArticleCard";
@@ -85,7 +86,7 @@ export default function HomePage() {
           aria-hidden="true"
         />
 
-        <Container className="relative flex h-[min(92svh,1000px)] min-h-[640px] flex-col justify-center py-16">
+        <Container className="relative flex min-h-[min(92svh,1000px)] flex-col justify-center py-16 sm:py-20">
           <p className="text-[11px] font-bold uppercase tracking-mega text-sand sm:text-xs">
             Par des fans, pour des fans · site non officiel
           </p>
@@ -108,14 +109,14 @@ export default function HomePage() {
             partie.
           </p>
 
-          <div className="mt-10">
+          <div className="mt-9">
             <Countdown />
             <p className="mt-3 text-[11px] font-semibold uppercase tracking-mega text-ink/70">
-              19 novembre 2026 · PS5 · Xbox Series X|S · Précommandes ouvertes
+              PS5 · Xbox Series X|S · Précommandes ouvertes
             </p>
           </div>
 
-          <div className="mt-10 flex flex-wrap gap-3">
+          <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/carte"
               className="btn-sunset inline-flex items-center gap-2 rounded-full px-6 py-3.5 text-sm font-bold uppercase tracking-widest text-bg shadow-glow-pink"
@@ -283,7 +284,7 @@ export default function HomePage() {
                 name: "Jason",
                 full: "Jason Duval",
                 desc:
-                  "S'il veut vivre facile, il va devoir se salir les mains. Ancien de l'armee pris dans les combines des Keys, embarque dans une cavale qui le dépasse.",
+                  "S'il veut vivre facile, il va devoir se salir les mains. Ancien de l'armée pris dans les combines des Keys, embarqué dans une cavale qui le dépasse.",
                 image: "/images/jason-lucia.jpg",
                 position: "object-[72%_20%]",
               },
@@ -291,7 +292,7 @@ export default function HomePage() {
                 name: "Lucia",
                 full: "Lucia Caminos",
                 desc:
-                  "Première protagoniste feminine de la série principale. Sortie de prison, elle joue les règles a sa façon, et ne compte plus jamais y retourner.",
+                  "Première protagoniste féminine de la série principale. Sortie de prison, elle joue les règles à sa façon, et ne compte plus jamais y retourner.",
                 image: "/images/jason-lucia-motel.jpg",
                 position: "object-[45%_30%]",
               },
@@ -379,7 +380,7 @@ export default function HomePage() {
         <Container>
           <SectionHeading
             num="06"
-            kicker="L'Etat, du strip aux marais"
+            kicker="L'État, du strip aux marais"
             title="Leonida"
             action={{ label: "Carte interactive", href: "/carte" }}
           />
@@ -396,7 +397,7 @@ export default function HomePage() {
             num="07"
             kicker="Noms officiels confirmés"
             title="Le garage"
-            action={{ label: "Tous les vehicules", href: "/vehicules" }}
+            action={{ label: "Tous les véhicules", href: "/vehicules" }}
           />
           <Reveal>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -444,12 +445,38 @@ export default function HomePage() {
         </Container>
       </section>
 
+      {/* ============================== QUIZ ============================== */}
+      <section className="border-t border-border py-16 sm:py-20">
+        <Container>
+          <Reveal>
+            <div className="card-shine relative overflow-hidden rounded-3xl border border-border bg-gradient-to-br from-surface-2 via-surface to-bg p-8 text-center sm:p-12">
+              <p className="inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-mega text-sunset-300">
+                <Brain className="h-4 w-4" /> Testez vos connaissances
+              </p>
+              <h2 className="mx-auto mt-4 max-w-2xl font-display text-4xl uppercase leading-[0.95] tracking-wide sm:text-5xl">
+                Êtes-vous un <span className="text-gradient">vrai fan</span> de GTA 6 ?
+              </h2>
+              <p className="mx-auto mt-4 max-w-md text-[15px] leading-7 text-body">
+                12 questions, uniquement des faits confirmés. Découvrez si vous méritez
+                le titre de Légende de Leonida.
+              </p>
+              <Link
+                href="/quiz"
+                className="btn-sunset mt-7 inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold uppercase tracking-widest text-bg shadow-glow-pink"
+              >
+                Lancer le quiz <ArrowRight className="h-4 w-4" />
+              </Link>
+            </div>
+          </Reveal>
+        </Container>
+      </section>
+
       <Container className="pb-4">
         <AffiliateStrip
           ids={["ps5-slim", "dualsense", "pulse-elite", "carte-psn"]}
-          title="Pret pour le 19 novembre ?"
+          title="Prêt pour le 19 novembre ?"
         />
-        <AdSlot slot="" label="Publicite" className="mb-10" />
+        <AdSlot slot="" label="Publicité" className="mb-10" />
       </Container>
     </>
   );

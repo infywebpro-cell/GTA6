@@ -17,7 +17,7 @@ export type VehicleClass =
   | "Motos"
   | "Tout-terrain"
   | "Nautiques"
-  | "Aeriens"
+  | "Aériens"
   | "Services";
 
 export type VehicleStatus = "confirme" | "apercu" | "suppose";
@@ -42,7 +42,7 @@ export const vehicleClasses: VehicleClass[] = [
   "Motos",
   "Tout-terrain",
   "Nautiques",
-  "Aeriens",
+  "Aériens",
   "Services",
 ];
 
@@ -57,7 +57,7 @@ export const vehicles: Vehicle[] = [
     seenIn: "Media kit officiel",
     image: "/images/veh-grotti-cheetah.jpg",
     description:
-      "La supercar legendaire de la série fait son retour a Vice City. Dévoilée dans les visuels officiels de l'édition Ultimate, la Cheetah reste la référence des sportives italiennes façon Grotti.",
+      "La supercar légendaire de la série fait son retour a Vice City. Dévoilée dans les visuels officiels de l'édition Ultimate, la Cheetah reste la référence des sportives italiennes façon Grotti.",
   },
   {
     slug: "squalo",
@@ -68,7 +68,7 @@ export const vehicles: Vehicle[] = [
     seenIn: "Media kit officiel",
     image: "/images/veh-squalo.jpg",
     description:
-      "Le hors-bord racing iconique de GTA, confirmé par les screenshots officiels des éditions. Taille pour les courses entre les Keys et les poursuites en haute mer.",
+      "Le hors-bord racing iconique de GTA, confirmé par les screenshots officiels des éditions. Taillé pour les courses entre les Keys et les poursuites en haute mer.",
   },
   {
     slug: "vapid-dominator-buggy",
@@ -79,7 +79,7 @@ export const vehicles: Vehicle[] = [
     seenIn: "Édition Ultimate",
     image: "/images/veh-vapid-buggy.jpg",
     description:
-      "Exclusivite de l'édition Ultimate (99,99 €) : cette Dominator de 1967 preparee façon buggy est livree avec le garage Paradise a Watson Bay. Le muscle car américain dans sa version la plus radicale.",
+      "Exclusivité de l'édition Ultimate (99,99 €) : cette Dominator de 1967 préparée façon buggy est livrée avec le garage Paradise a Watson Bay. Le muscle car américain dans sa version la plus radicale.",
   },
   {
     slug: "vapid-stanier",
@@ -101,7 +101,7 @@ export const vehicles: Vehicle[] = [
     seenIn: "Édition Ultimate",
     image: "/images/veh-vapid-ganado.jpg",
     description:
-      "Pickup Vapid Ganado en preparation retro, aperçu dans les visuels officiels des éditions. Le compagnon idéal des routes d'Ambrosia.",
+      "Pickup Vapid Ganado en préparation rétro, aperçu dans les visuels officiels des éditions. Le compagnon idéal des routes d'Ambrosia.",
   },
   {
     slug: "canis-one-eyed-willie",
@@ -112,7 +112,7 @@ export const vehicles: Vehicle[] = [
     seenIn: "Édition Ultimate",
     image: "/images/veh-one-eyed-willie.jpg",
     description:
-      "Build tout-terrain surleve signe Canis, roues surdimensionnees et livree « WARNING » : le mudding floridien assume, tout droit sorti du media kit officiel.",
+      "Build tout-terrain surélevé signé Canis, roues surdimensionnées et livrée « WARNING » : le mudding floridien assume, tout droit sorti du media kit officiel.",
   },
   {
     slug: "collection-wyman",
@@ -123,33 +123,33 @@ export const vehicles: Vehicle[] = [
     seenIn: "Édition Ultimate",
     image: "/images/veh-wyman-collection.jpg",
     description:
-      "Une collection de classiques américaines liée au personnage de Wyman, montree dans les screenshots officiels de l'édition Ultimate. Les amateurs de chrome sont servis.",
+      "Une collection de classiques américaines liée au personnage de Wyman, montrée dans les screenshots officiels de l'édition Ultimate. Les amateurs de chrome sont servis.",
   },
   // --- APERÇUS (trailers officiels, noms à confirmer) -----------------------
   {
     slug: "cabriolet-lowrider-violet",
     name: "Cabriolet lowrider violet",
-    brand: "A confirmer",
+    brand: "À confirmer",
     class: "Muscle & classiques",
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "Le cabriolet violet devenu embleme du jeu : c'est au volant de ce classique decapotable que Lucia apparaît à la fin de la première bande-annonce.",
+      "Le cabriolet violet devenu emblème du jeu : c'est au volant de ce classique décapotable que Lucia apparaît à la fin de la première bande-annonce.",
   },
   {
     slug: "lowrider-hydraulique",
-    name: "Lowrider a hydrauliques",
-    brand: "A confirmer",
+    name: "Lowrider à hydrauliques",
+    brand: "À confirmer",
     class: "Muscle & classiques",
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "Aperçus en plein bounce lors d'un rassemblement de rue : les lowriders a suspensions hydrauliques signent le retour de la culture car-meet dans GTA 6.",
+      "Aperçus en plein bounce lors d'un rassemblement de rue : les lowriders à suspensions hydrauliques signent le retour de la culture car-meet dans GTA 6.",
   },
   {
     slug: "moto-sportive",
     name: "Moto sportive",
-    brand: "A confirmer",
+    brand: "À confirmer",
     class: "Motos",
     status: "apercu",
     seenIn: "Trailer 2",
@@ -159,7 +159,7 @@ export const vehicles: Vehicle[] = [
   {
     slug: "chopper-cruiser",
     name: "Chopper / cruiser",
-    brand: "A confirmer",
+    brand: "À confirmer",
     class: "Motos",
     status: "apercu",
     seenIn: "Trailer 1",
@@ -169,57 +169,57 @@ export const vehicles: Vehicle[] = [
   {
     slug: "pickup-jason",
     name: "Pickup (le véhicule de Jason)",
-    brand: "A confirmer",
+    brand: "À confirmer",
     class: "Tout-terrain",
     status: "apercu",
     seenIn: "Trailer 2",
     description:
-      "Le pickup use que conduit Jason dans la deuxième bande-annonce. Idéal pour l'arrière-pays d'Ambrosia et les chemins de terre.",
+      "Le pickup usé que conduit Jason dans la deuxième bande-annonce. Idéal pour l'arrière-pays d'Ambrosia et les chemins de terre.",
   },
   {
     slug: "berline-banalisee",
-    name: "Berline banalisee",
-    brand: "A confirmer",
+    name: "Berline banalisée",
+    brand: "À confirmer",
     class: "Berlines & SUV",
     status: "apercu",
     seenIn: "Trailers 1 & 2",
     description:
-      "Le trafic de Leonida fourmille de berlines ordinaires : parfaites pour passer inapercu après un coup.",
+      "Le trafic de Leonida fourmille de berlines ordinaires : parfaites pour passer inaperçu après un coup.",
   },
   {
     slug: "suv-urbain",
     name: "SUV urbain",
-    brand: "A confirmer",
+    brand: "À confirmer",
     class: "Berlines & SUV",
     status: "apercu",
     seenIn: "Trailers 1 & 2",
     description:
-      "SUV et crossovers omnipresents dans les rues, a l'aise en ville comme sur les routes côtières des Keys.",
+      "SUV et crossovers omniprésents dans les rues, à l'aise en ville comme sur les routes côtières des Keys.",
   },
   {
     slug: "hydroglisseur-airboat",
     name: "Hydroglisseur (airboat)",
-    brand: "A confirmer",
+    brand: "À confirmer",
     class: "Nautiques",
     status: "apercu",
     seenIn: "Trailer 1",
     description:
-      "L'airboat a helice des marais de Grassrivers, aperçu au milieu des alligators. LE véhicule signature des Everglades version GTA.",
+      "L'airboat à hélice des marais de Grassrivers, aperçu au milieu des alligators. LE véhicule signature des Everglades version GTA.",
   },
   {
     slug: "jet-ski",
     name: "Jet-ski",
-    brand: "A confirmer",
+    brand: "À confirmer",
     class: "Nautiques",
     status: "apercu",
     seenIn: "Trailer 2",
     description:
-      "Aperçu le long des plages de Vice City : le jet-ski promet des virees rapides entre marinas, canaux et haute mer.",
+      "Aperçu le long des plages de Vice City : le jet-ski promet des virées rapides entre marinas, canaux et haute mer.",
   },
   {
     slug: "voiture-police-vice",
     name: "Voiture de police de Vice City",
-    brand: "A confirmer",
+    brand: "À confirmer",
     class: "Services",
     status: "apercu",
     seenIn: "Trailers 1 & 2",
@@ -229,7 +229,7 @@ export const vehicles: Vehicle[] = [
   {
     slug: "helicoptere-police",
     name: "Helicoptere de police",
-    brand: "A confirmer",
+    brand: "À confirmer",
     class: "Services",
     status: "apercu",
     seenIn: "Trailer 1",
@@ -240,8 +240,8 @@ export const vehicles: Vehicle[] = [
   {
     slug: "avion-leger",
     name: "Avion léger",
-    brand: "A confirmer",
-    class: "Aeriens",
+    brand: "À confirmer",
+    class: "Aériens",
     status: "suppose",
     seenIn: "Attendu",
     description:
@@ -250,8 +250,8 @@ export const vehicles: Vehicle[] = [
   {
     slug: "helicoptere-civil",
     name: "Helicoptere civil",
-    brand: "A confirmer",
-    class: "Aeriens",
+    brand: "À confirmer",
+    class: "Aériens",
     status: "suppose",
     seenIn: "Attendu",
     description:

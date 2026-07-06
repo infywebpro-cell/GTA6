@@ -30,12 +30,13 @@ export const mainNav: NavItem[] = [
   { label: "Carte", href: "/carte" },
   { label: "Véhicules", href: "/vehicules" },
   { label: "Astuces", href: "/astuces" },
+  { label: "Quiz", href: "/quiz" },
 ];
 
 export const footerNav: NavItem[] = [
-  { label: "A propos", href: "/a-propos" },
-  { label: "Mentions legales", href: "/mentions-legales" },
-  { label: "Confidentialite", href: "/confidentialite" },
+  { label: "À propos", href: "/a-propos" },
+  { label: "Mentions légales", href: "/mentions-legales" },
+  { label: "Confidentialité", href: "/confidentialite" },
   { label: "Contact", href: "/contact" },
 ];
 

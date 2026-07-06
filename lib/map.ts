@@ -2,12 +2,12 @@
  * Données de la carte interactive de Leonida (GTA 6).
  *
  * Fond de carte : reconstitution communautaire "YANIS : GTA VI Community
- * Map v13" (GTA VI Mapping Community), établie a partir des trailers,
+ * Map v13" (GTA VI Mapping Community), établie à partir des trailers,
  * screenshots officiels et informations publiques. Carte NON officielle :
  * Rockstar n'a pas encore publié la carte du jeu.
  *
- * Les coordonnees x/y des marqueurs sont en pourcentage (0-100) de l'image
- * recadree (public/images/map-leonida-crop.jpg, 815x1140).
+ * Les coordonnées x/y des marqueurs sont en pourcentage (0-100) de l'image
+ * recadrée (public/images/map-leonida-crop.jpg, 815x1140).
  */
 
 export const mapImage = {
@@ -75,7 +75,7 @@ export const mapMarkers: MapMarker[] = [
     y: 92.8,
     quickNav: true,
     description:
-      "Chapelet d'îles tout au sud de l'État, relie par une route unique, la version GTA des Florida Keys.",
+      "Chapelet d'îles tout au sud de l'État, relié par une route unique, la version GTA des Florida Keys.",
   },
   {
     id: "grassrivers",
@@ -132,7 +132,7 @@ export const mapMarkers: MapMarker[] = [
     x: 57.7,
     y: 62.7,
     description:
-      "Le grand aéroport de Vice City, au sud-ouest de la métropole : hub des véhicules aeriens.",
+      "Le grand aéroport de Vice City, au sud-ouest de la métropole : hub des véhicules aériens.",
   },
   {
     id: "catalana",
@@ -140,6 +140,6 @@ export const mapMarkers: MapMarker[] = [
     category: "interet",
     x: 77.3,
     y: 70.6,
-    description: "Île au sud-est de Vice City, identifiee sur la carte communautaire.",
+    description: "Île au sud-est de Vice City, identifiée sur la carte communautaire.",
   },
 ];

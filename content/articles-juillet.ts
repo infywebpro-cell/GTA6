@@ -76,7 +76,7 @@ Rockstar concentre sa communication sur le solo, comme pour GTA 5 et Red Dead Re
       },
       {
         q: "Ma progression GTA Online sera-t-elle transférée dans GTA 6 ?",
-        a: "Aucun système de transfert n'a été annonce. Toute affirmation sur le sujet relève de la spéculation tant que Rockstar n'a pas communiqué.",
+        a: "Aucun système de transfert n'a été annoncé. Toute affirmation sur le sujet relève de la spéculation tant que Rockstar n'a pas communiqué.",
       },
     ],
     author: "Guide GTA 6",
@@ -151,7 +151,7 @@ Il n'existera **aucun moyen officiel** de jouer à GTA 6 sur PC au lancement :
       },
       {
         q: "Les téléchargements « GTA 6 PC » sont-ils fiables ?",
-        a: "Non. Tant que Rockstar n'a pas annonce de version PC, tout site proposant GTA 6 en téléchargement PC est une arnaque, souvent porteuse de malwares.",
+        a: "Non. Tant que Rockstar n'a pas annoncé de version PC, tout site proposant GTA 6 en téléchargement PC est une arnaque, souvent porteuse de malwares.",
       },
     ],
     author: "Guide GTA 6",

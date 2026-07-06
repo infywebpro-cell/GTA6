@@ -17,6 +17,8 @@ const config: Config = {
         border: "#35205A",
         ink: "#FFF9FE",
         muted: "#C3AEE0",
+        // Corps de texte long : plus clair que muted pour un contraste AA confortable.
+        body: "#DCD2F0",
         vice: {
           DEFAULT: "#FF3FB4",
           300: "#FF7ED2",

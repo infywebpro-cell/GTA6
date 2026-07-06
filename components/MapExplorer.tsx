@@ -28,7 +28,7 @@ const colorFor = (cat: MarkerCategory) =>
 /**
  * Explorateur de carte façon jeu : l'image remplit tout le panneau
  * (fit-largeur), pan borne aux limites de la carte, zoom molette centre
- * sur le curseur, boutons "Aller a" pour voler vers une région.
+ * sur le curseur, boutons "Aller à" pour voler vers une région.
  */
 export function MapExplorer() {
   const panelRef = useRef<HTMLDivElement>(null);
@@ -145,10 +145,10 @@ export function MapExplorer() {
 
   return (
     <div>
-      {/* Barre "Aller a" */}
+      {/* Barre "Aller à" */}
       <div className="mb-4 flex flex-wrap items-center gap-2">
         <span className="mr-1 inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-mega text-sand">
-          <Crosshair className="h-3.5 w-3.5" /> Aller a
+          <Crosshair className="h-3.5 w-3.5" /> Aller à
         </span>
         {quickNav.map((m) => (
           <button
@@ -274,7 +274,7 @@ export function MapExplorer() {
               </>
             ) : (
               <p className="text-sm text-muted">
-                Cliquez sur un marqueur (ou un bouton «&nbsp;Aller a&nbsp;»)
+                Cliquez sur un marqueur (ou un bouton «&nbsp;Aller à&nbsp;»)
                 pour afficher les details. Molette pour zoomer, glisser pour
                 deplacer.
               </p>

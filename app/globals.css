@@ -21,6 +21,20 @@
     outline-offset: 3px;
     border-radius: 4px;
   }
+  /* Safari affiche son triangle sur <summary> malgre list-none. */
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  /* Lisibilite : equilibrage des titres, veuves evitees en paragraphe. */
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p,
+  li {
+    text-wrap: pretty;
+  }
   ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -97,23 +111,28 @@
 
   /* --- Typographie des articles (sortie Markdown) ---------------------- */
   .prose-gta {
-    @apply text-[15px] leading-7 text-muted;
+    @apply text-[16px] leading-8 text-body;
   }
   .prose-gta > * + * {
-    @apply mt-4;
+    @apply mt-5;
+  }
+  /* Paragraphe d'attaque : plus grand, plus clair, donne envie d'entrer. */
+  .prose-gta > p:first-child {
+    @apply text-[18px] leading-8 text-ink/90;
   }
   .prose-gta h2 {
-    @apply mt-12 mb-4 text-2xl font-extrabold text-ink;
+    @apply mt-14 mb-5 text-2xl font-extrabold text-ink sm:text-[27px] sm:leading-9;
     scroll-margin-top: 6rem;
     padding-left: 0.9rem;
     border-left: 3px solid transparent;
     border-image: linear-gradient(180deg, #ff8a3c, #ff3fb4) 1;
   }
   .prose-gta h3 {
-    @apply mt-7 mb-2 text-lg font-bold text-ink;
+    @apply mt-8 mb-2.5 text-xl font-bold text-ink;
+    scroll-margin-top: 6rem;
   }
   .prose-gta p {
-    @apply text-muted;
+    @apply text-body;
   }
   .prose-gta strong {
     @apply font-semibold text-ink;
@@ -122,16 +141,16 @@
     @apply font-medium text-vice-300 underline decoration-vice/40 hover:decoration-vice;
   }
   .prose-gta ul {
-    @apply list-disc space-y-1.5 pl-5;
+    @apply list-disc space-y-2 pl-5;
   }
   .prose-gta ol {
-    @apply list-decimal space-y-1.5 pl-5;
+    @apply list-decimal space-y-2 pl-5;
   }
   .prose-gta li::marker {
     @apply text-sunset;
   }
   .prose-gta blockquote {
-    @apply border-l-2 border-sunset/70 bg-surface/70 px-4 py-2 italic text-muted;
+    @apply border-l-2 border-sunset/70 bg-surface/70 px-4 py-2 italic text-body;
   }
   .prose-gta code {
     @apply rounded bg-surface-2 px-1.5 py-0.5 text-[13px] text-sand;
@@ -143,7 +162,7 @@
     @apply bg-surface-2 px-3 py-2.5 text-left font-semibold uppercase tracking-wide text-[12px] text-sand;
   }
   .prose-gta td {
-    @apply border-t border-border px-3 py-2.5 text-muted;
+    @apply border-t border-border px-3 py-2.5 text-body;
   }
   .prose-gta hr {
     @apply my-10 border-0;
@@ -191,20 +210,6 @@
     transform: scale(0.97);
   }
 
-  /* Fondu discret des chiffres du compte a rebours (aucun mouvement). */
-  @keyframes digit-fade {
-    from {
-      opacity: 0.25;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .digit-fade {
-    display: inline-block;
-    animation: digit-fade 0.4s ease-out;
-  }
-
   /* Balayage lumineux au survol des cartes (signature maison). */
   .card-shine::after {
     content: "";
@@ -225,8 +230,7 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .animate-kenburns,
-    .digit-fade {
+    .animate-kenburns {
       animation: none;
     }
     .btn-sunset:active {

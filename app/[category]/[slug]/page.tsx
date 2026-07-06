@@ -20,6 +20,7 @@ import { categoryMeta } from "@/lib/categories";
 import { formatDate } from "@/lib/format";
 import { buildMetadata, articleLd, faqLd, videoLd } from "@/lib/seo";
 import { YouTubeLite } from "@/components/YouTubeLite";
+import { extractToc } from "@/lib/slugify";
 
 export const dynamicParams = false;
 
@@ -59,6 +60,7 @@ export default async function ArticlePage({
   const cat = categoryMeta[article.category];
   const path = `/${category}/${slug}`;
   const related = getRelatedArticles(article, 3);
+  const toc = extractToc(article.body);
 
   return (
     <Container className="py-10">
@@ -103,7 +105,7 @@ export default async function ArticlePage({
             </h1>
             <div className="mt-5 flex flex-wrap items-center gap-4 text-[11px] uppercase tracking-widest text-muted">
               <span className="inline-flex items-center gap-1.5">
-                <CalendarDays className="h-3.5 w-3.5 text-vice" /> Mis a jour le{" "}
+                <CalendarDays className="h-3.5 w-3.5 text-vice" /> Mis à jour le{" "}
                 {formatDate(article.updated)}
               </span>
               <span className="inline-flex items-center gap-1.5">
@@ -123,12 +125,40 @@ export default async function ArticlePage({
             </div>
           )}
 
+          {toc.length >= 3 && (
+            <nav
+              aria-label="Sommaire"
+              className="mb-10 rounded-2xl border border-border bg-surface/60 p-5 sm:p-6"
+            >
+              <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-sunset-300">
+                Sommaire
+              </p>
+              <ol className="mt-3.5 grid gap-x-8 gap-y-2 sm:grid-cols-2">
+                {toc.map((t, i) => (
+                  <li key={t.id}>
+                    <a
+                      href={`#${t.id}`}
+                      className="group inline-flex items-baseline gap-2.5 text-sm text-muted transition-colors hover:text-ink"
+                    >
+                      <span className="font-display text-xs tracking-wide text-vice/80">
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      <span className="underline-offset-4 group-hover:underline">
+                        {t.label}
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
+
           <Markdown>{article.body}</Markdown>
 
           {article.faq && article.faq.length > 0 && (
             <section className="mt-14">
               <h2 className="mb-5 flex items-center gap-3 font-display text-3xl uppercase tracking-wide">
-                <HelpCircle className="h-6 w-6 text-vice" /> Questions frequentes
+                <HelpCircle className="h-6 w-6 text-vice" /> Questions fréquentes
               </h2>
               <div className="divide-y divide-border rounded-2xl border border-border bg-surface">
                 {article.faq.map((f, i) => (
@@ -150,7 +180,7 @@ export default async function ArticlePage({
       {related.length > 0 && (
         <section className="mt-16">
           <h2 className="mb-6 font-display text-3xl uppercase tracking-wide">
-            <span className="text-gradient-hot">A lire aussi</span>
+            <span className="text-gradient-hot">À lire aussi</span>
           </h2>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {related.map((a) => (
