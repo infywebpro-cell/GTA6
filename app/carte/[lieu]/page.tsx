@@ -27,7 +27,7 @@ export async function generateMetadata({
   const l = getLieu(lieu);
   if (!l) return {};
   return buildMetadata({
-    title: `${l.name} : Carte et guide du lieu (GTA 6)`,
+    title: `${l.name} GTA 6 : carte et guide complet du lieu`,
     description: l.metaDescription,
     path: `/carte/${l.id}`,
     image: l.image,

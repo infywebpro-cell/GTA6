@@ -30,7 +30,7 @@ export async function generateMetadata({
   const v = getVehicle(slug);
   if (!v) return {};
   return buildMetadata({
-    title: `${v.name} : Véhicule GTA 6`,
+    title: `${v.name} GTA 6 : fiche du véhicule`,
     description: `${v.name} dans GTA 6 : ${v.description}`.slice(0, 155),
     path: `/vehicules/${slug}`,
     keywords: [`${v.name} gta 6`, "véhicules gta 6", v.class.toLowerCase()],

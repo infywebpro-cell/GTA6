@@ -34,6 +34,22 @@ export function amazonLink(product: Pick<AmazonProduct, "query" | "asin">): stri
  */
 export const amazonProducts: AmazonProduct[] = [
   {
+    id: "gta6-ps5",
+    name: "GTA 6 sur PS5 (précommande)",
+    category: "Jeu",
+    pitch: "Réservez votre exemplaire et recevez le pack Vice City Vintage offert.",
+    query: "GTA 6 Grand Theft Auto VI PS5 precommande",
+    priceHint: "79,99 €",
+  },
+  {
+    id: "gta6-xbox",
+    name: "GTA 6 sur Xbox Series X (précommande)",
+    category: "Jeu",
+    pitch: "La version Xbox Series X en précommande, pack Vice City Vintage inclus.",
+    query: "GTA 6 Grand Theft Auto VI Xbox Series X precommande",
+    priceHint: "79,99 €",
+  },
+  {
     id: "ps5-slim",
     name: "Console PS5 Slim (lecteur de disque)",
     category: "Console",

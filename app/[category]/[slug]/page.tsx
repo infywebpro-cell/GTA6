@@ -144,7 +144,7 @@ export default async function ArticlePage({
           )}
         </article>
 
-        <AffiliateStrip />
+        <AffiliateStrip ids={article.affiliateIds} />
       </div>
 
       {related.length > 0 && (

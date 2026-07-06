@@ -26,9 +26,9 @@ import { buildMetadata, itemListLd, faqLd } from "@/lib/seo";
 import { vehicles } from "@/lib/vehicles";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Véhicules GTA 6 : voitures, motos, bateaux",
+  title: "Véhicules GTA 6 : la liste (voitures, motos, bateaux)",
   description:
-    "Base de véhicules GTA 6 : voitures, motos, bateaux et avions aperçus dans les trailers. Recherche et filtres par catégorie pour préparer Vice City.",
+    "Liste des véhicules GTA 6 : les modèles confirmés (Grotti Cheetah, Squalo...) et ceux aperçus dans les trailers. Recherche et filtres par catégorie.",
   path: "/vehicules",
   keywords: ["véhicules gta 6", "voitures gta 6", "liste véhicules gta 6"],
 });

@@ -32,9 +32,9 @@ const CARTE_FAQ = [
 ];
 
 export const metadata: Metadata = buildMetadata({
-  title: "Carte interactive de GTA 6 (Leonida)",
+  title: "Carte GTA 6 : map interactive de Leonida et Vice City",
   description:
-    "Carte interactive de GTA 6 : explorez l'État de Leonida, Vice City, les Leonida Keys et les points d'intérêt. Filtres, zoom et repérage des lieux.",
+    "Carte GTA 6 interactive : explorez la map de Leonida, Vice City, les Keys et tous les points d'intérêt. Zoom, filtres, taille vs GTA 5 et FAQ.",
   path: "/carte",
   keywords: ["carte gta 6", "map gta 6", "carte leonida", "vice city carte"],
 });

@@ -90,17 +90,44 @@ export function websiteLd() {
   };
 }
 
-/** Entite VideoGame pour relier le site au jeu GTA 6. */
+/** Entité VideoGame reliant le site au jeu (date de sortie + offres). */
 export function videoGameLd() {
   return {
     "@context": "https://schema.org",
     "@type": "VideoGame",
     name: "Grand Theft Auto VI",
     alternateName: ["GTA 6", "GTA VI"],
-    gamePlatform: ["PlayStation 5", "Xbox Series X|S", "PC"],
-    publisher: "Rockstar Games",
+    gamePlatform: ["PlayStation 5", "Xbox Series X|S"],
+    publisher: { "@type": "Organization", name: "Rockstar Games" },
     applicationCategory: "Game",
     genre: ["Action-aventure", "Monde ouvert"],
+    datePublished: "2026-11-19",
+    releaseDate: "2026-11-19",
+    contentRating: "PEGI 18",
+    character: [
+      { "@type": "Person", name: "Jason Duval" },
+      { "@type": "Person", name: "Lucia Caminos" },
+    ],
+    gameLocation: {
+      "@type": "Place",
+      name: "État de Leonida (Vice City)",
+    },
+    offers: [
+      {
+        "@type": "Offer",
+        name: "Édition Standard",
+        price: "79.99",
+        priceCurrency: "EUR",
+        availability: "https://schema.org/PreOrder",
+      },
+      {
+        "@type": "Offer",
+        name: "Édition Ultimate",
+        price: "99.99",
+        priceCurrency: "EUR",
+        availability: "https://schema.org/PreOrder",
+      },
+    ],
   };
 }
 

@@ -1,6 +1,7 @@
 import type { Category } from "./categories";
 import { articles as rawArticles } from "@/content/articles";
 import { articlesJuillet } from "@/content/articles-juillet";
+import { articlesMoney } from "@/content/articles-money";
 import { articleCovers } from "./covers";
 
 export interface FaqItem {
@@ -23,13 +24,15 @@ export interface Article {
   cover?: string;
   /** Vidéos YouTube officielles intégrées (façade légère + VideoObject). */
   videos?: { id: string; title: string; uploadDate: string }[];
+  /** Produits affiliés ciblés pour cet article (ids de lib/affiliate). */
+  affiliateIds?: string[];
   author?: string;
   /** Dates ISO (YYYY-MM-DD) */
   published: string;
   updated: string;
 }
 
-const articles: Article[] = [...rawArticles, ...articlesJuillet]
+const articles: Article[] = [...rawArticles, ...articlesJuillet, ...articlesMoney]
   .map((a) => ({ ...a, cover: a.cover ?? articleCovers[a.slug] }))
   .sort((a, b) => b.updated.localeCompare(a.updated));
 

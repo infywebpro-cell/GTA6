@@ -15,4 +15,9 @@ export const articleCovers: Record<string, string> = {
   "gta-6-config-pc": "/images/screen-skyline.jpg",
   "gta-6-trailer": "/images/jason-lucia-3.jpg",
   "taille-carte-gta-6": "/images/map-leonida-crop.jpg",
+  "quelle-ps5-pour-gta-6": "/images/screen-vice-city-1.jpg",
+  "ssd-ps5-gta-6": "/images/screen-rideout-customs.jpg",
+  "gta-6-moins-cher": "/images/cover-art.jpg",
+  "manette-pour-gta-6": "/images/screen-gellhorn.jpg",
+  "ecran-tv-pour-gta-6": "/images/screen-keys.jpg",
 };
