@@ -316,4 +316,249 @@ Depuis 2023, de nombreuses images circulent en se présentant comme la carte off
     published: "2026-07-03",
     updated: "2026-07-03",
   },
+  {
+    slug: "gta-6-edition-ultimate",
+    title: "GTA 6 édition Ultimate ou Standard : le comparatif",
+    metaDescription:
+      "Édition Ultimate de GTA 6 à 99,99 € : Dominator Buggy 1967, garage Paradise, contenus exclusifs. Vaut-elle 20 € de plus que la Standard ? Comparatif.",
+    excerpt:
+      "Standard à 79,99 € ou Ultimate à 99,99 € : le détail officiel de chaque édition de GTA 6, le pack Vice City Vintage offert et notre verdict.",
+    category: "guides",
+    targetKeyword: "GTA 6 édition Ultimate",
+    secondaryKeywords: [
+      "GTA 6 éditions",
+      "GTA 6 edition collector",
+      "édition Ultimate GTA 6 contenu",
+      "GTA 6 Standard ou Ultimate",
+    ],
+    affiliateIds: ["gta6-ps5", "gta6-xbox", "carte-psn"],
+    body: `**GTA 6 existe en deux éditions officielles : Standard à 79,99 € et Ultimate à 99,99 €.** Pas d'édition Collector physique annoncée à ce jour. Voici le contenu détaillé de chacune, le bonus commun à toutes les précommandes, et notre verdict sur les 20 € d'écart.
+
+## Le tableau comparatif officiel
+
+| Contenu | Standard (79,99 €) | Ultimate (99,99 €) |
+| --- | --- | --- |
+| Jeu complet GTA 6 | Oui | Oui |
+| Pack Vice City Vintage (précommande) | Oui | Oui |
+| Vapid Dominator Buggy (1967) | Non | Oui |
+| Garage Paradise à Watson Bay | Non | Oui |
+| Contenus exclusifs débloqués au fil de l'histoire | Non | Oui |
+| Mise à niveau possible vers l'Ultimate | Oui (payante) | Sans objet |
+
+## Ce que contient vraiment l'édition Ultimate
+
+D'après le media kit officiel des précommandes, les contenus Ultimate se débloquent **progressivement au fil des chapitres** de l'histoire. On y trouve notamment :
+
+- La **Vapid Dominator Buggy (1967)**, muscle car préparée façon tout-terrain, avec son **garage Paradise** situé à Watson Bay.
+- Des **véhicules et accès exclusifs** aperçus dans les visuels officiels : la collection de classiques de Wyman, des avantages chez Rideout Customs (personnalisation) et d'autres enseignes.
+- Des **variantes d'armes** exclusives, dont les revolvers Hawk & Little Morgan.
+- Des **tenues et styles Vice City** supplémentaires.
+
+Point important : il s'agit de **bonus cosmétiques et de contenus de confort**, pas d'avantages de progression. Rien n'indique un quelconque « pay-to-win » solo.
+
+## Le pack Vice City Vintage : offert à tous
+
+Quelle que soit l'édition, toute **précommande passée entre le 25 juin et le 20 novembre 2026** inclut le pack Vice City Vintage : la **Vapid Stanier** en déclinaison rétro, des tenues inspirées de l'ère Vice City et des motifs d'armes vintage. Aucune raison de payer plus pour l'obtenir.
+
+## Notre verdict : Standard d'abord
+
+Sauf si les contenus Ultimate vous font vraiment envie, **commencez par la Standard**. La raison est simple : la **mise à niveau Standard vers Ultimate est vendue séparément** sur le PlayStation Store et le Xbox Store, pour un total équivalent. Vous pourrez donc changer d'avis après avoir vu le jeu, sans surcoût.
+
+L'Ultimate se justifie si vous savez déjà que vous voulez tout : le garage Paradise dès le début de l'aventure et les exclusivités au fil de l'histoire. À 20 € d'écart, c'est un choix de fan, pas une nécessité.
+
+Pour payer moins cher dans tous les cas (cartes PSN en promo, enseignes), voyez notre guide [GTA 6 moins cher](gta-6-moins-cher), et le [guide complet des précommandes](precommande-gta-6-editions-prix) pour la marche à suivre.
+
+## En résumé
+
+- **Deux éditions officielles** : Standard 79,99 €, Ultimate 99,99 €. Pas de Collector physique annoncée.
+- L'Ultimate ajoute la **Dominator Buggy 1967**, le **garage Paradise** et des exclusivités débloquées au fil de l'histoire.
+- Le **pack Vice City Vintage est offert** avec toute précommande, quelle que soit l'édition.
+- **Notre conseil : Standard d'abord**, la mise à niveau Ultimate reste possible au même prix total.`,
+    faq: [
+      {
+        q: "Que contient l'édition Ultimate de GTA 6 ?",
+        a: "La Vapid Dominator Buggy (1967) avec son garage Paradise à Watson Bay, ainsi que des contenus exclusifs débloqués au fil de l'histoire : véhicules, variantes d'armes (revolvers Hawk & Little), tenues et avantages en boutiques, d'après le media kit officiel.",
+      },
+      {
+        q: "Existe-t-il une édition Collector physique de GTA 6 ?",
+        a: "Non, aucune édition Collector avec objets physiques n'a été annoncée. Seules les éditions Standard (79,99 €) et Ultimate (99,99 €) sont officielles à ce jour.",
+      },
+      {
+        q: "Peut-on passer de la Standard à l'Ultimate après achat ?",
+        a: "Oui. Une mise à niveau est vendue sur le PlayStation Store et le Xbox Store, compatible versions physiques et numériques, pour un coût total équivalent à l'achat direct de l'Ultimate.",
+      },
+      {
+        q: "Le pack Vice City Vintage est-il réservé à l'Ultimate ?",
+        a: "Non. Il est offert pour toute précommande effectuée entre le 25 juin et le 20 novembre 2026, quelle que soit l'édition choisie.",
+      },
+    ],
+    author: "Guide GTA 6",
+    published: "2026-07-04",
+    updated: "2026-07-04",
+  },
+  {
+    slug: "casting-gta-6",
+    title: "Casting GTA 6 : les personnages officiels au complet",
+    metaDescription:
+      "Tous les personnages officiels de GTA 6 : Jason, Lucia, Cal Hampton, Boobie Ike, Real Dimez, Raul Bautista, Brian Heder. Bios et artworks officiels.",
+    excerpt:
+      "Au-delà de Jason et Lucia, Rockstar a dévoilé tout un casting : Cal, Boobie, Dre'Quan, les Real Dimez, Raul et Brian. Portraits officiels et rôles.",
+    category: "guides",
+    targetKeyword: "casting GTA 6",
+    secondaryKeywords: [
+      "personnages secondaires GTA 6",
+      "Boobie Ike",
+      "Real Dimez",
+      "Cal Hampton GTA 6",
+    ],
+    body: `**Rockstar a officiellement dévoilé huit personnages de GTA 6** : le duo jouable Jason et Lucia, et six figures secondaires présentées avec artworks et biographies sur le site officiel. Voici le casting complet, avec le rôle de chacun dans l'univers de Leonida.
+
+## Le duo jouable : Jason et Lucia
+
+**Jason Duval** et **Lucia Caminos** sont les deux protagonistes jouables, présentés comme un couple criminel façon Bonnie and Clyde. Leur profil complet fait l'objet de notre [dossier dédié aux personnages principaux](personnages-gta-6-jason-lucia). Place ici aux seconds rôles, souvent plus révélateurs de l'ambiance du jeu.
+
+## Cal Hampton, le complotiste
+
+![Cal Hampton](/images/char-calhampton.jpg)
+
+Ami de Jason, Cal est présenté par Rockstar comme un **complotiste** convaincu que le monde le surveille. Il préfère observer les théories du complot depuis son canapé, bière à la main. Un profil taillé pour la satire des réseaux et des paranoïas modernes, marque de fabrique de la série.
+
+## Boobie Ike, la légende de Vice City
+
+![Boobie Ike](/images/char-boobieike.jpg)
+
+Figure locale incontournable, Boobie a transformé sa réputation de rue en **empire commercial** : club, studio d'enregistrement et investissements dans tout ce que Vice City compte de lucratif. Le personnage d'entregent classique des GTA, à la croisée du business et du crime.
+
+## Dre'Quan Priest, le patron d'Only Raw Records
+
+![Dre'Quan Priest](/images/char-drequanpriest.jpg)
+
+Ambitieux fondateur du label **Only Raw Records**, Dre'Quan veut faire passer le rap de Vice City du trottoir aux charts. Son ascension musicale devrait croiser les activités moins avouables de la ville.
+
+## Real Dimez, le duo viral
+
+![Real Dimez](/images/char-realdimez.jpg)
+
+**Bae-Luxe et Roxy**, duo de rappeuses signé chez Only Raw Records, cumulent les vues en enchaînant clips et jet-skis. Amies de longue date de Lucia selon la présentation officielle, elles incarnent la façade réseaux sociaux de Leonida.
+
+## Raul Bautista, le braqueur chevronné
+
+![Raul Bautista](/images/char-raulbautista.jpg)
+
+Braqueur de banques **expérimenté et méthodique**, Raul recrute des profils fiables pour des coups à haut risque. Tout indique un rôle central dans la dimension casses du jeu, au coeur de la cavale de Jason et Lucia.
+
+## Brian Heder, le trafiquant des Keys
+
+![Brian Heder](/images/char-brianheder.jpg)
+
+Trafiquant à l'ancienne installé dans les [Leonida Keys](/carte/leonida-keys), Brian est un vestige de l'âge d'or de la contrebande floridienne. Il est aussi le **propriétaire de Jason**, qui vit sur sa propriété en échange de services. Ambiance hydravions, criques discrètes et arrangements entre amis.
+
+## Ce que ce casting révèle du jeu
+
+Six seconds rôles, six facettes de Leonida : la paranoïa en ligne (Cal), le business de rue (Boobie), l'industrie musicale (Dre'Quan), la célébrité virale (Real Dimez), le grand banditisme (Raul) et la contrebande old-school (Brian). Rockstar dessine une satire complète de la Floride contemporaine, chaque personnage étant lié à une région ou une activité que l'on retrouvera en jeu. D'autres révélations de casting sont probables d'ici le 19 novembre 2026 ; cette page sera mise à jour à chaque annonce.
+
+## En résumé
+
+- **Huit personnages officiels** dévoilés : Jason, Lucia et six seconds rôles avec artworks et bios.
+- Chaque personnage incarne une **facette de Leonida** : complots, musique, casses, contrebande.
+- **Brian Heder** loge Jason dans les Keys ; **Raul Bautista** mène les braquages.
+- Casting complet susceptible de s'élargir d'ici la sortie : page mise à jour à chaque annonce Rockstar.`,
+    faq: [
+      {
+        q: "Qui sont les personnages secondaires officiels de GTA 6 ?",
+        a: "Six personnages ont été dévoilés par Rockstar en plus du duo jouable : Cal Hampton, Boobie Ike, Dre'Quan Priest, le duo Real Dimez (Bae-Luxe et Roxy), Raul Bautista et Brian Heder.",
+      },
+      {
+        q: "Qui sont les Real Dimez dans GTA 6 ?",
+        a: "Un duo de rappeuses virales, Bae-Luxe et Roxy, signées sur le label Only Raw Records de Dre'Quan Priest et présentées comme des amies de longue date de Lucia.",
+      },
+      {
+        q: "Quel est le rôle de Brian Heder ?",
+        a: "Trafiquant à l'ancienne des Leonida Keys, Brian est le propriétaire de Jason : ce dernier vit sur sa propriété en échange de petits boulots. Un ancrage direct du héros dans l'univers de la contrebande floridienne.",
+      },
+      {
+        q: "Y aura-t-il d'autres personnages dévoilés avant la sortie ?",
+        a: "Très probablement. Rockstar a étoffé son site officiel par vagues et le jeu sort le 19 novembre 2026 : de nouvelles fiches personnages d'ici là sont plausibles, sans annonce officielle de calendrier.",
+      },
+    ],
+    author: "Guide GTA 6",
+    published: "2026-07-04",
+    updated: "2026-07-04",
+  },
+  {
+    slug: "vice-city-histoire",
+    title: "Vice City : de GTA 2002 à GTA 6, l'histoire complète",
+    metaDescription:
+      "Vice City revient dans GTA 6, 24 ans après le mythique GTA Vice City. Des années 80 de Tommy Vercetti au Miami moderne de Jason et Lucia : l'histoire.",
+    excerpt:
+      "24 ans séparent le Vice City de Tommy Vercetti de celui de GTA 6. Ce qui change, ce qui reste, et pourquoi ce retour est si attendu.",
+    category: "guides",
+    targetKeyword: "Vice City",
+    secondaryKeywords: [
+      "GTA Vice City",
+      "Vice City GTA 6",
+      "retour Vice City",
+      "Tommy Vercetti",
+    ],
+    body: `**Vice City revient dans GTA 6 le 19 novembre 2026, 24 ans après le jeu culte de 2002.** Mais ce n'est pas un remake : Rockstar transpose sa version fictive de Miami dans le présent, avec une ville reconstruite de zéro. Voici ce qui relie, et ce qui sépare, les deux Vice City.
+
+## 2002 : GTA Vice City, le mythe des années 80
+
+Sorti sur PlayStation 2, **GTA Vice City** plongeait dans le Miami de **1986** : chemises hawaïennes, cocaïne, néons roses et bande-son FM légendaire. On y incarnait **Tommy Vercetti**, mafieux fraîchement sorti de prison bâtissant son empire criminel, dans une intrigue ouvertement inspirée de Scarface et de Miami Vice.
+
+Le jeu a marqué l'histoire : l'ambiance décennie 80, la radio (Flash FM, V-Rock), les personnages (Lance Vance, Ken Rosenberg) et une ville-personnage restée dans toutes les mémoires. Un épisode PSP, **Vice City Stories** (2006), prolongera l'univers en 1984.
+
+## 2026 : le Vice City de GTA 6, une ville recréée au présent
+
+Le Vice City de GTA 6 n'est **pas une extension du jeu de 2002** : c'est une recréation contemporaine, dans l'État de **Leonida** qui englobe bien plus que la ville. Ce que change l'époque moderne :
+
+| | Vice City (2002) | Vice City (GTA 6) |
+| --- | --- | --- |
+| Époque | 1986 | Époque contemporaine |
+| Héros | Tommy Vercetti | Jason et Lucia (duo jouable) |
+| Étendue | La ville seule | Tout l'État de Leonida |
+| Culture | Radio FM, VHS, cartels 80s | Réseaux sociaux, streaming, influenceurs |
+| Inspirations | Scarface, Miami Vice | Floride virale contemporaine |
+
+La satire change de cible : là où 2002 croquait l'excès des eighties, GTA 6 vise la Floride des réseaux sociaux, des complotistes et de la culture virale, comme le montre son [casting officiel](casting-gta-6).
+
+## Ce qui reste de l'ADN Vice City
+
+Rockstar cultive la continuité d'ambiance : **Ocean Drive et son front de mer art déco**, les néons nocturnes, la moiteur tropicale, la criminalité flamboyante. La ville est présentée comme **la plus détaillée jamais construite par le studio**, et notre [guide du lieu](/carte/vice-city) recense tout ce qui en est connu.
+
+Côté univers, GTA 6 s'inscrit dans l'« univers HD » de la série (celui de GTA 5), distinct de l'« univers 3D » du jeu de 2002 : n'attendez donc pas le retour canonique de Tommy Vercetti. Les clins d'oeil, en revanche, sont une certitude statistique : Rockstar n'a jamais raté une occasion d'auto-référence.
+
+## Pourquoi ce retour est un événement
+
+Vice City est régulièrement citée comme la ville préférée des fans de la série. Son retour, 24 ans après, dans un monde ouvert moderne présenté comme le plus ambitieux du studio, explique en partie les records battus par les [bandes-annonces officielles](gta-6-trailer) : 475 millions de vues en 24 heures pour le trailer 2. Rendez-vous le 19 novembre 2026 pour retrouver la ville, en attendant [la carte complète de Leonida](carte-gta-6-leonida-vice-city).
+
+## En résumé
+
+- **24 ans** séparent GTA Vice City (2002, année 1986) du Vice City de GTA 6 (contemporain).
+- GTA 6 propose une **recréation moderne**, pas un remake : nouvelle époque, nouveaux héros, État entier.
+- L'**ADN visuel demeure** : Ocean Drive, art déco, néons, excès floridiens.
+- Univers HD oblige, **pas de retour canonique de Tommy Vercetti** attendu, mais des clins d'oeil probables.
+- Sortie le **19 novembre 2026** sur PS5 et Xbox Series X|S.`,
+    faq: [
+      {
+        q: "Le Vice City de GTA 6 est-il le même que celui de 2002 ?",
+        a: "Non. GTA 6 recrée Vice City à l'époque contemporaine, dans l'univers HD de la série (celui de GTA 5), distinct de l'univers du jeu de 2002. Même inspiration Miami, mais ville entièrement nouvelle.",
+      },
+      {
+        q: "Tommy Vercetti apparaîtra-t-il dans GTA 6 ?",
+        a: "C'est très improbable : GTA 6 se déroule dans l'univers HD de la série, distinct de celui de GTA Vice City (2002). Des références et clins d'oeil restent toutefois dans les habitudes de Rockstar.",
+      },
+      {
+        q: "À quelle époque se déroule GTA 6 ?",
+        a: "À l'époque contemporaine, contrairement à GTA Vice City qui se déroulait en 1986. La satire vise la Floride moderne : réseaux sociaux, influenceurs et culture virale.",
+      },
+      {
+        q: "Vice City est-elle plus grande dans GTA 6 ?",
+        a: "Oui, et surtout elle n'est qu'une partie de la carte : l'État de Leonida ajoute les Keys, les marais de Grassrivers, Mount Kalaga, Port Gellhorn et Ambrosia autour de la métropole.",
+      },
+    ],
+    author: "Guide GTA 6",
+    published: "2026-07-04",
+    updated: "2026-07-04",
+  },
 ];

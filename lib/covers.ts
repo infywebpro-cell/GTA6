@@ -20,4 +20,7 @@ export const articleCovers: Record<string, string> = {
   "gta-6-moins-cher": "/images/cover-art.jpg",
   "manette-pour-gta-6": "/images/screen-gellhorn.jpg",
   "ecran-tv-pour-gta-6": "/images/screen-keys.jpg",
+  "gta-6-edition-ultimate": "/images/veh-vapid-buggy.jpg",
+  "casting-gta-6": "/images/char-drequanpriest.jpg",
+  "vice-city-histoire": "/images/region-vicecity.jpg",
 };

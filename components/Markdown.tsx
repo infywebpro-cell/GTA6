@@ -1,6 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import Link from "next/link";
+import Image from "next/image";
 import { getArticleBySlug } from "@/lib/content";
 
 /**
@@ -39,6 +40,26 @@ export function Markdown({ children }: { children: string }) {
               );
             }
             return <Link href={resolved}>{linkChildren}</Link>;
+          },
+          // Images locales optimisées (portraits officiels dans les articles).
+          img({ src, alt }) {
+            if (!src || typeof src !== "string") return null;
+            return (
+              <span className="my-5 block overflow-hidden rounded-2xl border border-border">
+                <Image
+                  src={src}
+                  alt={alt ?? ""}
+                  width={900}
+                  height={1100}
+                  className="h-auto w-full object-cover"
+                />
+                {alt && (
+                  <span className="block bg-surface px-4 py-2 text-xs uppercase tracking-widest text-muted">
+                    {alt} · © Rockstar Games
+                  </span>
+                )}
+              </span>
+            );
           },
         }}
       >
