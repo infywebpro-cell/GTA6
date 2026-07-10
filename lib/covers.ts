@@ -23,6 +23,14 @@ export const articleCovers: Record<string, string> = {
   "gta-6-edition-ultimate": "/images/veh-vapid-buggy.jpg",
   "casting-gta-6": "/images/char-drequanpriest.jpg",
   "vice-city-histoire": "/images/region-vicecity.jpg",
+  "gta-6-ps4-xbox-one": "/images/hw-ps5.png",
+  "gta-6-crossplay": "/images/screen-vice-city-1.jpg",
+  "gta-6-duree-de-vie": "/images/screen-kalaga.jpg",
+  "gta-6-poids-prechargement": "/images/hw-ps5.png",
+  "gta-6-pegi-age": "/images/cover-art.jpg",
+  "gta-6-switch-2": "/images/screen-gellhorn.jpg",
+  "gta-6-rp": "/images/screen-rideout-customs.jpg",
+  "gta-6-gameplay": "/images/screen-grassrivers.jpg",
 };
 
 /**
@@ -33,4 +41,6 @@ export const articleCoverCredits: Record<string, string> = {
   "quelle-ps5-pour-gta-6": "Photo : Soberian / Osh33m · CC BY-SA 4.0",
   "ssd-ps5-gta-6": "Photo : Soberian / Osh33m · CC BY-SA 4.0",
   "manette-pour-gta-6": "Photo : Alex Cochrane · CC BY-SA 4.0",
+  "gta-6-ps4-xbox-one": "Photo : Soberian / Osh33m · CC BY-SA 4.0",
+  "gta-6-poids-prechargement": "Photo : Soberian / Osh33m · CC BY-SA 4.0",
 };

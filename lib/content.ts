@@ -2,6 +2,7 @@ import type { Category } from "./categories";
 import { articles as rawArticles } from "@/content/articles";
 import { articlesJuillet } from "@/content/articles-juillet";
 import { articlesMoney } from "@/content/articles-money";
+import { articlesPhase2 } from "@/content/articles-phase2";
 import { articleCovers, articleCoverCredits } from "./covers";
 
 export interface FaqItem {
@@ -34,7 +35,12 @@ export interface Article {
   updated: string;
 }
 
-const articles: Article[] = [...rawArticles, ...articlesJuillet, ...articlesMoney]
+const articles: Article[] = [
+  ...rawArticles,
+  ...articlesJuillet,
+  ...articlesMoney,
+  ...articlesPhase2,
+]
   .map((a) => ({
     ...a,
     cover: a.cover ?? articleCovers[a.slug],
